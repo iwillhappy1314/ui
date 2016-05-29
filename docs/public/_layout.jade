@@ -1,0 +1,37 @@
+doctype
+html
+    head
+        title #{ title }
+        link(rel="stylesheet" href="#{ uri }/dist/styles/main.css")
+        script(src="#{ uri }/dist/scripts/jquery.js")
+        script(src="#{ uri }/dist/scripts/main.js")
+
+
+    body(data-spy="scroll", data-target="#nav")
+
+        header.demo-header.sep
+            .wrap
+                h1 网站常用样式库
+                h3 Web 中经常用到的样式
+
+        block content
+
+            .wrap
+                .pure-g.row
+                    .pure-u-1-5
+                        .col
+                            ul.list
+                                for article, slug in public.ui._data
+                                    li.list-item
+                                        a(href="#{ uri }/ui/#{ slug }.html")
+                                            span= article.title
+
+                    .pure-u-4-5
+                        .col
+                            != yield
+
+
+
+        footer.demo-footer
+            .wrap
+                p CopyRight 2016 wpzhiku

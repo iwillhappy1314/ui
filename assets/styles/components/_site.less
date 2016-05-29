@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------
+ * = 布局-全局样式
+ * ----------------------------------------------------------- */
+.pure-g [class*="pure-u"] {
+  font: 300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+}
+
+a {
+  text-decoration: none;
+  color: @link-color;
+  &:hover {
+    color: @link-hover-color;
+    text-decoration: none;
+  }
+}
+
+.wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row{
+  margin-left: -15px;
+  margin-right: -15px;
+  .col{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
