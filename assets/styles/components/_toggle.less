@@ -1,5 +1,4 @@
 /* --------------------------------------------------------------
-/* --------------------------------------------------------------
  * = 简码样式
  * ----------------------------------------------------------- */
 
@@ -8,21 +7,19 @@
 .accordion {
 	dt, dd {
 		border: 1px solid @border-color;
-		a {
-			color: @text-color;
-			display: block;
-			padding: 8px 15px;
-		}
 	}
 	dt{
 		margin-top: -1px;
 		a{
 			background: #eee;
+			color: @text-color;
+			display: block;
+			padding: @padding-md @padding;
 		}
 	}
 	dd {
 		margin: 0;
-		padding: 15px;
+		padding: @padding;
 		border-top: 0;
 	}
 }
