@@ -12,13 +12,11 @@
     background: #fff;
     li{
         position: relative;
-        width: 100%;
         a {
-            line-height: 1.1;
+            line-height: normal;
             display: block;
-            padding: 10px 15px;
+            padding: @padding-md @padding;
             color: @text-color;
-            *zoom: 1;
             border: 1px solid @border-color;
             margin-bottom: -1px;
             transition: .3s;
@@ -94,7 +92,6 @@
 .ui-dlist {
     &:extend(.clearfix all);
     color: #333;
-    font-size: 12px;
     line-height: 2.2;
     dt{
         float: left;
