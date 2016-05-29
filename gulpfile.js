@@ -306,7 +306,7 @@ gulp.task('wiredep', function() {
  * 发布到 gh-pages
  */
 gulp.task('deploy', ['build'], function () {
-  gulp.src("docs/www/**/*")
+  return gulp.src("docs/www/**/*")
     .pipe(deploy());
 });
 
