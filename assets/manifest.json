@@ -13,6 +13,11 @@
       ],
       "main": true
     },
+    "old.css": {
+      "files": [
+        "styles/pure/grid-old.less"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     },

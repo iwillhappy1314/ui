@@ -5,7 +5,7 @@ Wizhi 前端文档工具
 
 - 运行`npm install`安装依赖
 - 运行`bower install` 安装前端依赖
-- 运行 `gulp watch` 监控前端资源和说明文档修改
+- 运行`gulp watch` 监控前端资源和说明文档修改
 
 ### 目录结构
 
@@ -18,7 +18,7 @@ Wizhi 前端文档工具
 其他命令
 ---------------
 
-- `gulp build` : 构建前端文件， 生成说明文档
-- `gulp build --production` 为生产环境构建前端文件，不会生成 source map
-
+- `gulp build`: 构建前端文件， 生成说明文档
+- `gulp build --production`: 为生产环境构建前端文件，不会生成 source map
+- `gulp deploy`: 发布文档目录到 Github Pages
 
