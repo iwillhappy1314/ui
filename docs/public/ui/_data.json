@@ -27,6 +27,14 @@
     "title": "提示信息",
     "date": "March 4, 2013"
   },
+  "form": {
+    "title": "表单",
+    "date": "Feb 28, 2013"
+  },
+  "table": {
+    "title": "表格",
+    "date": "Feb 28, 2013"
+  },
   "modal": {
     "title": "弹窗",
     "date": "March 4, 2013"

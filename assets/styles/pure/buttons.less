@@ -1,29 +1,20 @@
 .pure-button {
-    /* Structure */
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
+    .inline-block;
     line-height: normal;
     white-space: nowrap;
     vertical-align: middle;
     text-align: center;
     cursor: pointer;
     -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-
     font-family: inherit;
     font-size: 100%;
-    padding: 0.6em 1.2em;
-    color: #444; /* rgba not supported (IE 8) */
-    color: rgba(0, 0, 0, 0.80); /* rgba supported */
-    border: 1px solid #999;  /*IE 6/7/8*/
-    border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
+    padding: 6px 12px;
+    color: #444;
+    color: rgba(0, 0, 0, 0.80);
+    border: 1px solid transparent;
+    border-color: #999;
     background-color: #E6E6E6;
     text-decoration: none;
     border-radius: 2px;
@@ -53,8 +44,6 @@
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
     filter: alpha(opacity=40);
-    -khtml-opacity: 0.40;
-    -moz-opacity: 0.40;
     opacity: 0.40;
     cursor: not-allowed;
     box-shadow: none;
@@ -77,6 +66,7 @@
 a.pure-button-primary,
 a.pure-button-selected {
     background-color: rgb(0, 120, 231);
+    border-color: rgb(0, 120, 231);
     color: #fff;
 }
 
@@ -97,18 +87,22 @@ a.pure-button-selected {
 
 .button-success {
     background: rgb(28, 184, 65);
+    border-color: rgb(28, 184, 65);
 }
 
 .button-error {
     background: rgb(202, 60, 60);
+    border-color: rgb(202, 60, 60);
 }
 
 .button-warning {
     background: rgb(223, 117, 20);
+    border-color: rgb(223, 117, 20);
 }
 
 .button-secondary {
     background: rgb(66, 184, 221);
+    border-color: rgb(66, 184, 221);
 }
 
 // 按钮尺寸

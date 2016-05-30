@@ -21,7 +21,7 @@ var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 var harp         = require("harp");
 var copy2        = require('gulp-copy2');
-var shell        = require('gulp-shell')
+var shell        = require('gulp-shell');
 var deploy       = require('gulp-gh-pages');
 
 /**
@@ -131,7 +131,7 @@ gulp.task('copy', function () {
 gulp.task('harp', shell.task([
   'harp compile docs',
   'gulp copy'
-]))
+]));
 
 /**
  * JS 处理管道
