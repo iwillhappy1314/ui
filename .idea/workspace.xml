@@ -2,69 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d173f3-53a1-4f5d-9dd9-11ee3b22b0b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/pure/base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/html5shiv.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/_global.less" afterPath="$PROJECT_DIR$/assets/styles/_global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/_variables.less" afterPath="$PROJECT_DIR$/assets/styles/_variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_alert.less" afterPath="$PROJECT_DIR$/assets/styles/components/_alert.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_box.less" afterPath="$PROJECT_DIR$/assets/styles/components/_box.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_bxslider.less" afterPath="$PROJECT_DIR$/assets/styles/components/_bxslider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_dropdown.less" afterPath="$PROJECT_DIR$/assets/styles/components/_dropdown.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_helper.less" afterPath="$PROJECT_DIR$/assets/styles/components/_helper.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_list.less" afterPath="$PROJECT_DIR$/assets/styles/components/_list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_media.less" afterPath="$PROJECT_DIR$/assets/styles/components/_media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_modal.less" afterPath="$PROJECT_DIR$/assets/styles/components/_modal.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_pager.less" afterPath="$PROJECT_DIR$/assets/styles/components/_pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_site.less" afterPath="$PROJECT_DIR$/assets/styles/components/_site.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_slider.less" afterPath="$PROJECT_DIR$/assets/styles/components/_slider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_tab.less" afterPath="$PROJECT_DIR$/assets/styles/components/_tab.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_toggle.less" afterPath="$PROJECT_DIR$/assets/styles/components/_toggle.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_typo.less" afterPath="$PROJECT_DIR$/assets/styles/components/_typo.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/addon.less" afterPath="$PROJECT_DIR$/assets/styles/pure/addon.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/buttons.less" afterPath="$PROJECT_DIR$/assets/styles/pure/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/forms.less" afterPath="$PROJECT_DIR$/assets/styles/pure/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/grid.less" afterPath="$PROJECT_DIR$/assets/styles/pure/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/menus-skin.less" afterPath="$PROJECT_DIR$/assets/styles/pure/menus-skin.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/tables.less" afterPath="$PROJECT_DIR$/assets/styles/pure/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/ui.less" afterPath="$PROJECT_DIR$/assets/styles/ui.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/_layout.jade" afterPath="$PROJECT_DIR$/docs/public/_layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/box.jade" afterPath="$PROJECT_DIR$/docs/public/ui/box.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/button.jade" afterPath="$PROJECT_DIR$/docs/public/ui/button.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/dropdown.jade" afterPath="$PROJECT_DIR$/docs/public/ui/dropdown.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/form.jade" afterPath="$PROJECT_DIR$/docs/public/ui/form.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/media.jade" afterPath="$PROJECT_DIR$/docs/public/ui/media.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/404.html" afterPath="$PROJECT_DIR$/docs/www/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" afterPath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/main.js.map" afterPath="$PROJECT_DIR$/docs/www/dist/scripts/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/styles/main.css" afterPath="$PROJECT_DIR$/docs/www/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/styles/main.css.map" afterPath="$PROJECT_DIR$/docs/www/dist/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/index.html" afterPath="$PROJECT_DIR$/docs/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/alert.html" afterPath="$PROJECT_DIR$/docs/www/ui/alert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/box.html" afterPath="$PROJECT_DIR$/docs/www/ui/box.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/button.html" afterPath="$PROJECT_DIR$/docs/www/ui/button.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/dropdown.html" afterPath="$PROJECT_DIR$/docs/www/ui/dropdown.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/form.html" afterPath="$PROJECT_DIR$/docs/www/ui/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/list.html" afterPath="$PROJECT_DIR$/docs/www/ui/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/media.html" afterPath="$PROJECT_DIR$/docs/www/ui/media.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/modal.html" afterPath="$PROJECT_DIR$/docs/www/ui/modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/pager.html" afterPath="$PROJECT_DIR$/docs/www/ui/pager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/tab.html" afterPath="$PROJECT_DIR$/docs/www/ui/tab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/table.html" afterPath="$PROJECT_DIR$/docs/www/ui/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/toggle.html" afterPath="$PROJECT_DIR$/docs/www/ui/toggle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/404.jade" afterPath="$PROJECT_DIR$/docs/public/404.jade" />
     </list>
     <ignored path="css.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,101 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_site.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/components/_site.less">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_typo.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/components/_typo.less">
+      <file leaf-file-name="404.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/public/404.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/pure/buttons.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.958334">
-              <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_alert.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/components/_alert.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addon.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/pure/addon.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid-responsive.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/pure/grid-responsive.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="398.125">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_layout.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/public/_layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="harp.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/harp.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.069767445">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_global.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/styles/_global.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.019788919">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -239,6 +99,8 @@
         <option value="$PROJECT_DIR$/assets/styles/pure/addon.less" />
         <option value="$PROJECT_DIR$/docs/public/_layout.jade" />
         <option value="$PROJECT_DIR$/docs/harp.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/docs/public/404.jade" />
       </list>
     </option>
   </component>
@@ -304,20 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,7 +238,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17122538" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17122538" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,7 +246,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27557603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -431,20 +279,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/public/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/public/ui/_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -825,8 +659,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/harp.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.069767445">
+        <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/public/404.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019788919">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
