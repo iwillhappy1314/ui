@@ -6,16 +6,19 @@
 
 
 // 带背景的列表，一半作为菜单使用
-.list {
+ul.list {
     color: @text-color;
     border-top: none;
     background: #fff;
+    list-style: none;
+    margin: 0;
     li{
         position: relative;
         a {
             line-height: normal;
             display: block;
             padding: @padding-md @padding;
+            padding: @padding-md-rem @padding-rem;
             color: @text-color;
             border: 1px solid @border-color;
             margin-bottom: -1px;
@@ -89,10 +92,12 @@
 
 
 // 中间对齐的列表，常见于联系方式
-.ui-dlist {
+dl.ui-dlist {
     &:extend(.clearfix all);
     color: #333;
     line-height: 2.2;
+    margin-bottom: 2px;
+    margin-bottom: .2rem;
     dt{
         float: left;
         font-weight: 700;

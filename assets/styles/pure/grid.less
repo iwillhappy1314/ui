@@ -6,8 +6,7 @@
     letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
     *letter-spacing: normal; /* reset IE < 8 */
     *word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
-    text-render
-    ing: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
+    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
     font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
     -webkit-flex-flow: row wrap;
 
@@ -31,22 +30,13 @@
 }
 
 .pure-u {
-    display: inline-block;
-    *display: inline; /* IE < 8: fake inline-block */
-    zoom: 1;
+    .inline-block;
     letter-spacing: normal;
     word-spacing: normal;
     vertical-align: top;
     text-rendering: auto;
 }
 
-/*
-Resets the font family back to the OS/browser's default sans-serif font,
-this the same font stack that Normalize.css sets for the `body`.
-*/
-.pure-g [class *= "pure-u"] {
-    font-family: sans-serif;
-}
 
 .pure-u-1,
 .pure-u-1-1,

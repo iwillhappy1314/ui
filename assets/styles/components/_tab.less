@@ -3,10 +3,12 @@
  * ----------------------------------------------------------- */
 
 // tab标题
-.tab-title{
-    position: relative;
-    z-index: 2;
+ul.tab-title{
     border-left: 1px solid @border-color;
+    margin: 0;
+    position: relative;
+    list-style: none;
+    z-index: 2;
     li{
         float: left;
         border: 1px solid @border-color;
@@ -21,6 +23,7 @@
         a{
             display: block;
             padding: @padding-md @padding;
+            padding: @padding-md-rem @padding-rem;
             white-space: nowrap;
             color: @text-color;
         }
@@ -31,6 +34,7 @@
 .tab-content-pane{
     display: none;
     padding: @padding;
+    padding: @padding-rem;
 }
 
 // 水平表单

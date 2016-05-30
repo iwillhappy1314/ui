@@ -1,6 +1,6 @@
 .pure-button {
     .inline-block;
-    line-height: normal;
+    line-height: 1.4;
     white-space: nowrap;
     vertical-align: middle;
     text-align: center;
@@ -11,6 +11,7 @@
     font-family: inherit;
     font-size: 100%;
     padding: 6px 12px;
+    padding: .6rem 1.2rem;
     color: #444;
     color: rgba(0, 0, 0, 0.80);
     border: 1px solid transparent;
@@ -18,108 +19,110 @@
     background-color: #E6E6E6;
     text-decoration: none;
     border-radius: 2px;
-}
 
-.pure-button-hover,
-.pure-button:hover,
-.pure-button:focus {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
-    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
-}
-.pure-button:focus {
-    outline: 0;
-}
-.pure-button-active,
-.pure-button:active {
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
-    border-color: #000\9;
-}
+    &-hover,
+    &:hover,
+    &:focus {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.10));
+    }
 
-.pure-button[disabled],
-.pure-button-disabled,
-.pure-button-disabled:hover,
-.pure-button-disabled:focus,
-.pure-button-disabled:active {
-    border: none;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    filter: alpha(opacity=40);
-    opacity: 0.40;
-    cursor: not-allowed;
-    box-shadow: none;
-}
+    &:focus {
+        outline: 0;
+    }
 
-.pure-button-hidden {
-    display: none;
-}
+    &-active,
+    &:active {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.20) inset;
+        border-color: #000 \9;
+    }
 
-/* Firefox: Get rid of the inner focus border */
-.pure-button::-moz-focus-inner{
-    padding: 0;
-    border: 0;
-}
-
-
-// 按钮颜色
-.pure-button-primary,
-.pure-button-selected,
-a.pure-button-primary,
-a.pure-button-selected {
-    background-color: rgb(0, 120, 231);
-    border-color: rgb(0, 120, 231);
-    color: #fff;
-}
-
-.button-success,
-.button-error,
-.button-warning,
-.button-secondary {
-    color: white;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.button-success:hover,
-.button-error:hover,
-.button-warning:hover,
-.button-secondary:hover {
-    color: white;
-}
-
-.button-success {
-    background: rgb(28, 184, 65);
-    border-color: rgb(28, 184, 65);
-}
-
-.button-error {
-    background: rgb(202, 60, 60);
-    border-color: rgb(202, 60, 60);
-}
-
-.button-warning {
-    background: rgb(223, 117, 20);
-    border-color: rgb(223, 117, 20);
-}
-
-.button-secondary {
-    background: rgb(66, 184, 221);
-    border-color: rgb(66, 184, 221);
-}
-
-// 按钮尺寸
-.button-xsmall {
-    font-size: 70%;
-}
-
-.button-small {
-    font-size: 85%;
-}
-
-.button-large {
-    font-size: 110%;
-}
-
-.button-xlarge {
-    font-size: 125%;
+    &[disabled],
+    &-disabled,
+    &-disabled:hover,
+    &-disabled:focus,
+    &-disabled:active {
+        border: none;
+        background-image: none;
+        filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+        filter: alpha(opacity=40);
+        opacity: 0.40;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+    &-hidden {
+        display: none;
+    }
+    &::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
 }
 
 
+.button {
+
+    // 按钮颜色
+    &-primary,
+    &-secondary,
+    &-success,
+    &-warning,
+    &-error {
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &-primary,
+    &-selected {
+        background-color: @primary-color;
+        border-color: darken(@primary-color, 8%);
+    }
+    &-secondary {
+        background: @secondary-color;
+        border-color: darken(@secondary-color, 8%);
+    }
+    &-success {
+        background: @success-color;
+        border-color: darken(@success-color, 8%);
+    }
+    &-warning {
+        background: @warning-color;
+        border-color: darken(@warning-color, 8%);
+    }
+    &-error {
+        background: @error-color;
+        border-color: darken(@error-color, 8%);
+    }
+
+    // 按钮
+    &-xsmall {
+        font-size: 70%;
+    }
+    &-small {
+        font-size: 85%;
+    }
+    &-large {
+        font-size: 110%;
+    }
+    &-xlarge {
+        font-size: 125%;
+    }
+
+}
+
+
+a.button {
+    // 链接按钮颜色
+    &-primary,
+    &-secondary,
+    &-success,
+    &-warning,
+    &-error {
+        &:hover {
+            color: #fff;
+        }
+    }
+}

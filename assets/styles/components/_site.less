@@ -1,9 +1,6 @@
 /* --------------------------------------------------------------
  * = 布局-全局样式
  * ----------------------------------------------------------- */
-.pure-g [class*="pure-u"] {
-  font: 300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
-}
 
 a {
   text-decoration: none;
@@ -21,11 +18,26 @@ a {
 
 .row{
   margin-left: -@padding;
+  margin-left: -@padding-rem;
   margin-right: -@padding;
+  margin-right: -@padding-rem;
   .col{
     padding-left: @padding;
+    padding-left: @padding-rem;
     padding-right: @padding;
+    padding-right: @padding-rem;
   }
+}
+
+@media screen and (max-width: 48em) {
+    .wrap>.row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .col{
+        margin-bottom: 15px;
+        margin-bottom: 1.5rem;
+    }
 }
 
 img {

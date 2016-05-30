@@ -3,7 +3,7 @@ form.pure-form
         legend 紧凑行内表单
         input(type='email', placeholder='电子邮件')
         input(type='password', placeholder='密码')
-        button.pure-button.pure-button-primary(type='submit') 登录
+        button.pure-button.button-primary(type='submit') 登录
 
 
 h2.typo-h2 垂直表单
@@ -23,7 +23,32 @@ form.pure-form.pure-form-stacked
         label.pure-checkbox(for='remember')
           input#remember(type='checkbox')
           |  记住我
-        button.pure-button.pure-button-primary(type='submit') 登录
+        button.pure-button.button-primary(type='submit') 登录
+
+
+h2.typo-h2 左对齐表单
+
+form.pure-form.pure-form-aligned
+    fieldset
+        .pure-control-group
+            label(for='name') 用户名
+            input#name(type='text', placeholder='用户名')
+        .pure-control-group
+            label(for='password') 密码
+            input#password(type='password', placeholder='密码')
+        .pure-control-group
+            label(for='email') 电子邮件
+            input#email(type='email', placeholder='电子邮件')
+        .pure-control-group
+            label(for='foo') 介绍文字
+            input#foo(type='text', placeholder='介绍文字...')
+        .pure-controls
+            label.pure-checkbox(for='cb')
+                input#cb(type='checkbox')
+                |  接受条款
+            button.pure-button.button-primary(type='submit') 提交
+
+
 
 
 h2.typo-h2 多行表单
@@ -53,7 +78,7 @@ form.pure-form.pure-form-stacked
         label.pure-checkbox(for='terms')
           input#terms(type='checkbox')
           |  接受条款
-        button.pure-button.pure-button-primary(type='submit') 提交
+        button.pure-button.button-primary(type='submit') 提交
 
 
 h2.typo-h2 表单组
@@ -65,4 +90,4 @@ form.pure-form
         input.pure-input-1-2(type='email', placeholder='电子邮件')
       fieldset.pure-group
         input.pure-input-1-2(type='text', placeholder='标题')
-      button.pure-button.pure-input-1-2.pure-button-primary(type='submit') 登录
+      button.pure-button.pure-input-1-2.button-primary(type='submit') 登录

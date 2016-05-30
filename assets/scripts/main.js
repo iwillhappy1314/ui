@@ -2,6 +2,9 @@ jQuery(document).ready(function ($) {
 
     $('.menu').dropit();
 
+    $('#menu-trigger').click(function () {
+        $('#menu-list').show();
+    });
 
     // ---------------------------------------------------------
     // 导航下拉菜单
@@ -12,34 +15,34 @@ jQuery(document).ready(function ($) {
     // ---------------------------------------------------------
     // 滚动缩小导航菜单
     // ---------------------------------------------------------
-    $(document).on("scroll", function() {
-      if ($(document).scrollTop() > 20) {
-        $(".site-header").addClass("small");
-      } else {
-        $(".site-header").removeClass("small");
-      }
+    $(document).on("scroll", function () {
+        if ($(document).scrollTop() > 20) {
+            $(".site-header").addClass("small");
+        } else {
+            $(".site-header").removeClass("small");
+        }
     });
 
 
     // ---------------------------------------------------------
     // 图片遮罩，鼠标滑过显示隐藏的元素
     // ---------------------------------------------------------
-    $(".ui-hover li").each(function() {
-        $(this).hover(function(){
-            $(this).find(".hide").fadeIn('slow');   
-        },function(){           
+    $(".ui-hover li").each(function () {
+        $(this).hover(function () {
+            $(this).find(".hide").fadeIn('slow');
+        }, function () {
             $(this).find(".hide").fadeOut('fast');
-        })
-    })
+        });
+    });
 
 
     // ---------------------------------------------------------
     // 全选和反选
     // ---------------------------------------------------------
-    $('#check-all').click(function(event) {
-        if(this.checked) {
+    $('#check-all').click(function (event) {
+        if (this.checked) {
             $(".ck-item").prop("checked", true);
-        }else{
+        } else {
             $(".ck-item").prop("checked", false);
         }
     });
@@ -48,17 +51,18 @@ jQuery(document).ready(function ($) {
     // ---------------------------------------------------------
     // 获取选中项的值
     // ---------------------------------------------------------
-    function getSelectedValue(){
+    function getSelectedValue() {
 
-      var data_array=new Array();
+        var data_to_string,
+            data_array = [];
 
-      $('input[name="links"]:checked').map(function(){
-          data_array.push( $(this).val() );
-      });
+        $('input[name="links"]:checked').map(function () {
+            data_array.push($(this).val());
+        });
 
-      var data_to_string = links_array.join('\n');
+        data_to_string = links_array.join('\n');
 
-      return data_to_string;
+        return data_to_string;
 
     }
 
@@ -92,11 +96,11 @@ jQuery(document).ready(function ($) {
         var el = $(this);
         el.find('li:first').addClass('active');
     });
-    
+
     $('.ui-tab .tab-title li a').click(function () {
         var el = $(this),
-        parent = el.closest('.ui-tab'),
-        activetab = el.attr('href');
+            parent = el.closest('.ui-tab'),
+            activetab = el.attr('href');
         parent.find('li').removeClass('active');
 
         el.closest('li').addClass('active');
@@ -116,14 +120,16 @@ jQuery(document).ready(function ($) {
 
     $('.accordion > dt > a').click(function () { //点击标题
 
-        if($(this).attr('href') === "#"){
-            $(this).click(function(){return false;});
+        if ($(this).attr('href') === "#") {
+            $(this).click(function () {
+                return false;
+            });
         }
 
         var next = $(this).parent().next(); //相邻的内容元素
-        if(next.is(":visible")){ //如果相邻的元素是展开的，隐藏
+        if (next.is(":visible")) { //如果相邻的元素是展开的，隐藏
             all.slideUp('fast');
-        }else{
+        } else {
             all.slideUp(); //所有内容折叠
             next.slideDown('fast'); //和标题紧邻的内容展开
         }
@@ -140,14 +146,16 @@ jQuery(document).ready(function ($) {
 
     $('.toggle > dt > a').click(function () { //点击标题
 
-        if($(this).attr('href') === "#"){
-            $(this).click(function(){return false;});
+        if ($(this).attr('href') === "#") {
+            $(this).click(function () {
+                return false;
+            });
         }
 
         var next = $(this).parent().next(); //相邻的内容元素
-        if(next.is(":visible")){ //如果相邻的元素是展开的，隐藏
+        if (next.is(":visible")) { //如果相邻的元素是展开的，隐藏
             next.slideUp('fast');
-        }else{
+        } else {
             next.slideDown('fast'); //和标题紧邻的内容展开
         }
 
@@ -158,38 +166,40 @@ jQuery(document).ready(function ($) {
     // ---------------------------------------------------------
     // 回到顶部功能
     // ---------------------------------------------------------
-    var scrollDiv = $("#gotop");
+    var scrollDiv = $(".scroll-to-top");
 
-    if ($(window).scrollTop() != "0"){
-        $(".scroll-to-top").fadeIn(1200)
+    if ($(window).scrollTop() !== "0") {
+        scrollDiv.fadeIn(1200);
     }
-            
-    $(window).scroll(function() {
-        if ($(window).scrollTop() == "0")
-            $(scrollDiv).fadeOut(350)
-        else
-            $(scrollDiv).fadeIn(1200)
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() === "0") {
+            scrollDiv.fadeOut(350);
+        } else {
+            scrollDiv.fadeIn(1200);
+        }
+
     });
-    
-    $(".scroll-to-top").click(function(){
+
+    scrollDiv.click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 600)
-    })
+    });
 
 
     // ---------------------------------------------------------
     // 添加更多
     // ---------------------------------------------------------
-    $( '#add-row' ).on('click', function() {
-        var row = $( '.repeatable-fieldset:last' ).clone(true);
-        row.addClass( 'new-row' );
-        row.insertAfter( '.repeatable-fieldset:last' );
+    $('#add-row').on('click', function () {
+        var row = $('.repeatable-fieldset:last').clone(true);
+        row.addClass('new-row');
+        row.insertAfter('.repeatable-fieldset:last');
         return false;
     });
 
     // 移除添加的元素
-    $( '.remove-row' ).on('click', function() {
+    $('.remove-row').on('click', function () {
         $(this).parents('tr.new-row').remove();
         return false;
     });
