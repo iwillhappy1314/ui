@@ -1,0 +1,194 @@
+ul#sample-menu-1.sf-menu.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
+    li.current
+        a(href='#') 首页
+    li
+        a.sf-with-ul(href='#a') 公司简介
+        ul(style='display: none;')
+            li
+                a(href='#aa') 企业文化
+            li.current
+                a(href='#ab') 资质荣誉
+                ul(style='display: none;')
+                    li
+                        a(href='#') 建筑资质
+                    li
+                        a(href='#aba') 建设资质
+                    li
+                        a(href='#abb') 国家认证
+                    li
+                        a(href='#abc') 民间认证
+                    li
+                        a(href='#abd') 所获证书
+            li
+                a.sf-with-ul(href='#') 总经理致辞
+                ul(style='display: none;')
+                    li
+                        a(href='#') 关于公司
+                    li
+                        a(href='#') 公司使命
+                    li
+                        a(href='#') 社会责任
+                    li
+                        a(href='#') 发展规划
+                    li
+                        a(href='#') 企业文化
+            li
+                a.sf-with-ul(href='#') 公司团队
+                ul(style='display: none;')
+                    li
+                        a(href='#') 核心人物
+                    li
+                        a(href='#') 团队文化
+                    li
+                        a(href='#') 团队风采
+                    li
+                        a(href='#') 成员寄语
+                    li
+                        a(href='#') 拓展训练
+    li
+        a(href='#') 新闻动态
+        ul(style='display: none;')
+            li
+                a(href='#') 公司新闻
+            li
+                a(href='#') 行业新闻
+    li
+        a(href='#') 产品展示
+        ul(style='display: none;')
+            li
+                a.sf-with-ul(href='#') 钢铁产品
+                ul(style='display: none;')
+                    li
+                        a(href='#') 不锈钢产品
+                    li
+                        a(href='#') 建筑用钢
+                    li
+                        a(href='#') 桥梁用钢
+                    li
+                        a(href='#') 生活用钢
+                    li
+                        a(href='#') 医疗用钢
+            li
+                a.sf-with-ul(href='#') 化工产品
+                ul(style='display: none;')
+                    li
+                        a(href='#') 塑料化工
+                    li
+                        a(href='#') 医药研发
+                    li
+                        a(href='#') 高分子材料
+                    li
+                        a(href='#') 太空探索计划
+    li
+        a(href='#') 服务项目
+    li
+        a(href='#') 资质荣誉
+    li
+        a(href='#') 关于我们
+    li
+        a(href='#') 联系我们
+
+
+
+h2 垂直菜单
+ul.sf-menu.sf-vertical.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
+    li.current
+        a(href='#') 首页
+    li
+        a.sf-with-ul(href='#a') 公司简介
+        ul(style='display: none;')
+            li
+                a(href='#aa') 企业文化
+            li.current
+                a(href='#ab') 资质荣誉
+                ul(style='display: none;')
+                    li
+                        a(href='#') 建筑资质
+                    li
+                        a(href='#aba') 建设资质
+                    li
+                        a(href='#abb') 国家认证
+                    li
+                        a(href='#abc') 民间认证
+                    li
+                        a(href='#abd') 所获证书
+            li
+                a.sf-with-ul(href='#') 总经理致辞
+                ul(style='display: none;')
+                    li
+                        a(href='#') 关于公司
+                    li
+                        a(href='#') 公司使命
+                    li
+                        a(href='#') 社会责任
+                    li
+                        a(href='#') 发展规划
+                    li
+                        a(href='#') 企业文化
+            li
+                a.sf-with-ul(href='#') 公司团队
+                ul(style='display: none;')
+                    li
+                        a(href='#') 核心人物
+                    li
+                        a(href='#') 团队文化
+                    li
+                        a(href='#') 团队风采
+                    li
+                        a(href='#') 成员寄语
+                    li
+                        a(href='#') 拓展训练
+    li
+        a(href='#') 新闻动态
+    li
+        a(href='#') 产品展示
+        ul(style='display: none;')
+            li
+                a.sf-with-ul(href='#') 钢铁产品
+                ul(style='display: none;')
+                    li
+                        a(href='#') 不锈钢产品
+                    li
+                        a(href='#') 建筑用钢
+                    li
+                        a(href='#') 桥梁用钢
+                    li
+                        a(href='#') 生活用钢
+                    li
+                        a(href='#') 医疗用钢
+            li
+                a.sf-with-ul(href='#') 化工产品
+                ul(style='display: none;')
+                    li
+                        a(href='#') 塑料化工
+                    li
+                        a(href='#') 医药研发
+                    li
+                        a(href='#') 高分子材料
+                    li
+                        a(href='#') 太空探索计划
+    li
+        a(href='#') 服务项目
+    li
+        a(href='#') 资质荣誉
+    li
+        a(href='#') 关于我们
+    li
+        a(href='#') 联系我们
+
+script.
+    jQuery(document).ready(function () {
+        jQuery('ul.sf-menu').superfish(
+            {
+                popUpSelector: 'ul,.sf-mega',
+                hoverClass: 'sfHover',
+                pathClass: 'overideThisToUse',
+                pathLevels: 1,
+                delay: 0,
+                animation: {opacity: 'show'},
+                animationOut: {opacity: 'hide'},
+                speed: 'normal',
+                speedOut: 'fast'
+            }
+        );
+    });

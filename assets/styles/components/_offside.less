@@ -1,0 +1,100 @@
+/* --------------------------------------------------------------
+ * = Offside
+ * ----------------------------------------------------------- */
+
+// Off-canvas 元素 CSS
+.offside {
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background: #000;
+    top: 0;
+    z-index: 9999;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+// 向左偏移 150, 然后用 left 拉回来
+.offside--left.is-open,
+.offside-js--is-left .offside-sliding-element {
+    transform: translate3d(150px, 0, 0);
+}
+
+.offside,
+.offside--left {
+    left: -150px;
+}
+
+
+// 向右便宜 -150, 然后用 left 拉回来
+.offside--right.is-open,
+.offside-js--is-right .offside-sliding-element {
+    transform: translate3d(-150px, 0, 0);
+}
+
+.offside--right {
+    left: auto;
+    right: -150px;
+}
+
+
+// 元素过渡动画
+.offside-js--interact .offside,
+.offside-js--interact .offside-sliding-element {
+    transition: transform .2s cubic-bezier(.16, .68, .43, .99);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+// 主题遮罩
+.offside-js--init {
+    overflow-x: hidden;
+}
+
+
+// 不支持 3D 变化的浏览器
+.no-csstransforms3d{
+    .offside {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .offside-sliding-element {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .offside--left.is-open {
+        left: 0;
+    }
+    .offside--right.is-open {
+        right: 0;
+    }
+    .offside-js--is-left .offside-sliding-element {
+        right: -150px;
+    }
+    .offside-js--is-right .offside-sliding-element {
+        left: -150px;
+    }
+}
+
+
+// 主体遮罩
+.site-overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    transition: visibility 0s ease, opacity .2s ease;
+}
+
+
+.offside-js--is-open .site-overlay {
+    visibility: visible;
+    opacity: .7;
+    transition-delay: 0s;
+}

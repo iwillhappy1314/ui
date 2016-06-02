@@ -1,6 +1,14 @@
 {
+  "grid": {
+    "title": "栅格",
+    "date": "Feb 28, 2013"
+  },
   "box": {
     "title": "盒子",
+    "date": "Feb 28, 2013"
+  },
+  "menu": {
+    "title": "菜单",
     "date": "Feb 28, 2013"
   },
   "button": {
@@ -37,6 +45,14 @@
   },
   "modal": {
     "title": "弹窗",
+    "date": "March 4, 2013"
+  },
+  "slider": {
+    "title": "幻灯",
+    "date": "March 4, 2013"
+  },
+  "offside": {
+    "title": "Offside",
     "date": "March 4, 2013"
   },
   "toggle": {

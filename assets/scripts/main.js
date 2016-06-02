@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
     $('.menu').dropit();
 
     $('#menu-trigger').click(function () {
-        $('#menu-list').show();
+        $('#sidebar').show();
     });
 
     // ---------------------------------------------------------

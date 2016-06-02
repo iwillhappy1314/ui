@@ -1,0 +1,154 @@
+/* --------------------------------------------------------------
+ * = 菜单
+ * ----------------------------------------------------------- */
+
+// 菜单基础样式, 一下都不要修改
+.sf-menu, .sf-menu * {
+    margin: 0 !important;
+    padding: 0;
+    list-style: none;
+}
+
+.sf-menu {
+    ul {
+        position: absolute;
+        display: none;
+        margin: 0 !important;
+        top: 100%;
+        left: 0;
+        z-index: 99;
+        ul {
+            top: 0;
+            left: 100%;
+        }
+    }
+    li {
+        position: relative;
+    }
+    & > li {
+        float: left;
+    }
+    li:hover,
+    li.sfHover {
+        ul {
+            display: block;
+        }
+    }
+    a {
+        display: block;
+        position: relative;
+    }
+}
+
+// 菜单皮肤,根据主题修改
+.sf-menu {
+    &:extend(.clearfix all);
+    margin-bottom: 1em;
+    ul {
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+        min-width: 120px;
+        min-width: 12rem;
+        li {
+            background: @maincolor;
+        }
+        ul {
+            li {
+                background: @maincolor;
+            }
+        }
+    }
+    li {
+        background: @maincolor;
+        white-space: nowrap;
+        *white-space: normal;
+        transition: background .2s;
+        &.current,
+        &:hover,
+        &.sfHover {
+            background: darken(@maincolor, 10%);
+            transition: none;
+            a {
+                color: #fff !important;
+            }
+        }
+
+    }
+    a {
+        color: #fff;
+        padding: 8px 10px;
+        padding: .75rem 1rem;
+        text-decoration: none;
+        zoom: 1;
+    }
+}
+
+// 向下剪头
+.sf-arrows {
+    .sf-with-ul {
+        padding-right: 25px;
+        padding-right: 2.5rem;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 1em;
+            margin-top: -3px;
+            height: 0;
+            width: 0;
+            border: 5px solid transparent;
+            border-top-color: #fff;
+            border-top-color: rgba(255, 255, 255, .5);
+        }
+    }
+    & > li > .sf-with-ul:focus:after,
+    & > li:hover > .sf-with-ul:after,
+    & > .sfHover > .sf-with-ul:after {
+        border-top-color: #fff;
+    }
+    ul {
+        // 向右箭头
+        .sf-with-ul:after {
+            margin-top: -5px;
+            margin-right: -3px;
+            border-color: transparent;
+            border-left-color: #fff;
+            border-left-color: rgba(255, 255, 255, .5);
+        }
+        li > .sf-with-ul:focus:after,
+        li:hover > .sf-with-ul:after,
+        .sfHover > .sf-with-ul:after {
+            border-left-color: #fff;
+        }
+    }
+}
+
+// 垂直显示的菜单
+.sf-vertical {
+    width: 120px;
+    width: 12rem;
+    ul {
+        left: 100%;
+        top: 0;
+    }
+    & > li {
+        float: none;
+    }
+    li {
+        width: 100%;
+    }
+    // 修改剪头方向
+    &.sf-arrows {
+        & > li > .sf-with-ul:after {
+            margin-top: -5px;
+            margin-right: -3px;
+            border-color: transparent;
+            border-left-color: #fff;
+            border-left-color: rgba(255, 255, 255, .5);
+        }
+        li > .sf-with-ul:focus:after,
+        li:hover > .sf-with-ul:after,
+        .sfHover > .sf-with-ul:after {
+            border-left-color: #fff;
+        }
+    }
+}

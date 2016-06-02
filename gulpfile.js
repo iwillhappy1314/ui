@@ -1,4 +1,3 @@
-// ## Globals
 var argv = require('minimist')(process.argv.slice(2));
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();

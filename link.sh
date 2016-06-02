@@ -30,8 +30,5 @@ npm link gulp-sass
 npm link sprity
 npm link gulp-copy2
 npm link gulp-shell
-<<<<<<< HEAD
-=======
 npm link gulp-gh-pages
->>>>>>> dev
 npm link harp

@@ -1,0 +1,72 @@
+ul.slider1
+    li
+        img(src='http://placehold.it/900x300')
+    li
+        img(src='http://placehold.it/900x300')
+    li
+        img(src='http://placehold.it/900x300')
+
+script.
+    jQuery(document).ready(function ($) {
+        $('.slider1').bxSlider({
+            mode: 'fade'
+        });
+    })
+
+
+h2 全宽幻灯
+
+p 因为全屏幻灯需要使用背景实现，空内容没有高度，且不支持高度自适应，浏览器窗口改变时，修改幻灯高度 也可以使用一张透明的png图片来撑起高度，不过要多加载一张和幻灯图片高度一样的png图片
+
+ul.slider2
+    li(style = 'background: url(http://placehold.it/1600x400) center center no-repeat')
+        img(src = 'http://placehold.it/1600x400', alt = '')
+    li(style = 'background: url(http://placehold.it/1600x400) center center no-repeat')
+        img(src = 'http://placehold.it/1600x400', alt = '')
+    li(style = 'background: url(http://placehold.it/1600x400) center center no-repeat')
+        img(src = 'http://placehold.it/1600x400', alt = '')
+
+script.
+    jQuery(document).ready(function ($) {
+        // $(window).resize(function(){
+        //     var container = $('.flexslider0 .slides li');
+        //     width = container.width()
+        //     container.height(width * 0.3)
+        // });
+        // 显示幻灯
+        $('.slider2').bxSlider({
+            mode: 'fade'
+        });
+    })
+
+
+
+ul.slider3
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+    li
+        img(src='http://placehold.it/600x400')
+
+script.
+    jQuery(document).ready(function ($) {
+        $('.slider3').bxSlider({
+            minSlides: 2,
+            maxSlides: 4,
+            slideWidth: 285,
+            slideMargin: 10
+        });
+    })
