@@ -1,6 +1,7 @@
 var argv = require('minimist')(process.argv.slice(2));
 var autoprefixer = require('gulp-autoprefixer');
-var browserSync = require('browser-sync').create();
+var browserSync = require('browser-sync')
+    .create();
 var changed = require('gulp-changed');
 var concat = require('gulp-concat');
 var flatten = require('gulp-flatten');
@@ -18,6 +19,7 @@ var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
+var pxtorem = require('gulp-pxtorem');
 var harp = require("harp");
 var copy2 = require('gulp-copy2');
 var shell = require('gulp-shell');
@@ -57,10 +59,7 @@ var project = manifest.getProjectGlobs();
  */
 var enabled = {
     //rev: argv.production,
-    maps: !argv.production,
-    failStyleTask: argv.production,
-    failJSHint: argv.production,
-    stripJSDebug: argv.production
+    maps: !argv.production, failStyleTask: argv.production, failJSHint: argv.production, stripJSDebug: argv.production
 };
 
 
@@ -85,22 +84,24 @@ var cssTasks = function (filename) {
         })
         .pipe(function () {
             return gulpif('*.scss', sass({
-                outputStyle: 'nested', // libsass doesn't support expanded yet
-                precision: 10,
-                includePaths: ['.'],
-                errLogToConsole: !enabled.failStyleTask
+                outputStyle: 'nested',
+                precision: 10, includePaths: ['.'], errLogToConsole: !enabled.failStyleTask
             }));
         })
         .pipe(concat, filename)
         .pipe(autoprefixer, {
-            browsers: [
-                'last 2 versions',
-                'android 4',
-                'opera 12'
-            ]
+            browsers: ['last 2 versions', 'android 4', 'opera 12']
         })
         .pipe(cssNano, {
             safe: true
+        })
+        .pipe(pxtorem, {
+            rootValue: 16,
+            propWhiteList: ['font',
+                'padding', 'padding-left', 'padding-right', 'padding-top', 'padding-bottom',
+                'margin', 'margin-left', 'margin-right', 'margin-top', 'margin-bottom',
+                'width', 'height', 'line-height', 'max-width', 'font-size', 'letter-spacing'],
+            replace: false
         })
         .pipe(function () {
             return gulpif(enabled.rev, rev());
@@ -117,9 +118,7 @@ var cssTasks = function (filename) {
  * 复制生成的前端文件到 halp 目录
  */
 gulp.task('copy', function () {
-    var paths = [
-        {src: 'dist/**/*', dest: 'docs/www/dist/'}
-    ];
+    var paths = [{src: 'dist/**/*', dest: 'docs/www/dist/'}];
     return copy2(paths);
 });
 
@@ -127,10 +126,7 @@ gulp.task('copy', function () {
 /**
  * 编译 docs 文件夹里面的说明文档
  */
-gulp.task('harp', shell.task([
-    'harp compile docs',
-    'gulp copy'
-]));
+gulp.task('harp', shell.task(['harp compile docs', 'gulp copy']));
 
 /**
  * JS 处理管道
@@ -165,8 +161,7 @@ var writeToManifest = function (directory) {
         .pipe(gulp.dest, path.dist + directory)
         .pipe(browserSync.stream, {match: '**/*.{js,css}'})
         .pipe(rev.manifest, revManifest, {
-            base: path.dist,
-            merge: true
+            base: path.dist, merge: true
         })
         .pipe(gulp.dest, path.dist)();
 };
@@ -199,10 +194,8 @@ gulp.task('styles', ['wiredep'], function () {
 gulp.task('scripts', ['jshint'], function () {
     var merged = merge();
     manifest.forEachDependency('js', function (dep) {
-        merged.add(
-            gulp.src(dep.globs, {base: 'scripts'})
-                .pipe(jsTasks(dep.name))
-        );
+        merged.add(gulp.src(dep.globs, {base: 'scripts'})
+            .pipe(jsTasks(dep.name)));
     });
     return merged
         .pipe(writeToManifest('scripts'));
@@ -226,9 +219,7 @@ gulp.task('fonts', function () {
 gulp.task('images', function () {
     return gulp.src(globs.images)
         .pipe(imagemin({
-            progressive: true,
-            interlaced: true,
-            svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}]
+            progressive: true, interlaced: true, svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}]
         }))
         .pipe(gulp.dest(path.dist + 'images'))
         .pipe(browserSync.stream());
@@ -239,9 +230,7 @@ gulp.task('images', function () {
  * JSHint 任务
  */
 gulp.task('jshint', function () {
-    return gulp.src([
-            'bower.json', 'gulpfile.js'
-        ].concat(project.js))
+    return gulp.src(['bower.json', 'gulpfile.js'].concat(project.js))
         .pipe(jshint())
         .pipe(jshint.reporter('jshint-stylish'))
         .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
@@ -251,7 +240,8 @@ gulp.task('jshint', function () {
 /**
  * 清理编译文件夹
  */
-gulp.task('clean', require('del').bind(null, [path.dist]));
+gulp.task('clean', require('del')
+    .bind(null, [path.dist]));
 
 
 /**
@@ -259,11 +249,8 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
  */
 gulp.task('watch', function () {
     browserSync.init({
-        files: ['{lib,templates}/**/*.php', '*.php'],
-        proxy: config.devUrl,
-        snippetOptions: {
-            whitelist: ['/wp-admin/admin-ajax.php'],
-            blacklist: ['/wp-admin/**']
+        files: ['{lib,templates}/**/*.php', '*.php'], proxy: config.devUrl, snippetOptions: {
+            whitelist: ['/wp-admin/admin-ajax.php'], blacklist: ['/wp-admin/**']
         }
     });
     gulp.watch([path.source + 'styles/**/*'], ['styles', 'copy']);
@@ -279,11 +266,7 @@ gulp.task('watch', function () {
  * 编译所有资源
  */
 gulp.task('build', function (callback) {
-    runSequence('styles',
-        'scripts',
-        ['fonts', 'images'],
-        'harp',
-        callback);
+    runSequence('styles', 'scripts', ['fonts', 'images'], 'harp', callback);
 });
 
 

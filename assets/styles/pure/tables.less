@@ -2,7 +2,7 @@
  * = Pure 表格
  * ----------------------------------------------------------- */
 
-.pure-table {
+table.pure-table {
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
@@ -40,17 +40,17 @@
     }
 }
 
-.pure-table-odd td {
+table.pure-table-odd td {
     background-color: lighten(@background, 10%);
 }
 
 /* nth-child selector for modern browsers */
-.pure-table-striped tr:nth-child(2n-1) td {
+table.pure-table-striped tr:nth-child(2n-1) td {
     background-color: lighten(@background, 10%);
 }
 
 // 有边框
-.pure-table-bordered {
+table.pure-table-bordered {
     td {
         border-bottom: 1px solid @border-color;
     }
@@ -60,7 +60,7 @@
 }
 
 // 水平边框
-.pure-table-horizontal{
+table.pure-table-horizontal{
     td,
     th {
         border-width: 0 0 1px 0;

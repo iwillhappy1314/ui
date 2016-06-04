@@ -2,23 +2,18 @@
     &:extend(.clearfix all);
     &-cap {
         width: 64px;
-        width: 6.4rem;
         height: 64px;
-        height: 6.4rem;
         overflow: hidden;
         float: left;
         margin-right: @padding;
-        margin-right: @padding-rem;
         img {
             width: 64px;
-            width: 6.4rem;
         }
     }
     &-body {
         &-title {
             line-height: 1;
             margin-bottom: @padding-md;
-            margin-bottom: @padding-md-rem;
         }
         &-desc {
             overflow: hidden;
@@ -49,12 +44,10 @@
         }
         .media {
             margin: 0 @padding;
-            margin: 0 @padding-rem;
         }
         .media-body {
             border: 1px solid #eee;
             padding: @padding;
-            padding: @padding-rem;
             &-title {
                 line-height: 1.4;
             }
@@ -64,7 +57,6 @@
         .media-cap {
             float: right;
             margin-left: @padding;
-            margin-left: @padding-rem;
             margin-right: 0;
         }
     }
@@ -76,9 +68,7 @@
         border: 0;
         .media-body{
             padding: @padding;
-            padding: @padding-rem;
             margin: 0 -@padding;
-            margin: 0 -@padding-rem;
         }
     }
 
@@ -86,9 +76,7 @@
     & + .media {
         border-top: 1px solid rgba(211, 214, 219, 0.5);
         margin-top: @padding;
-        margin-top: @padding-rem;
         padding-top: @padding;
-        padding-top: @padding-rem;
     }
 
     &:first-child{
@@ -100,7 +88,6 @@
     // 和列表一起使用
     & + .ui-list {
         margin-top: @padding;
-        margin-top: @padding-rem;
     }
 
     // 去除通用样式

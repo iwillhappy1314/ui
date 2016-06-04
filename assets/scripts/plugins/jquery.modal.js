@@ -18,7 +18,7 @@
             if (/^#/.test(target)) {
                 this.$elm = $(target);
                 if (this.$elm.length !== 1) {
-                    return null
+                    return null;
                 }
                 this.$body.append(this.$elm);
                 this.open();
@@ -31,18 +31,24 @@
                 };
                 this.showSpinner();
                 el.trigger($.modal.AJAX_SEND);
-                $.get(target).done(function (html) {
-                    if (!current) return;
-                    el.trigger($.modal.AJAX_SUCCESS);
-                    current.$elm.empty().append(html).on($.modal.CLOSE, remove);
-                    current.hideSpinner();
-                    current.open();
-                    el.trigger($.modal.AJAX_COMPLETE);
-                }).fail(function () {
-                    el.trigger($.modal.AJAX_FAIL);
-                    current.hideSpinner();
-                    el.trigger($.modal.AJAX_COMPLETE);
-                });
+                $.get(target)
+                    .done(function (html) {
+                        if (!current) {
+                            return;
+                        }
+                        el.trigger($.modal.AJAX_SUCCESS);
+                        current.$elm.empty()
+                            .append(html)
+                            .on($.modal.CLOSE, remove);
+                        current.hideSpinner();
+                        current.open();
+                        el.trigger($.modal.AJAX_COMPLETE);
+                    })
+                    .fail(function () {
+                        el.trigger($.modal.AJAX_FAIL);
+                        current.hideSpinner();
+                        el.trigger($.modal.AJAX_COMPLETE);
+                    });
             }
         } else {
             this.$elm = el;
@@ -66,20 +72,27 @@
                 this.show();
             }
             if (this.options.escapeClose) {
-                $(document).on('keydown.modal', function (event) {
-                    if (event.which === 27) $.modal.close();
+                $(document)
+                    .on('keydown.modal', function (event) {
+                        if (event.which === 27) {
+                            $.modal.close();
+                        }
+                    });
+            }
+            if (this.options.clickClose) {
+                this.blocker.click(function (e) {
+                    if (e.target === this) {
+                        $.modal.close();
+                    }
                 });
             }
-            if (this.options.clickClose) this.blocker.click(function (e) {
-                if (e.target === this)
-                    $.modal.close();
-            });
         },
 
         close: function () {
             this.unblock();
             this.hide();
-            $(document).off('keydown.modal');
+            $(document)
+                .off('keydown.modal');
         },
 
         block: function () {
@@ -88,7 +101,8 @@
             this.$body.css('overflow', 'hidden');
             this.$body.append(this.blocker);
             if (this.options.doFade) {
-                this.blocker.css('opacity', 0).animate({opacity: 1}, this.options.fadeDuration);
+                this.blocker.css('opacity', 0)
+                    .animate({opacity: 1}, this.options.fadeDuration);
             }
             this.$elm.trigger($.modal.BLOCK, [this._ctx()]);
         },
@@ -97,12 +111,14 @@
             if (this.options.doFade) {
                 var self = this;
                 this.blocker.fadeOut(this.options.fadeDuration, function () {
-                    self.blocker.children().appendTo(self.$body);
+                    self.blocker.children()
+                        .appendTo(self.$body);
                     self.blocker.remove();
                     self.$body.css('overflow', '');
                 });
             } else {
-                this.blocker.children().appendTo(this.$body);
+                this.blocker.children()
+                    .appendTo(this.$body);
                 this.blocker.remove();
                 this.$body.css('overflow', '');
             }
@@ -117,7 +133,8 @@
             this.$elm.addClass(this.options.modalClass + ' current');
             this.$elm.appendTo(this.blocker);
             if (this.options.doFade) {
-                this.$elm.css('opacity', 0).animate({opacity: 1}, this.options.fadeDuration);
+                this.$elm.css('opacity', 0)
+                    .animate({opacity: 1}, this.options.fadeDuration);
             } else {
                 this.$elm.show();
             }
@@ -126,7 +143,9 @@
 
         hide: function () {
             this.$elm.trigger($.modal.BEFORE_CLOSE, [this._ctx()]);
-            if (this.closeButton) this.closeButton.remove();
+            if (this.closeButton) {
+                this.closeButton.remove();
+            }
             this.$elm.removeClass('current');
 
             var _this = this;
@@ -143,7 +162,9 @@
         },
 
         showSpinner: function () {
-            if (!this.options.showSpinner) return;
+            if (!this.options.showSpinner) {
+                return;
+            }
             this.spinner = this.spinner || $('<div class="' + this.options.modalClass + '-spinner"></div>')
                     .append(this.options.spinnerHtml);
             this.$body.append(this.spinner);
@@ -151,7 +172,9 @@
         },
 
         hideSpinner: function () {
-            if (this.spinner) this.spinner.remove();
+            if (this.spinner) {
+                this.spinner.remove();
+            }
         },
 
         //Return context for custom events
@@ -161,8 +184,12 @@
     };
 
     $.modal.close = function (event) {
-        if (!current) return;
-        if (event) event.preventDefault();
+        if (!current) {
+            return;
+        }
+        if (event) {
+            event.preventDefault();
+        }
         current.close();
         var that = current.$elm;
         current = null;
@@ -208,9 +235,12 @@
     };
 
     // Automatically bind links with rel="modal:close" to, well, close the modal.
-    $(document).on('click.modal', 'a[rel="modal:close"]', $.modal.close);
-    $(document).on('click.modal', 'a[rel="modal:open"]', function (event) {
-        event.preventDefault();
-        $(this).modal();
-    });
+    $(document)
+        .on('click.modal', 'a[rel="modal:close"]', $.modal.close);
+    $(document)
+        .on('click.modal', 'a[rel="modal:open"]', function (event) {
+            event.preventDefault();
+            $(this)
+                .modal();
+        });
 })(jQuery);

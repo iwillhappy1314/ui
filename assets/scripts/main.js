@@ -184,7 +184,7 @@ jQuery(document).ready(function ($) {
     scrollDiv.click(function () {
         $("html, body").animate({
             scrollTop: 0
-        }, 600)
+        }, 600);
     });
 
 

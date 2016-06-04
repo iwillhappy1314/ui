@@ -12,7 +12,7 @@
     "html5shiv": "~3.7.2",
     "bxslider-4": "4.2.3",
     "superfish": "^1.7.9",
-    "offside": "^1.3.1"
+    "Snap.js": "snap.js#^1.9.3"
   },
   "overrides": {
     "modernizr": {
@@ -24,8 +24,8 @@
     "superfish": {
       "main": "./dist/js/superfish.js"
     },
-    "offside": {
-      "main": "./dist/offside.js"
+    "Snap.js": {
+      "main": "./snap.js"
     }
   },
   "resolutions": {
