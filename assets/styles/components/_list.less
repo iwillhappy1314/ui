@@ -4,15 +4,14 @@
  * = 列表样式
  * ----------------------------------------------------------- */
 
-
 // 带背景的列表，一半作为菜单使用
-ul.list {
+.list {
     color: @text-color;
     border-top: none;
     background: #fff;
     list-style: none;
     margin: 0;
-    li{
+    li {
         position: relative;
         a {
             line-height: normal;
@@ -23,25 +22,25 @@ ul.list {
             margin-bottom: -1px;
             transition: .3s;
             &:hover,
-            &.active{
+            &.active {
                 text-decoration: none;
                 color: #fff;
                 background: @maincolor;
             }
         }
-        
+
     }
-    &-round{
-        li{
-            &:first-child{
-                a{
+    &-round {
+        li {
+            &:first-child {
+                a {
                     border-top-left-radius: 4px;
                     border-top-right-radius: 4px;
                 }
-                
+
             }
-            &:last-child{
-                a{
+            &:last-child {
+                a {
                     margin-bottom: 0;
                     border-bottom-right-radius: 4px;
                     border-bottom-left-radius: 4px;
@@ -51,33 +50,32 @@ ul.list {
     }
 }
 
-
 // 链接列表，常见于新闻标题链接
 .ui-list {
     margin: 0;
     list-style: square inside;
-    li{
-        line-height: 20px;
-        a{
-           line-height: 20px;
+    li {
+        line-height: 22px;
+        a {
+            line-height: 22px;
             text-decoration: none;
             color: @link-color;
-            &:hover{
-                text-decoration: underline;    
+            &:hover {
+                text-decoration: underline;
             }
         }
         a,
         span.ui-list-item-text {
-            vertical-align: middle;    
+            vertical-align: middle;
         }
     }
-    &-gray{
-        li{
+    &-gray {
+        li {
             color: @text-color;
         }
     }
-    &-graylink{
-        li{
+    &-graylink {
+        li {
             color: @text-color;
             a {
                 color: @text-lighter;
@@ -85,25 +83,24 @@ ul.list {
         }
     }
     &-nosquare {
-        list-style: none;    
+        list-style: none;
     }
 }
 
-
 // 中间对齐的列表，常见于联系方式
-dl.ui-dlist {
+.ui-dlist {
     &:extend(.clearfix all);
     color: #333;
     line-height: 2.2;
     margin-bottom: 2px;
-    dt{
+    dt {
         float: left;
         font-weight: 700;
         width: 20%;
         text-align: right;
         margin: 0;
     }
-    dd{
+    dd {
         float: left;
         width: 80%;
         text-align: left;
