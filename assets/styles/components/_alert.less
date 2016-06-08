@@ -5,8 +5,9 @@
 .alert {
     padding: @padding-md @padding;
     margin-bottom: 1em;
-    background: #fcf8e3;
-    color: #c09853;
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
     a {
         color: #963;
     }
@@ -18,20 +19,22 @@
     &-content {
         padding-left: 1.5em;
     }
-    &-ok {
-        background: #dff0d8;
+    &-success {
         color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
     }
-    &-error {
-        background: #f2dede;
-        color: #b94a48;
+    &-warning {
+        color: #8a6d3b;
+        background-color: #fcf8e3;
+        border-color: #faebcc;
+    }
+    &-danger {
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
     }
     i:before {
         vertical-align: text-top;
     }
-}
-
-h3.alert-header{
-    font-size: 18px;
-    margin: 0;
 }
