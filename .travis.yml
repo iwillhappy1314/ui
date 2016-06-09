@@ -3,14 +3,16 @@ language: node_js
 node_js:
   - "0.12"
 
-matrix:
-  allow_failures:
-    - php: nightly
-
 cache:
   directories:
     - bower_components
     - node_modules
+
+before_install:
+  # Set Git config
+  - git config --global user.name "iwillhappy1314"
+  - git config --global user.email "iwillhappy1314@gmail.com"
+  - git config --global push.default simple
 
 install:
   - npm install -g gulp
@@ -19,4 +21,5 @@ install:
   - bower install
 
 script:
+  - ls -la
   - gulp deploy
