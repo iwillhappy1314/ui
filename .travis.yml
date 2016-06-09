@@ -17,7 +17,38 @@ before_install:
 install:
   - npm install -g gulp
   - npm install -g bower
-  - npm install
+  - npm install asset-builder
+  - npm install browser-sync
+  - npm install del
+  - npm install gulp-autoprefixer
+  - npm install gulp-changed
+  - npm install gulp-concat
+  - npm install gulp-flatten
+  - npm install gulp-if
+  - npm install gulp-imagemin
+  - npm install gulp-jshint
+  - npm install gulp-less
+  - npm install gulp-load-plugins
+  - npm install gulp-minify-css
+  - npm install gulp-plumber
+  - npm install gulp-rename
+  - npm install gulp-rev
+  - npm install gulp-sass
+  - npm install gulp-sourcemaps
+  - npm install gulp-uglify
+  - npm install imagemin-pngcrush
+  - npm install jshint-stylish
+  - npm install lazypipe
+  - npm install merge-stream
+  - npm install run-sequence
+  - npm install traverse
+  - npm install wiredep
+  - npm install yargs
+  - npm install gulp-gh-pages
+  - npm install gulp-copy2
+  - npm install gulp-shell
+  - npm install harp
+  - npm install gulp-pxtorem
   - bower install
 
 script:
