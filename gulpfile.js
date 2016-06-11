@@ -1,7 +1,6 @@
 var argv = require('minimist')(process.argv.slice(2));
 var autoprefixer = require('gulp-autoprefixer');
-var browserSync = require('browser-sync')
-    .create();
+var browserSync = require('browser-sync').create();
 var changed = require('gulp-changed');
 var concat = require('gulp-concat');
 var flatten = require('gulp-flatten');
@@ -126,7 +125,7 @@ gulp.task('copy', function () {
 /**
  * 编译 docs 文件夹里面的说明文档
  */
-gulp.task('harp', shell.task(['harp compile docs', 'gulp copy']));
+gulp.task('harp', shell.task(['harp compile docs', 'gulp --production', 'gulp copy']));
 
 /**
  * JS 处理管道
@@ -266,7 +265,7 @@ gulp.task('watch', function () {
  * 编译所有资源
  */
 gulp.task('build', function (callback) {
-    runSequence('styles', 'scripts', ['fonts', 'images'], 'harp', callback);
+    runSequence('styles', 'scripts', ['fonts', 'images'], callback);
 });
 
 
@@ -287,7 +286,7 @@ gulp.task('wiredep', function () {
 /**
  * 发布到 gh-pages
  */
-gulp.task('deploy', ['build'], function () {
+gulp.task('deploy', ['harp'], function () {
     return gulp.src("docs/www/**/*")
         .pipe(deploy());
 });
