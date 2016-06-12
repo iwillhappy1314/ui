@@ -12,7 +12,8 @@
     "html5shiv": "~3.7.2",
     "bxslider-4": "4.2.3",
     "superfish": "^1.7.9",
-    "Snap.js": "snap.js#^1.9.3"
+    "Snap.js": "snap.js#^1.9.3",
+    "font-awesome": "^4.6.3"
   },
   "overrides": {
     "modernizr": {
