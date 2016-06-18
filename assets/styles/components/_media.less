@@ -1,28 +1,21 @@
 .media {
     &:extend(.clearfix all);
     &-cap {
-        width: 64px;
-        height: 64px;
-        overflow: hidden;
-        float: left;
-        margin-right: @padding;
-        img {
-            width: 64px;
-        }
+        display: table-cell;
+        vertical-align: top;
+        width: 128px;
+        padding-right: @padding;
     }
     &-body {
+        display: table-cell;
         &-title {
             line-height: 1;
             margin-bottom: @padding-md;
         }
-        &-desc {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
     }
     &-label {
         line-height: 1;
+        width: 100%;
         display: inline-block;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -32,10 +25,9 @@
     // 媒体中图片的不同位置
     &.media-top {
         .media-cap {
+            display: block;
             width: 100%;
-            float: none;
-            margin: 0;
-            border: 0;
+            padding-right: 0;
             img {
                 width: auto;
                 max-width: 100%;
@@ -46,6 +38,7 @@
             margin: 0 @padding;
         }
         .media-body {
+            display: block;
             border: 1px solid #eee;
             padding: @padding;
             &-title {
@@ -56,8 +49,8 @@
     &.media-right {
         .media-cap {
             float: right;
-            margin-left: @padding;
-            margin-right: 0;
+            padding-left: @padding;
+            padding-right: 0;
         }
     }
 
