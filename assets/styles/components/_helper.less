@@ -118,6 +118,32 @@ button.close {
     }
 }
 
+
+// Loading
+.loading {
+    color: transparent !important;
+    min-height: .8rem;
+    pointer-events: none;
+    position: relative;
+    &::after {
+        animation: loading 500ms infinite linear;
+        border: .2rem solid @brand-color;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        border-radius: .8rem;
+        content: "";
+        display: block;
+        width: .8rem;
+        height: .8rem;
+        left: 50%;
+        margin-left: -.4rem;
+        margin-top: -.4rem;
+        position: absolute;
+        top: 50%;
+    }
+}
+
+
 .img {
     &-rounded {
         border-radius: 6px;

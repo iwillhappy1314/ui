@@ -7,6 +7,10 @@
     "title": "盒子",
     "date": "Feb 28, 2013"
   },
+  "card": {
+    "title": "卡片",
+    "date": "Feb 28, 2013"
+  },
   "menu": {
     "title": "菜单",
     "date": "Feb 28, 2013"
@@ -45,6 +49,10 @@
   },
   "modal": {
     "title": "弹窗",
+    "date": "March 4, 2013"
+  },
+  "tooltip": {
+    "title": "Tooltip",
     "date": "March 4, 2013"
   },
   "slider": {

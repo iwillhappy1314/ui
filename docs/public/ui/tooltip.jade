@@ -1,0 +1,33 @@
+script.
+
+    // Helper method for handling classes
+    function classWhen(el) {
+        var classes = (el.className || '').split(' ');
+        return function (cssClass, opts) {
+            return ~classes.indexOf(cssClass) && opts;
+        }
+    }
+
+    tlite(function (el) {
+        var when = classWhen(el);
+        return when('tooltip', { grav: 's' }) ||
+                when('tooltip-n', { grav: 'n' }) ||
+                when('tooltip-s', { grav: 's' }) ||
+                when('tooltip-w', { grav: 'w' }) ||
+                when('tooltip-e', { grav: 'e' }) ||
+                when('tooltip-se', { grav: 'se' }) ||
+                when('tooltip-ne', { grav: 'ne' }) ||
+                when('tooltip-sw', { grav: 'sw' }) ||
+                when('tooltip-nw', { grav: 'nw' })
+    });
+
+nav.demo-nav
+    a.tooltip-n(title='This is the default') North
+    a.tooltip-s(title='Carolina') South
+    a.tooltip-e(title='East = Left') East
+    a.tooltip-w(title='West = Right') West
+nav.demo-nav
+    span.tooltip-ne(title='North Eastern') North East
+    strong.tooltip-se(title='South Eastern') South East
+    b.tooltip-sw(title='Is a good company') South West
+    i.tooltip-nw(title='North Westerly') North West

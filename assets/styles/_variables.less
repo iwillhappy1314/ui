@@ -48,3 +48,21 @@
 @padding: 15px;
 
 @padding-md: 8px;
+
+
+.toast-variant(@color) {
+    background: @color;
+    border-color: darken(@color, 2%);
+    color: @text-light;
+}
+.label-base() {
+    border-radius: .2rem;
+    display: inline;
+    font-size: 1em;
+    padding: .1em .3em;
+    vertical-align: baseline;
+}
+.label-variant(@color) {
+    background: @color;
+    color: @text-light;
+}

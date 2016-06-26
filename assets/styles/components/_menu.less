@@ -2,6 +2,27 @@
  * = 菜单
  * ----------------------------------------------------------- */
 
+.nav{
+    background: @brand-color;
+    &-left{
+
+    }
+    &-center{
+
+    }
+    &-right{
+
+    }
+    &-menu{
+
+    }
+    &-brand{
+        color: #fff;
+        display: block;
+        padding: 8px 10px;
+    }
+}
+
 // 菜单基础样式, 一下都不要修改
 .sf-menu, .sf-menu * {
     margin: 0 !important;
@@ -10,6 +31,8 @@
 }
 
 .sf-menu {
+    display: inline-block;
+    vertical-align: top;
     ul {
         position: absolute;
         display: none;
@@ -17,6 +40,7 @@
         top: 100%;
         left: 0;
         z-index: 99;
+        text-align: left;
         ul {
             top: 0;
             left: 100%;
@@ -57,11 +81,11 @@
         }
     }
     li {
-        background: @maincolor;
+        background: transparent;
         white-space: nowrap;
         *white-space: normal;
         transition: background .2s;
-        &.current,
+        &.current-menu-item,
         &:hover,
         &.sfHover {
             background: darken(@maincolor, 10%);
@@ -122,6 +146,7 @@
 // 垂直显示的菜单
 .sf-vertical {
     width: 120px;
+    background: @brand-color;
     ul {
         left: 100%;
         top: 0;
