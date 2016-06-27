@@ -2,9 +2,9 @@ jQuery(document).ready(function ($) {
 
     $('.menu').dropit();
 
-    $('#menu-trigger').click(function () {
-        $('#sidebar').show();
-    });
+    //$('#menu-trigger').click(function () {
+    //    $('#sidebar').show();
+    //});
 
     // ---------------------------------------------------------
     // 滚动缩小导航菜单

@@ -1,13 +1,11 @@
 /* --------------------------------------------------------------
- * = 卡片
+ * = 按钮组
  * ----------------------------------------------------------- */
-// Button groups
 .pure-button-group {
-    display: inline-flex;
-    flex-wrap: wrap;
+    &:extend(.pure-g);
 
     .pure-button {
-        flex: 1 0 auto;
+        &:extend(.pure-u);
 
         &:first-child:not(:last-child) {
             border-bottom-right-radius: 0;
@@ -15,20 +13,16 @@
         }
         &:not(:first-child):not(:last-child) {
             border-radius: 0;
-            margin-left: -.1rem;
+            margin-left: -1px;
         }
         &:last-child:not(:first-child) {
             border-bottom-left-radius: 0;
             border-top-left-radius: 0;
-            margin-left: -.1rem;
+            margin-left: -1px;
         }
         &:hover,
         &:focus {
             z-index: 99;
         }
-    }
-
-    &.pure-button-group-block {
-        display: flex;
     }
 }

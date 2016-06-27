@@ -3,28 +3,18 @@
  * ----------------------------------------------------------- */
 
 .pure-input-group {
-    display: flex;
-
+    &:extend(.pure-g);
     .input-addon {
         background: lighten(@background, 4%);
-        border: .1rem solid @border-color;
-        border-radius: .3rem;
-        line-height: 1.6rem;
-        padding: .7rem .8rem;
-
-        &.addon-sm {
-            font-size: 1.2rem;
-            padding: .3rem .6rem;
-        }
-        &.addon-lg {
-            font-size: 1.6rem;
-            line-height: 2rem;
-            padding: 1rem .8rem;
-        }
+        border: 1px solid @border-color;
+        border-radius: @border-radius;
+        line-height: 1.4;
+        padding: 6px 12px;
+        vertical-align: middle;
     }
     .input-addon,
     .pure-button {
-        flex: 1 0 auto;
+        &:extend(.pure-u);
     }
 
     .form-input,
@@ -36,12 +26,12 @@
         }
         &:not(:first-child):not(:last-child) {
             border-radius: 0;
-            margin-left: -.1rem;
+            margin-left: -1px;
         }
         &:last-child:not(:first-child) {
             border-bottom-left-radius: 0;
             border-top-left-radius: 0;
-            margin-left: -.1rem;
+            margin-left: -1px;
         }
         &:focus {
             z-index: 99;
