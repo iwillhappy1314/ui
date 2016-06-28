@@ -1,5 +1,6 @@
 .media {
     &:extend(.clearfix all);
+    padding: @padding-md;
     &-cap {
         display: table-cell;
         vertical-align: top;
@@ -63,24 +64,6 @@
             padding: @padding;
             margin: 0 -@padding;
         }
-    }
-
-    // 媒体列表
-    & + .media {
-        border-top: 1px solid rgba(211, 214, 219, 0.5);
-        margin-top: @padding;
-        padding-top: @padding;
-    }
-
-    &:first-child{
-      border-top: 0;
-      margin-top: 0;
-      padding-top: 0;
-    }
-
-    // 和列表一起使用
-    & + .ui-list {
-        margin-top: @padding;
     }
 
     // 去除通用样式
