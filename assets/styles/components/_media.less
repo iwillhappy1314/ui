@@ -66,6 +66,24 @@
         }
     }
 
+    // 媒体列表
+    & + .media {
+        border-top: 1px solid rgba(211, 214, 219, 0.5);
+        margin-top: @padding;
+        padding-top: @padding;
+    }
+
+    &:first-child{
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    // 和列表一起使用
+    & + .ui-list {
+        margin-top: @padding;
+    }
+
     // 去除通用样式
     p{
         margin-bottom: 0;

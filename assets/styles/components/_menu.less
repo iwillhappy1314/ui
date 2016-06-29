@@ -23,7 +23,7 @@
     }
 }
 
-// 菜单基础样式, 一下都不要修改
+// 菜单基础样式, 一下都不用修改
 .sf-menu, .sf-menu * {
     margin: 0 !important;
     padding: 0;
@@ -68,18 +68,14 @@
 .sf-menu {
     &:extend(.clearfix all);
     margin-bottom: 1em;
-    ul {
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
-        min-width: 120px;
-        li {
-            background: @maincolor;
-        }
-        ul {
-            li {
-                background: @maincolor;
-            }
-        }
+
+    a {
+        color: #fff;
+        padding: 8px 10px;
+        text-decoration: none;
+        zoom: 1;
     }
+
     li {
         background: transparent;
         white-space: nowrap;
@@ -91,20 +87,47 @@
             background: darken(@maincolor, 10%);
             transition: none;
             a {
-                color: #fff !important;
+                color: #fff;
+            }
+            .sub-menu{
+                a{
+                    color: #fff;
+                }
             }
         }
 
     }
-    a {
-        color: #fff;
-        padding: 8px 10px;
-        text-decoration: none;
-        zoom: 1;
+
+    // 二级菜单
+    .sub-menu{
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+        min-width: 120px;
+        li {
+            background: @maincolor;
+            a{
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+            &.current-menu-item,
+            &:hover,
+            &.sfHover {
+                background: darken(@maincolor, 10%);
+                transition: none;
+                a {
+                    color: #fff;
+                }
+            }
+
+            // 三级菜单
+            .sub-menu{
+
+            }
+        }
     }
+
 }
 
-// 向下剪头
+// 向下剪头, 一般不用修改
 .sf-arrows {
     .sf-with-ul {
         padding-right: 25px;
@@ -126,7 +149,7 @@
     & > .sfHover > .sf-with-ul:after {
         border-top-color: #fff;
     }
-    ul {
+    .sub-menu {
         // 向右箭头
         .sf-with-ul:after {
             margin-top: -5px;
@@ -147,7 +170,7 @@
 .sf-vertical {
     width: 120px;
     background: @brand-color;
-    ul {
+    .sub-menu {
         left: 100%;
         top: 0;
     }

@@ -171,7 +171,7 @@ mark {
 
 /* 代码片断 */
 pre, code, pre tt {
-    font-family: Courier, 'Courier New', monospace;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 pre {
@@ -179,7 +179,16 @@ pre {
     border: 1px solid #ddd;
     padding: 1em 1.5em;
     display: block;
+    overflow: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+code{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 1px;
 }
 
 /* 一致化 horizontal rule */
