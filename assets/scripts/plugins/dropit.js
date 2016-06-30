@@ -20,14 +20,14 @@
                          el = this,
                          settings = $.fn.dropit.settings;
 
-                    // Hide initial submenus
+                    // 初始化时隐藏菜单
                     $el.addClass('dropit')
                     .find('>'+ settings.triggerParentEl +':has('+ settings.submenuEl +')').addClass('dropit-trigger')
                     .find(settings.submenuEl).addClass('dropit-submenu').hide();
 
-                    // Open on click
+                    // 点击时打开
                     $el.off(settings.action).on(settings.action, settings.triggerParentEl +':has('+ settings.submenuEl +') > '+ settings.triggerEl +'', function(){
-                        // Close click menu's if clicked again
+                        // 再次点击关闭
                         if(settings.action === 'click' && $(this).parents(settings.triggerParentEl).hasClass('dropit-open')){
                             settings.beforeHide.call(this);
                             $(this).parents(settings.triggerParentEl).removeClass('dropit-open').find(settings.submenuEl).hide();
@@ -35,12 +35,12 @@
                             return false;
                         }
 
-                        // Hide open menus
+                        // 隐藏打开的菜单
                         settings.beforeHide.call(this);
                         $('.dropit-open').removeClass('dropit-open').find('.dropit-submenu').hide();
                         settings.afterHide.call(this);
 
-                        // Open this menu
+                        // 打开菜单
                         settings.beforeShow.call(this);
                         $(this).parents(settings.triggerParentEl).addClass('dropit-open').find(settings.submenuEl).show();
                         settings.afterShow.call(this);
@@ -48,14 +48,14 @@
                         return false;
                     });
 
-                    // Close if outside click
+                    // 点击外部时关闭菜单
                     $(document).on('click', function(){
                         settings.beforeHide.call(this);
                         $('.dropit-open').removeClass('dropit-open').find('.dropit-submenu').hide();
                         settings.afterHide.call(this);
                     });
 
-                    // If hover
+                    // 鼠标井盖
                     if(settings.action === 'mouseenter'){
                         $el.on('mouseleave', '.dropit-open', function(){
                             settings.beforeHide.call(this);
