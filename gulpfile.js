@@ -117,7 +117,10 @@ var cssTasks = function (filename) {
  * 复制生成的前端文件到 halp 目录
  */
 gulp.task('copy', function () {
-    var paths = [{src: 'dist/**/*', dest: 'docs/www/dist/'}];
+    var paths = [
+        {src: 'dist/**/*', dest: 'docs/www/dist/'},
+        {src: 'assets/**/*', dest: 'docs/www/assets/'},
+    ];
     return copy2(paths);
 });
 
