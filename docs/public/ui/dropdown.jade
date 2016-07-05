@@ -1,14 +1,15 @@
-ul.menu
-    li.dropit-trigger
-        a(href='#') 海子的诗
-        ul.list.dropit-submenu
-            li.active
-                a(href='#') 黎明
-            li
-                a(href='#') 给萨福
-            li
-                a(href='#') 给安徒生
-            li
-                a(href='#') 梭罗这人有脑子
-            li
-                a(href='#') 梭罗这人有脑子
+// Single button
+.pure-button-group
+    button.pure-button.button-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+        | 点击显示下拉菜单
+        span.caret
+    ul.dropdown-menu
+        li
+            a(href='#') Action
+        li
+            a(href='#') Another action
+        li
+            a(href='#') Something else here
+        li.divider(role='separator')
+        li
+            a(href='#') Separated link

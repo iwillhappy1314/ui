@@ -1,34 +1,29 @@
-.ui-tab.ui-tab-h.sep
-    ul.tab-title.clearfix
-        li
-            a(href='#tab-1') 精准设计 彰显品牌
-        li
-            a(href='#tab-2') 极致优化，瞬时可达
-        li
-            a(href='#tab-3') 优势整合，丰富展现
-    .tab-content
-        #tab-1.tab-content-pane
-            | 网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。
-        #tab-2.tab-content-pane
-            | 互联网时代，寸秒寸金，1秒的迟缓就能对您的业务产生莫大的影响，良好到位的优化就能轻松解决问题。
-        #tab-3.tab-content-pane
-            | 每个企业都有独特的优势，良好的信息架构能够把这些优势丰富的展现出来，网站建设的过程就是信息架构的过程。
-
-
-h2.typo-h2  垂直 tab
-
-.ui-tab.ui-tab-v.sep
-    ul.tab-title.clearfix
-        li
-            a(href='#tab-1') 精准设计 彰显品牌
-        li
-            a(href='#tab-2') 极致优化，瞬时可达
-        li
-            a(href='#tab-3') 优势整合，丰富展现
-    .tab-content
-        #tab-1.tab-content-pane
-            | 网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。产品更是如此。网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。
-        #tab-2.tab-content-pane
-            | 互联网时代，寸秒寸金，1秒的迟缓就能对您的业务产生莫大的影响，良好到位的优化就能轻松解决问题。网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。
-        #tab-3.tab-content-pane
-            | 每个企业都有独特的优势，良好的信息架构能够把这些优势丰富的展现出来，网站建设的过程就是信息架构的过程。网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。网站的作用在于传递信息，而精准的设计能够马上告诉用户：“我们是在很认真的为您服务，网站如此，产品更是如此。
+h2 标签页
+.bs-example.bs-example-tabs(data-example-id='togglable-tabs')
+    ul#myTabs.nav.nav-tabs(role='tablist')
+        li.active(role='presentation')
+            a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true') Home
+        li(role='presentation')
+            a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile') Profile
+        li.dropdown(role='presentation')
+            a#myTabDrop1.dropdown-toggle(href='#', data-toggle='dropdown', aria-controls='myTabDrop1-contents')
+                | Dropdown
+                span.caret
+            ul#myTabDrop1-contents.dropdown-menu(aria-labelledby='myTabDrop1')
+                li
+                    a#dropdown1-tab(href='#dropdown1', role='tab', data-toggle='tab', aria-controls='dropdown1') @fat
+                li
+                    a#dropdown2-tab(href='#dropdown2', role='tab', data-toggle='tab', aria-controls='dropdown2') @mdo
+    #myTabContent.tab-content
+        #home.tab-pane.fade.in.active(role='tabpanel', aria-labelledby='home-tab')
+            p
+                | Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+        #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
+            p
+                | Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+        #dropdown1.tab-pane.fade(role='tabpanel', aria-labelledby='dropdown1-tab')
+            p
+                | Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
+        #dropdown2.tab-pane.fade(role='tabpanel', aria-labelledby='dropdown2-tab')
+            p
+                | Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.

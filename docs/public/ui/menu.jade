@@ -1,12 +1,78 @@
-nav.nav.pure-g
+h2 Bootstrap 导航
 
+nav.navbar.navbar-default
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            div.navbar-brand-wrap
+                a.navbar-brand(href='#') Brand
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+                li.active
+                    a(href='#')
+                        | Link
+                        span.sr-only (current)
+                li
+                    a(href='#') Link
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Dropdown
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='#') Action
+                        li
+                            a(href='#') Another action
+                        li
+                            a(href='#') Something else here
+                        li.divider(role='separator')
+                        li
+                            a(href='#') Separated link
+                        li.divider(role='separator')
+                        li
+                            a(href='#') One more separated link
+            .pure-form.pure-input-group.nav-form
+                input.form-input(type='text', placeholder='用户名')
+                button.pure-button.button-primary 搜索
+
+            ul.nav.navbar-nav.navbar-right
+                li
+                    a(href='#') Link
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Dropdown
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='#') Action
+                        li
+                            a(href='#') Another action
+                        li
+                            a(href='#') Something else here
+                        li.divider(role='separator')
+                        li
+                            a(href='#') Separated link
+        // /.navbar-collapse
+    // /.container-fluid
+
+
+
+h2  SuperFish 导航
+
+nav.pure-nav.pure-g
     div.pure-u-1-6
-        div.nav-left
-            h1.site-title.nav-brand
+        div.pure-nav-left
+            h1.site-title.pure-nav-brand
                 a Wizhi CMS
 
     div.pure-u-5-6
-        div.nav-right.nav-menu.text-right
+        div.pure-nav-right.pure-nav-menu.text-right
 
             ul#sample-menu-1.sf-menu.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
                 li.current
@@ -91,8 +157,6 @@ nav.nav.pure-g
                                     a(href='#') 太空探索计划
                 li
                     a(href='#') 服务项目
-                li
-                    a(href='#') 资质荣誉
                 li
                     a(href='#') 关于我们
                 li
@@ -188,17 +252,15 @@ ul.sf-menu.sf-vertical.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
 
 script.
     jQuery(document).ready(function () {
-        jQuery('ul.sf-menu').superfish(
-            {
-                popUpSelector: 'ul,.sf-mega',
-                hoverClass: 'sfHover',
-                pathClass: 'overideThisToUse',
-                pathLevels: 1,
-                delay: 0,
-                animation: {opacity: 'show'},
-                animationOut: {opacity: 'hide'},
-                speed: 'normal',
-                speedOut: 'fast'
-            }
-        );
+        jQuery('ul.sf-menu').superfish({
+            popUpSelector: 'ul,.sf-mega',
+            hoverClass: 'sfHover',
+            pathClass: 'overideThisToUse',
+            pathLevels: 1,
+            delay: 0,
+            animation: {opacity: 'show'},
+            animationOut: {opacity: 'hide'},
+            speed: 'normal',
+            speedOut: 'fast'
+        });
     });

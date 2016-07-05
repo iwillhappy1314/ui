@@ -13,7 +13,8 @@
     "bxslider-4": "4.2.3",
     "superfish": "^1.7.9",
     "Snap.js": "snap.js#^1.9.3",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "bootstrap": "^3.3.6"
   },
   "overrides": {
     "modernizr": {
@@ -27,6 +28,16 @@
     },
     "Snap.js": {
       "main": "./snap.js"
+    },
+    "bootstrap": {
+      "main": [
+        "./js/transition.js",
+        "./js/collapse.js",
+        "./js/dropdown.js",
+        "./js/tooltip.js",
+        "./js/popover.js",
+        "./js/tab.js"
+      ]
     }
   },
   "resolutions": {
