@@ -15,6 +15,11 @@
       ],
       "main": true
     },
+    "responsive.css": {
+      "files": [
+        "styles/responsive.less"
+      ]
+    },
     "demo.css": {
       "files": [
         "styles/demo.less"
