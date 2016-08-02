@@ -9,8 +9,7 @@ nav.navbar.navbar-default
                 span.icon-bar
                 span.icon-bar
                 span.icon-bar
-            div.navbar-brand-wrap
-                a.navbar-brand(href='#') Brand
+            a.navbar-brand(href='#') Brand
         // Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
             ul.nav.navbar-nav
@@ -37,10 +36,10 @@ nav.navbar.navbar-default
                         li.divider(role='separator')
                         li
                             a(href='#') One more separated link
-            .pure-form.pure-input-group.nav-form
-                input.form-input(type='text', placeholder='用户名')
-                button.pure-button.button-primary 搜索
-
+            form.navbar-form.navbar-left(role='search')
+                .form-group
+                    input.form-control(type='text', placeholder='Search')
+                button.btn.btn-default(type='submit') Submit
             ul.nav.navbar-nav.navbar-right
                 li
                     a(href='#') Link
@@ -62,14 +61,13 @@ nav.navbar.navbar-default
     // /.container-fluid
 
 
-
 h2  SuperFish 导航
 
 nav.pure-nav.pure-g
     div.pure-u-1-6
         div.pure-nav-left
             h1.site-title.pure-nav-brand
-                a.navbar-brand Wizhi CMS
+                a.pure-nav-brand Wizhi CMS
 
     div.pure-u-5-6
         div.pure-nav-right.pure-nav-menu.text-right
