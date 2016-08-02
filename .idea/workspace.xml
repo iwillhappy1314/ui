@@ -2,10 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d173f3-53a1-4f5d-9dd9-11ee3b22b0b9" name="Default" comment="移动导航优化">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/components/_overlay.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_animate.less" afterPath="$PROJECT_DIR$/assets/styles/components/_animate.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/pure/buttons.less" afterPath="$PROJECT_DIR$/assets/styles/pure/buttons.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/icons/dummy-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/bxslider.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/html5shiv.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/respond.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/snap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/superfish.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/demo.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/font.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/old.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/responsive.css.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/sprite.png" afterPath="$PROJECT_DIR$/dist/images/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/images/sprite.png" afterPath="$PROJECT_DIR$/docs/www/dist/images/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/_sprite.less" afterPath="$PROJECT_DIR$/assets/styles/_sprite.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/bootstrap.less" afterPath="$PROJECT_DIR$/assets/styles/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_menu.less" afterPath="$PROJECT_DIR$/assets/styles/components/_menu.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_overlay.less" afterPath="$PROJECT_DIR$/assets/styles/components/_overlay.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_snap.less" afterPath="$PROJECT_DIR$/assets/styles/components/_snap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/ui.less" afterPath="$PROJECT_DIR$/assets/styles/ui.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/bxslider.js" afterPath="$PROJECT_DIR$/dist/scripts/bxslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/html5shiv.js" afterPath="$PROJECT_DIR$/dist/scripts/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js" afterPath="$PROJECT_DIR$/dist/scripts/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js" afterPath="$PROJECT_DIR$/dist/scripts/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/respond.js" afterPath="$PROJECT_DIR$/dist/scripts/respond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/superfish.js" afterPath="$PROJECT_DIR$/dist/scripts/superfish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/demo.css" afterPath="$PROJECT_DIR$/dist/styles/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/font.css" afterPath="$PROJECT_DIR$/dist/styles/font.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/old.css" afterPath="$PROJECT_DIR$/dist/styles/old.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/responsive.css" afterPath="$PROJECT_DIR$/dist/styles/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/_layout.jade" afterPath="$PROJECT_DIR$/docs/public/_layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/menu.jade" afterPath="$PROJECT_DIR$/docs/public/ui/menu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/404.html" afterPath="$PROJECT_DIR$/docs/www/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/manifest.json" afterPath="$PROJECT_DIR$/docs/www/assets/manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/_sprite.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/_sprite.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/bootstrap.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_animate.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_animate.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_media.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_media.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_menu.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_menu.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_snap.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_snap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/pure/buttons.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/pure/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/ui.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/ui.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" afterPath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/styles/main.css" afterPath="$PROJECT_DIR$/docs/www/dist/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/index.html" afterPath="$PROJECT_DIR$/docs/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/alert.html" afterPath="$PROJECT_DIR$/docs/www/ui/alert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/box.html" afterPath="$PROJECT_DIR$/docs/www/ui/box.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/button.html" afterPath="$PROJECT_DIR$/docs/www/ui/button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/card.html" afterPath="$PROJECT_DIR$/docs/www/ui/card.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/dropdown.html" afterPath="$PROJECT_DIR$/docs/www/ui/dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/form.html" afterPath="$PROJECT_DIR$/docs/www/ui/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/grid.html" afterPath="$PROJECT_DIR$/docs/www/ui/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/list.html" afterPath="$PROJECT_DIR$/docs/www/ui/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/media.html" afterPath="$PROJECT_DIR$/docs/www/ui/media.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/menu.html" afterPath="$PROJECT_DIR$/docs/www/ui/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/modal.html" afterPath="$PROJECT_DIR$/docs/www/ui/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/offside.html" afterPath="$PROJECT_DIR$/docs/www/ui/offside.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/pager.html" afterPath="$PROJECT_DIR$/docs/www/ui/pager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/slider.html" afterPath="$PROJECT_DIR$/docs/www/ui/slider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/tab.html" afterPath="$PROJECT_DIR$/docs/www/ui/tab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/table.html" afterPath="$PROJECT_DIR$/docs/www/ui/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/toggle.html" afterPath="$PROJECT_DIR$/docs/www/ui/toggle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/ui/tooltip.html" afterPath="$PROJECT_DIR$/docs/www/ui/tooltip.html" />
     </list>
     <ignored path="css.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +92,62 @@
     <favorites_list name="css.com" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="media.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/public/ui/media.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1369863">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/public/ui/menu.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6367925">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_layout.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/public/_layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_menu.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.publish/assets/styles/components/_menu.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-65.625">
+              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -45,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/public/ui/card.jade" />
         <option value="$PROJECT_DIR$/assets/styles/_global.less" />
         <option value="$PROJECT_DIR$/docs/public/ui/button.jade" />
         <option value="$PROJECT_DIR$/assets/styles/components/_media.less" />
@@ -53,15 +168,12 @@
         <option value="$PROJECT_DIR$/assets/scripts/plugins/dropit.js" />
         <option value="$PROJECT_DIR$/assets/styles/_bootvar.less" />
         <option value="$PROJECT_DIR$/bower_components/bootstrap/less/navbar.less" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/assets/styles/main.less" />
         <option value="$PROJECT_DIR$/assets/styles/components/_form.less" />
         <option value="$PROJECT_DIR$/docs/public/ui/tab.jade" />
         <option value="$PROJECT_DIR$/docs/public/ui/bootstrap.jade" />
         <option value="$PROJECT_DIR$/docs/public/ui/_data.json" />
         <option value="$PROJECT_DIR$/assets/scripts/main.js" />
-        <option value="$PROJECT_DIR$/assets/styles/bootstrap.less" />
-        <option value="$PROJECT_DIR$/docs/public/ui/menu.jade" />
         <option value="$PROJECT_DIR$/docs/public/ui/tooltip.jade" />
         <option value="$PROJECT_DIR$/docs/public/ui/dropdown.jade" />
         <option value="$PROJECT_DIR$/assets/styles/demo.less" />
@@ -92,10 +204,14 @@
         <option value="$PROJECT_DIR$/assets/styles/ui.less" />
         <option value="$PROJECT_DIR$/assets/styles/responsive.less" />
         <option value="$PROJECT_DIR$/assets/styles/grid-old.less" />
-        <option value="$PROJECT_DIR$/docs/public/_layout.jade" />
         <option value="$PROJECT_DIR$/assets/manifest.json" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_overlay.less" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_overlay.less" />
+        <option value="$PROJECT_DIR$/assets/styles/bootstrap.less" />
+        <option value="$PROJECT_DIR$/docs/public/ui/menu.jade" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/docs/public/_layout.jade" />
+        <option value="$PROJECT_DIR$/.publish/assets/styles/components/_menu.less" />
       </list>
     </option>
   </component>
@@ -257,17 +373,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1877" height="1177" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2239782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15040872" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3302668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3698252" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38914442" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -276,7 +393,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -308,34 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_form.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/button-groups.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_button.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79710144">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4852941">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/components/_wordpress.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16176471">
@@ -343,24 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/main.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -490,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3810" selection-start-line="0" selection-start-column="3810" selection-end-line="0" selection-end-column="3810" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/old.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -508,20 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.916667">
           <caret line="496" column="1" selection-start-line="496" selection-start-column="1" selection-end-line="496" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/public/_layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6210526">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -560,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_overlay.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031380754">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/pure/grid.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9824841">
@@ -602,34 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_alert.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.02388535">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_animate.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_badage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_box.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1910828">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/components/_card.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.43312103">
@@ -660,8 +678,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1369863">
+        <state vertical-scroll-proportion="0.22222222">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_overlay.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.333334">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_alert.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.1666665">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_animate.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_badage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_box.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43307087">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_button.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6771654">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5377009">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/public/ui/media.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/public/_layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.publish/assets/styles/components/_menu.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-65.625">
+          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/public/ui/menu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6367925">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="40" />
           <folding />
         </state>
       </provider>

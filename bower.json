@@ -12,7 +12,6 @@
     "html5shiv": "~3.7.2",
     "bxslider-4": "4.2.3",
     "superfish": "^1.7.9",
-    "Snap.js": "snap.js#^1.9.3",
     "font-awesome": "^4.6.3",
     "bootstrap": "^3.3.6",
     "respond": "^1.4.2"
@@ -26,9 +25,6 @@
     },
     "superfish": {
       "main": "./dist/js/superfish.js"
-    },
-    "Snap.js": {
-      "main": "./snap.js"
     },
     "bootstrap": {
       "main": [
