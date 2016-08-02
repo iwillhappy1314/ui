@@ -1,79 +1,52 @@
-table.pure-table
-      thead
-        tr
-          th #
-          th 姓名
-          th 年龄
-          th 班级
-      tbody
-        tr
-          td 1
-          td 李大钊
-          td 120
-          td 一连3班
-        tr
-          td 2
-          td 张无忌
-          td 1250
-          td 1班
-        tr
-          td 3
-          td 黄飞鸿
-          td 230
-          td 超级班
+table.table.table-bordered
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      th(scope='row') 1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      th(scope='row') 2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      th(scope='row') 3
+      td Larry
+      td the Bird
+      td @twitter
 
 
 
+h2 鼠标悬停
 
-h2.typo-h2 有边框
-
-table.pure-table.pure-table-bordered
-      thead
-        tr
-          th #
-          th 姓名
-          th 年龄
-          th 班级
-      tbody
-        tr
-          td 1
-          td 李大钊
-          td 120
-          td 一连3班
-        tr
-          td 2
-          td 张无忌
-          td 1250
-          td 1班
-        tr
-          td 3
-          td 黄飞鸿
-          td 230
-          td 超级班
-
-
-h2.typo-h2 横向边框
-
-table.pure-table.pure-table-horizontal
-      thead
-        tr
-          th #
-          th 姓名
-          th 年龄
-          th 班级
-      tbody
-        tr
-          td 1
-          td 李大钊
-          td 120
-          td 一连3班
-        tr
-          td 2
-          td 张无忌
-          td 1250
-          td 1班
-        tr
-          td 3
-          td 黄飞鸿
-          td 230
-          td 超级班
+.bs-example(data-example-id='hoverable-table')
+  table.table.table-hover
+    thead
+      tr
+        th #
+        th First Name
+        th Last Name
+        th Username
+    tbody
+      tr
+        th(scope='row') 1
+        td Mark
+        td Otto
+        td @mdo
+      tr
+        th(scope='row') 2
+        td Jacob
+        td Thornton
+        td @fat
+      tr
+        th(scope='row') 3
+        td Larry
+        td the Bird
+        td @twitter

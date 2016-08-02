@@ -103,27 +103,27 @@ var cssTasks = function (filename) {
         .pipe(cssNano, {
             safe: true
         })
-        .pipe(pxtorem, {
-            rootValue: 16,
-            propWhiteList: ['font',
-                'padding',
-                'padding-left',
-                'padding-right',
-                'padding-top',
-                'padding-bottom',
-                'margin',
-                'margin-left',
-                'margin-right',
-                'margin-top',
-                'margin-bottom',
-                'width',
-                'height',
-                'line-height',
-                'max-width',
-                'font-size',
-                'letter-spacing'],
-            replace: false
-        })
+        //.pipe(pxtorem, {
+        //    rootValue: 16,
+        //    propWhiteList: ['font',
+        //        'padding',
+        //        'padding-left',
+        //        'padding-right',
+        //        'padding-top',
+        //        'padding-bottom',
+        //        'margin',
+        //        'margin-left',
+        //        'margin-right',
+        //        'margin-top',
+        //        'margin-bottom',
+        //        'width',
+        //        'height',
+        //        'line-height',
+        //        'max-width',
+        //        'font-size',
+        //        'letter-spacing'],
+        //    replace: false
+        //})
         .pipe(function () {
             return gulpif(enabled.rev, rev());
         })
@@ -139,14 +139,20 @@ var cssTasks = function (filename) {
  * 复制生成的前端文件到 halp 目录
  */
 gulp.task('copy', function () {
-    var paths = [{
-        src: 'dist/**/*',
-        dest: 'docs/www/dist/'
-    },
+    var paths = [
+        {
+            src: 'dist/**/*',
+            dest: 'docs/www/dist/'
+        },
         {
             src: 'assets/**/*',
             dest: 'docs/www/assets/'
-        },];
+        },
+        {
+            src: 'bower_components/**/*',
+            dest: 'docs/www/bower_components/'
+        },
+    ];
     return copy2(paths);
 });
 

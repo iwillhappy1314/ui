@@ -1,9 +1,18 @@
-ul.ui-paginator
-    li
-        span.pure-button 页 1 / 2
-    li
-        span.pure-button.pure-button-active 1
-    li
-        a.pure-button(href='#') 2
-    li
-        a.pure-button.next(href='#') >
+nav
+    ul.pagination
+        li
+            a(href='#', aria-label='Previous')
+                span(aria-hidden='true') «
+        li
+            a(href='#') 1
+        li
+            a(href='#') 2
+        li.active
+            a(href='#') 3
+        li
+            a(href='#') 4
+        li
+            a(href='#') 5
+        li
+            a(href='#', aria-label='Next')
+                span(aria-hidden='true') »

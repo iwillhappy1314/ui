@@ -1,62 +1,32 @@
-a.pure-button(href='#') 默认按钮
-button.pure-button 默认按钮
+h2 按钮状态
 
-h2.typo-h2 已禁用按钮
-
-a.pure-button.pure-button-disabled(href='#') 不能点
-button.pure-button.pure-button-disabled 不能点
-
-h2.typo-h2 激活状态
-
-a.pure-button.pure-button-active(href='#') 激活状态
-button.pure-button.pure-button-active 激活状态
-
-h2.typo-h2 不同颜色
-
-button.pure-button.button-primary 主要按钮
-button.pure-button.button-secondary 次要按钮
-button.pure-button.button-success 成功按钮
-button.pure-button.button-warning 警告按钮
-button.pure-button.button-error 错误按钮
-button.pure-button.button-error.loading 错误按钮
-
-h2.typo-h2 链接按钮
-a.pure-button.button-primary 主要按钮
-a.pure-button.button-secondary 次要按钮
-a.pure-button.button-success 成功按钮
-a.pure-button.button-warning 警告按钮
-a.pure-button.button-error 错误按钮
-
-h2.typo-h2 不同大小
-a.pure-button.button-xsmall 主要按钮
-a.pure-button.button-small 次要按钮
-a.pure-button 成功按钮
-a.pure-button.button-large 警告按钮
-a.pure-button.button-xlarge 错误按钮
-
-h2.typo-h2 按钮组
-div.pure-button-group
-    a.pure-button.button-primary 左对齐
-    a.pure-button.button-primary 右对齐
-    a.pure-button.button-primary 两端对齐
-    a.pure-button.button-primary 左右浮动
+// Standard button
+button.btn.btn-default(type='button') （默认样式）Default
+// Provides extra visual weight and identifies the primary action in a set of buttons
+button.btn.btn-primary(type='button') （首选项）Primary
+// Indicates a successful or positive action
+button.btn.btn-success(type='button') （成功）Success
+// Contextual button for informational alert messages
+button.btn.btn-info(type='button') （一般信息）Info
+// Indicates caution should be taken with this action
+button.btn.btn-warning(type='button') （警告）Warning
+// Indicates a dangerous or potentially negative action
+button.btn.btn-danger(type='button') （危险）Danger
+// Deemphasize a button by making it look like a link while maintaining button behavior
+button.btn.btn-link(type='button') （链接）Link
 
 
-h2.typo-h2 按钮组 Or
-div.pure-button-group
-    a.pure-button.button-primary 左对齐
-    .or
-    a.pure-button.button-primary 右对齐
+h2 按钮尺寸
 
-
-h2.typo-h2 按钮组 Or
-div.pure-button-group
-    a.pure-button.button-primary 左对齐
-    .or
-    a.pure-button.button-primary 右对齐
-
-
-h2.typo-h2 按钮组 Label
-div.pure-button-group
-    a.pure-button.button-primary 左对齐
-    a.pure-button.point 1,048
+p
+    button.btn.btn-primary.btn-lg(type='button') （大按钮）Large button
+    button.btn.btn-default.btn-lg(type='button') （大按钮）Large button
+p
+    button.btn.btn-primary(type='button') （默认尺寸）Default button
+    button.btn.btn-default(type='button') （默认尺寸）Default button
+p
+    button.btn.btn-primary.btn-sm(type='button') （小按钮）Small button
+    button.btn.btn-default.btn-sm(type='button') （小按钮）Small button
+p
+    button.btn.btn-primary.btn-xs(type='button') （超小尺寸）Extra small button
+    button.btn.btn-default.btn-xs(type='button') （超小尺寸）Extra small button

@@ -1,113 +1,91 @@
-form.pure-form
-      fieldset
-        legend 紧凑行内表单
-        input(type='email', placeholder='电子邮件')
-        input(type='password', placeholder='密码')
-        button.pure-button.button-primary(type='submit') 登录
+form
+    .form-group
+        label(for='exampleInputEmail1') Email address
+        input#exampleInputEmail1.form-control(type='email', placeholder='Email')
+    .form-group
+        label(for='exampleInputPassword1') Password
+        input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+    .form-group
+        label(for='exampleInputFile') File input
+        input#exampleInputFile(type='file')
+        p.help-block Example block-level help text here.
+    .checkbox
+        label
+            input(type='checkbox')
+            |  Check me out
+    button.btn.btn-default(type='submit') Submit
 
 
-h2.typo-h2 垂直表单
+h2 内联表单
 
-form.pure-form.pure-form-stacked
-      fieldset
-        legend 垂直表单
-        label(for='email') 电子邮件
-        input#email(type='email', placeholder='电子邮件')
-        label(for='password') 密码
-        input#password(type='password', placeholder='密码')
-        label(for='state') 省份
-        select#state
-          option 河南
-          option 河北
-          option 河西
-        label.pure-checkbox(for='remember')
-          input#remember(type='checkbox')
-          |  记住我
-        button.pure-button.button-primary(type='submit') 登录
+form.form-inline
+    .form-group
+        label(for='exampleInputName2') Name
+        input#exampleInputName2.form-control(type='text', placeholder='Jane Doe')
+    .form-group
+        label(for='exampleInputEmail2') Email
+        input#exampleInputEmail2.form-control(type='email', placeholder='jane.doe@example.com')
+    button.btn.btn-default(type='submit') Send invitation
 
 
-h2.typo-h2 左对齐表单
-
-form.pure-form.pure-form-aligned
-    fieldset
-        .pure-control-group
-            label(for='name') 用户名
-            input#name(type='text', placeholder='用户名')
-        .pure-control-group
-            label(for='password') 密码
-            input#password(type='password', placeholder='密码')
-        .pure-control-group
-            label(for='email') 电子邮件
-            input#email(type='email', placeholder='电子邮件')
-        .pure-control-group
-            label(for='foo') 介绍文字
-            input#foo(type='text', placeholder='介绍文字...')
-        .pure-controls
-            label.pure-checkbox(for='cb')
-                input#cb(type='checkbox')
-                |  接受条款
-            button.pure-button.button-primary(type='submit') 提交
+form.form-inline
+    .form-group
+        label.sr-only(for='exampleInputAmount') Amount (in dollars)
+        .input-group
+            .input-group-addon $
+            input#exampleInputAmount.form-control(type='text', placeholder='Amount')
+            .input-group-addon .00
+    button.btn.btn-primary(type='submit') Transfer cash
 
 
 
-
-h2.typo-h2 多行表单
-
-form.pure-form.pure-form-stacked
-      fieldset
-        legend 表单标题
-        .pure-g
-          .pure-u-1.pure-u-md-1-3
-            label(for='first-name') 姓氏
-            input#first-name.pure-u-23-24(type='text')
-          .pure-u-1.pure-u-md-1-3
-            label(for='last-name') 名称
-            input#last-name.pure-u-23-24(type='text')
-          .pure-u-1.pure-u-md-1-3
-            label(for='email') 电子邮件
-            input#email.pure-u-23-24(type='email', required='')
-          .pure-u-1.pure-u-md-1-3
-            label(for='city') 城市
-            input#city.pure-u-23-24(type='text')
-          .pure-u-1.pure-u-md-1-3
-            label(for='state') 省份
-            select#state.pure-input-1-2
-              option 河南
-              option 河北
-              option 河西
-        label.pure-checkbox(for='terms')
-          input#terms(type='checkbox')
-          |  接受条款
-        button.pure-button.button-primary(type='submit') 提交
+h2 水平排列
 
 
-h2.typo-h2 表单组
+form.form-horizontal
+    .form-group
+        label.col-sm-2.control-label(for='inputEmail3') Email
+        .col-sm-10
+            input#inputEmail3.form-control(type='email', placeholder='Email')
+    .form-group
+        label.col-sm-2.control-label(for='inputPassword3') Password
+        .col-sm-10
+            input#inputPassword3.form-control(type='password', placeholder='Password')
+    .form-group
+        .col-sm-offset-2.col-sm-10
+            .checkbox
+                label
+                    input(type='checkbox')
+                    |  Remember me
+    .form-group
+        .col-sm-offset-2.col-sm-10
+            button.btn.btn-default(type='submit') Sign in
 
-form.pure-form
-      fieldset.pure-group
-        input.pure-input-1-2(type='text', placeholder='用户名')
-        input.pure-input-1-2(type='text', placeholder='密码')
-        input.pure-input-1-2(type='email', placeholder='电子邮件')
-      fieldset.pure-group
-        input.pure-input-1-2(type='text', placeholder='标题')
-      button.pure-button.pure-input-1-2.button-primary(type='submit') 登录
 
 
-h2.typo-h2 表单字段组
+h2 校验状态
 
-div.pure-form.pure-input-group
-    span.input-addon @slack.com
-    input.form-input(type='text', placeholder='用户名')
-
-p.sep
-
-div.pure-form.pure-input-group
-    input.form-input(type='text', placeholder='用户名')
-    span.input-addon @slack.com
-
-p.sep
-
-div.pure-form.pure-input-group
-    span.input-addon @slack.com
-    input.form-input(type='text', placeholder='用户名')
-    button.pure-button.button-primary 搜索
+.form-group.has-success
+    label.control-label(for='inputSuccess1') Input with success
+    input#inputSuccess1.form-control(type='text')
+.form-group.has-warning
+    label.control-label(for='inputWarning1') Input with warning
+    input#inputWarning1.form-control(type='text')
+.form-group.has-error
+    label.control-label(for='inputError1') Input with error
+    input#inputError1.form-control(type='text')
+.has-success
+    .checkbox
+        label
+            input#checkboxSuccess(type='checkbox', value='option1')
+            |       Checkbox with success
+.has-warning
+    .checkbox
+        label
+            input#checkboxWarning(type='checkbox', value='option1')
+            |       Checkbox with warning
+.has-error
+    .checkbox
+        label
+            input#checkboxError(type='checkbox', value='option1')
+            |       Checkbox with error
