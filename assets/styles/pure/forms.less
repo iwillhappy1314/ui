@@ -24,20 +24,20 @@ so we can ignore the csslint warning.
 .pure-form textarea {
     .inline-block;
     padding: 6px 12px;
-    border: 1px solid @border-color;
+    border: 1px solid @gray-lighter;
     box-shadow: inset 0 1px 3px #ddd;
     box-sizing: border-box;
-    border-radius: @border-radius;
+    border-radius: @border-radius-small;
     vertical-align: middle;
     line-height: 1.4;
     font-size: inherit;
     &:focus {
         outline: 0;
-        border-color: @maincolor;
+        border-color: @brand-primary;
     }
     &[disabled] {
         cursor: not-allowed;
-        background-color: @background;
+        background-color: #f5f5f5;
         color: #cad2d3;
     }
 }
@@ -57,11 +57,11 @@ so we can ignore the csslint warning.
         padding: 0.3em 0;
         margin-bottom: 0.3em;
         color: #333;
-        border-bottom: 1px solid @border-color;
+        border-bottom: 1px solid @gray-lighter;
     }
     select {
         height: 2.25em;
-        border: 1px solid @border-color;
+        border: 1px solid @gray-lighter;
         background-color: white;
         &[multiple] {
             height: auto;
@@ -82,15 +82,15 @@ so we can ignore the csslint warning.
             padding: 6px 12px;
             border: 1px solid #ccc;
             box-sizing: border-box;
-            border-radius: @border-radius;
+            border-radius: @border-radius-base;
             &[disabled] {
                 cursor: not-allowed;
-                background-color: @background;
-                color: @text-lighter;
+                background-color: #f5f5f5;
+                color: @gray-light;
             }
             &:focus {
                 outline: 0;
-                border-color: @maincolor
+                border-color: @brand-primary
             }
         }
 
@@ -98,8 +98,8 @@ so we can ignore the csslint warning.
         &[type="radio"],
         &[type="checkbox"] {
             &:focus {
-                outline: thin solid @maincolor;
-                outline: 1px auto @maincolor;
+                outline: thin solid @brand-primary;
+                outline: 1px auto @brand-primary;
                 &:invalid:focus {
                     outline-color: #e9322d;
                 }
@@ -115,9 +115,9 @@ so we can ignore the csslint warning.
     select,
     textarea {
         &[readonly] {
-            background-color: @background;
-            color: @text-lighter;
-            border-color: darken(@background, 10%);
+            background-color: #f5f5f5;
+            color: @gray-light;
+            border-color: darken(#f5f5f5, 10%);
         }
         &:focus:invalid {
             color: #b94a48;
@@ -152,17 +152,17 @@ so we can ignore the csslint warning.
             }
             &:first-child {
                 top: 1px;
-                border-radius: @border-radius @border-radius 0 0;
+                border-radius: @border-radius-base @border-radius-base 0 0;
                 margin: 0;
             }
             &:last-child {
                 top: -2px;
-                border-radius: 0 0 @border-radius @border-radius;
+                border-radius: 0 0 @border-radius-base @border-radius-base;
                 margin: 0;
             }
             &:first-child:last-child {
                 top: 1px;
-                border-radius: @border-radius;
+                border-radius: @border-radius-base;
                 margin: 0;
             }
         }
@@ -253,7 +253,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form-message-inline {
     .inline-block;
     padding-left: 3px;
-    color: @text-lighter;
+    color: @gray-light;
     vertical-align: middle;
     font-size: 8.75px;
 }
@@ -261,6 +261,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 // 块状帮助信息
 .pure-form-message {
     display: block;
-    color: @text-lighter;
+    color: @gray-light;
     font-size: 8.75px;
 }
