@@ -1,15 +1,37 @@
+h2 单按钮下拉菜单
+
 // Single button
-.pure-button-group
-    button.pure-button.button-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-        | 点击显示下拉菜单
-        span.caret
-    ul.dropdown-menu
-        li
-            a(href='#') Action
-        li
-            a(href='#') Another action
-        li
-            a(href='#') Something else here
-        li.divider(role='separator')
-        li
-            a(href='#') Separated link
+.btn-group
+  button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+    | Action 
+    span.caret
+  ul.dropdown-menu
+    li
+      a(href='#') Action
+    li
+      a(href='#') Another action
+    li
+      a(href='#') Something else here
+    li.divider(role='separator')
+    li
+      a(href='#') Separated link
+
+
+h2 分裂式按钮下拉菜单
+
+// Split button
+.btn-group
+  button.btn.btn-danger(type='button') Action
+  button.btn.btn-danger.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+    span.caret
+    span.sr-only Toggle Dropdown
+  ul.dropdown-menu
+    li
+      a(href='#') Action
+    li
+      a(href='#') Another action
+    li
+      a(href='#') Something else here
+    li.divider(role='separator')
+    li
+      a(href='#') Separated link
