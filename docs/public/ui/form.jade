@@ -1,28 +1,36 @@
-form
-    .form-group
-        label(for='exampleInputEmail1') Email address
-        input#exampleInputEmail1.form-control(type='email', placeholder='Email')
-    .form-group
-        label(for='exampleInputPassword1') Password
-        input#exampleInputPassword1.form-control(type='password', placeholder='Password')
-    .form-group
-        label(for='exampleInputFile') File input
-        input#exampleInputFile(type='file')
-        p.help-block Example block-level help text here.
-    .checkbox
-        label
-            input(type='checkbox')
-            |  Check me out
-    button.btn.btn-default(type='submit') Submit
+.ui-box
+    .ui-box-head
+        h3.ui-box-head-title 面朝大海 春暖花开
+        span.ui-box-head-text 海子
+            a.ui-box-head-more(href="#") 更多
+
+    .ui-box-container
+        .ui-box-content
+            form
+                .form-group
+                    label(for='exampleInputEmail1') 电子邮件
+                    input#exampleInputEmail1.form-control(type='email', placeholder='Email')
+                .form-group
+                    label(for='exampleInputPassword1') 密码
+                    input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+                .form-group
+                    label(for='exampleInputFile') 头像
+                    input#exampleInputFile(type='file')
+                    p.help-block Example block-level help text here.
+                .checkbox
+                    label
+                        input(type='checkbox')
+                        |  同意使用条款
+                button.btn.btn-default(type='submit') 提交
 
 
-h2 内联表单
+h2.typo-h2 内联表单
 
 form.form-inline
     .form-group
         label(for='exampleInputName2') Name
-        input#exampleInputName2.form-control(type='text', placeholder='Jane Doe')
-    .form-group
+        input#exampleInputName2.form-control(type='text', placeholder = 'Jane Doe')
+        .form-group
         label(for='exampleInputEmail2') Email
         input#exampleInputEmail2.form-control(type='email', placeholder='jane.doe@example.com')
     button.btn.btn-default(type='submit') Send invitation
@@ -39,7 +47,7 @@ form.form-inline
 
 
 
-h2 水平排列
+h2.typo-h2 水平排列
 
 
 form.form-horizontal
@@ -63,7 +71,7 @@ form.form-horizontal
 
 
 
-h2 校验状态
+h2.typo-h2 校验状态
 
 .form-group.has-success
     label.control-label(for='inputSuccess1') Input with success
