@@ -2,624 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d173f3-53a1-4f5d-9dd9-11ee3b22b0b9" name="Default" comment="移动导航优化">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/bullets-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/bullets-gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/bullets-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/bullets-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/closedhand.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dashed-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dashed-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dashed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dotted-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dotted-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/dotted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/double-line-dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/double-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/full-screen-overlay-nav-close-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/full-screen-overlay-nav-close-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/highlight-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/highlight-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/highlight-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/ls-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/ls-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/openhand.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/overlay-icon-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/overlay-icon-video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/overlay-icon-zoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/overlay-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/quote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/solid-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/icons/testimonials-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/scripts/main.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/scripts/plugins/jquery.modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/_global.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/_sprite.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/_variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_animate.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_box.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_button.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_bxslider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_card.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_helper.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_menu.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_modal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_overlay.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_site.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_snap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_toggle.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_typo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_wordpress.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/grid-old.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/pure/addon.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/pure/grid-old.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/pure/grid-responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/pure/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/assets/styles/ui.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/change-version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/npm-shrinkwrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/nuget/MyGet.ps1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/Gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/jquery.bxslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/jquery.bxslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/jquery.bxslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/vendor/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/dist/vendor/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/js/jquery.bxslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/less/jquery.bxslider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/vendor/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/bxslider-4/src/vendor/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/cache/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/css/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/MIT and GPL2 licenses.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/dist/html5shiv-printshiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/dist/html5shiv-printshiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/dist/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/dist/html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/html5shiv/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/data/accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/data/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/effects/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/event/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/deletedIds.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/var/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/jquery/src/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/a-download.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/audio-audiodata-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/audio-webaudio-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/battery-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/battery-level.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/blob-constructor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/canvas-todataurl-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/contenteditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/contentsecuritypolicy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/cors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-backgroundposition-shorthand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-backgroundposition-xy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-backgroundrepeat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-backgroundsizecover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-boxsizing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-calc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-cubicbezierrange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-displayrunin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-displaytable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-hyphens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-lastchild.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-mask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-mediaqueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-objectfit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-overflow-scrolling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-pointerevents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-positionsticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-regions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-remunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-scrollbars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-shapes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-subpixelfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-supports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-userselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-vhunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-vmaxunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-vminunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/css-vwunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/custom-protocol-handler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dataview-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dom-classlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dom-createElement-attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dom-dataset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/dom-microdata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-details.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-progress-meter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/elem-track.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/emoji.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/es5-strictmode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/event-deviceorientation-motion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/exif-orientation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/file-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/file-filesystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-fileinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-formattribute.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-inputnumber-l10n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-speechinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/forms-validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/fullscreen-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/gamepad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/getusermedia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/ie8compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/iframe-sandbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/iframe-seamless.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/iframe-srcdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/img-apng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/img-webp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/lists-reversed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/mathml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/network-connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/network-eventsource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/network-xhr2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/notification.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/performance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/pointerlock-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/quota-management-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/requestanimationframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/script-async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/script-defer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/style-scoped.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/svg-filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/unicode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/url-data-uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/userdata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/vibration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/web-intents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/webgl-extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/websockets-binary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/window-framed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/workers-blobworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/workers-dataworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/feature-detects/workers-sharedworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/grunt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/media/Modernizr 2 Logo.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/media/Modernizr 2 Logo.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/media/Modernizr 2 Logo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/media/Modernizr 2 Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/media/Modernizr 2 Logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/Windsong-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/Windsong-webfont.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/Windsong-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/Windsong-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/Windsong-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/apng_test.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/before-after.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/form_validation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/ga.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/green5x5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/hashchange.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/mathml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/mathml_ref.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/modernizr-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/png_alpha_result.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/pushstate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/red30x30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/ruby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/stroked-text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/svg-html-blur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/svg-img.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/svg-img.svg.1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/svg_blur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/text-shadow1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/text-shadow2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/windsong_font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/caniuse_files/xhtml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/dumpdata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/lib/detect-global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/lib/jquery-1.7b2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/lib/jsonselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/lib/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/lib/uaparser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/unit-caniuse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/js/unit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/qunit/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/qunit/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/modernizr/test/qunit/run-qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/LICENSE-MIT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/cross-domain/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/cross-domain/respond-proxy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/cross-domain/respond.proxy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/cross-domain/respond.proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/dest/respond.matchmedia.addListener.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/dest/respond.matchmedia.addListener.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/dest/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/dest/respond.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/src/matchmedia.addListener.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/src/matchmedia.polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/respond/src/respond.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/css/megafish.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/css/superfish-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/css/superfish-vertical.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/css/superfish.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/js/hoverIntent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/js/superfish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/js/superfish.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/dist/js/supersubs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/examples/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/examples/followed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/bower_components/superfish/examples/megamenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/bullets-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/bullets-gray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/bullets-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/bullets-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/closedhand.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dashed-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dashed-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dashed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dotted-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dotted-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/dotted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/double-line-dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/double-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/full-screen-overlay-nav-close-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/full-screen-overlay-nav-close-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/highlight-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/highlight-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/highlight-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/ls-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/ls-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/openhand.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/overlay-icon-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/overlay-icon-video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/overlay-icon-zoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/overlay-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/quote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/solid-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/icons/testimonials-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/images/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/bxslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/respond.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/superfish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/styles/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/styles/font.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/styles/old.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/dist/styles/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/box.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/card.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/pager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/www/ui/tooltip.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/public/ui/form.jade" afterPath="$PROJECT_DIR$/docs/public/ui/form.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_grid.less" afterPath="$PROJECT_DIR$/assets/styles/components/_grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_wordpress.less" afterPath="$PROJECT_DIR$/assets/styles/components/_wordpress.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_grid.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/assets/styles/components/_wordpress.less" afterPath="$PROJECT_DIR$/docs/www/assets/styles/components/_wordpress.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" afterPath="$PROJECT_DIR$/docs/www/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/www/dist/styles/main.css" afterPath="$PROJECT_DIR$/docs/www/dist/styles/main.css" />
     </list>
     <ignored path="css.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -641,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/public/ui/form.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6547619">
+            <state vertical-scroll-proportion="0.0">
               <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70247936">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -671,7 +73,6 @@
         <option value="$PROJECT_DIR$/assets/manifest.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/styles/components/_overlay.less" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.publish/assets/styles/components/_menu.less" />
         <option value="$PROJECT_DIR$/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/docs/public/ui/menu.jade" />
@@ -710,6 +111,7 @@
         <option value="$PROJECT_DIR$/docs/public/ui/pager.jade" />
         <option value="$PROJECT_DIR$/docs/harp.json" />
         <option value="$PROJECT_DIR$/docs/public/ui/form.jade" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -774,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -793,63 +194,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端框架" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端框架" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="前端框架" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -925,17 +273,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1877" height="1177" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15531336" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15694822" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3302668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61821526" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27874884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5409384" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -976,6 +324,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/public/ui/form.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/components/_snap.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1036,13 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1316,14 +665,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.124740124">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/public/ui/form.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6547619">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70247936">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>

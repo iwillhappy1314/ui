@@ -34,6 +34,8 @@
         "./js/dropdown.js",
         "./js/tooltip.js",
         "./js/popover.js",
+        "./js/buttons.js",
+        "./js/alert.js",
         "./js/tab.js"
       ]
     }
