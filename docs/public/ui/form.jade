@@ -1,8 +1,6 @@
 .ui-box
     .ui-box-head
-        h3.ui-box-head-title 面朝大海 春暖花开
-        span.ui-box-head-text 海子
-            a.ui-box-head-more(href="#") 更多
+        h3.ui-box-head-title 默认表单
 
     .ui-box-container
         .ui-box-content
@@ -26,74 +24,101 @@
 
 h2.typo-h2 内联表单
 
-form.form-inline
-    .form-group
-        label(for='exampleInputName2') Name
-        input#exampleInputName2.form-control(type='text', placeholder = 'Jane Doe')
-        .form-group
-        label(for='exampleInputEmail2') Email
-        input#exampleInputEmail2.form-control(type='email', placeholder='jane.doe@example.com')
-    button.btn.btn-default(type='submit') Send invitation
+
+.ui-box
+    .ui-box-head
+        h3.ui-box-head-title 内联表单
+
+    .ui-box-container
+        .ui-box-content
+            form.form-inline
+                .form-group
+                    label(for='exampleInputName2') Name
+                    input#exampleInputName2.form-control(type='text', placeholder = 'Jane Doe')
+                    .form-group
+                    label(for='exampleInputEmail2') Email
+                    input#exampleInputEmail2.form-control(type='email', placeholder='jane.doe@example.com')
+                button.btn.btn-default(type='submit') Send invitation
 
 
-form.form-inline
-    .form-group
-        label.sr-only(for='exampleInputAmount') Amount (in dollars)
-        .input-group
-            .input-group-addon $
-            input#exampleInputAmount.form-control(type='text', placeholder='Amount')
-            .input-group-addon .00
-    button.btn.btn-primary(type='submit') Transfer cash
+
+.ui-box
+    .ui-box-head
+        h3.ui-box-head-title 行内表单
+
+    .ui-box-container
+        .ui-box-content
+            form.form-inline
+                .form-group
+                    label.sr-only(for='exampleInputAmount') Amount (in dollars)
+                    .input-group
+                        .input-group-addon $
+                        input#exampleInputAmount.form-control(type='text', placeholder='Amount')
+                        .input-group-addon .00
+                button.btn.btn-primary(type='submit') Transfer cash
 
 
 
 h2.typo-h2 水平排列
 
 
-form.form-horizontal
-    .form-group
-        label.col-sm-2.control-label(for='inputEmail3') Email
-        .col-sm-10
-            input#inputEmail3.form-control(type='email', placeholder='Email')
-    .form-group
-        label.col-sm-2.control-label(for='inputPassword3') Password
-        .col-sm-10
-            input#inputPassword3.form-control(type='password', placeholder='Password')
-    .form-group
-        .col-sm-offset-2.col-sm-10
-            .checkbox
-                label
-                    input(type='checkbox')
-                    |  Remember me
-    .form-group
-        .col-sm-offset-2.col-sm-10
-            button.btn.btn-default(type='submit') Sign in
+.ui-box
+    .ui-box-head
+        h3.ui-box-head-title 水平排列
+
+    .ui-box-container
+        .ui-box-content
+            form.form-horizontal
+                .form-group
+                    label.col-sm-2.control-label(for='inputEmail3') Email
+                    .col-sm-10
+                        input#inputEmail3.form-control(type='email', placeholder='Email')
+                .form-group
+                    label.col-sm-2.control-label(for='inputPassword3') Password
+                    .col-sm-10
+                        input#inputPassword3.form-control(type='password', placeholder='Password')
+                .form-group
+                    .col-sm-offset-2.col-sm-10
+                        .checkbox
+                            label
+                                input(type='checkbox')
+                                |  Remember me
+                .form-group
+                    .col-sm-offset-2.col-sm-10
+                        button.btn.btn-default(type='submit') Sign in
 
 
 
 h2.typo-h2 校验状态
 
-.form-group.has-success
-    label.control-label(for='inputSuccess1') Input with success
-    input#inputSuccess1.form-control(type='text')
-.form-group.has-warning
-    label.control-label(for='inputWarning1') Input with warning
-    input#inputWarning1.form-control(type='text')
-.form-group.has-error
-    label.control-label(for='inputError1') Input with error
-    input#inputError1.form-control(type='text')
-.has-success
-    .checkbox
-        label
-            input#checkboxSuccess(type='checkbox', value='option1')
-            |       Checkbox with success
-.has-warning
-    .checkbox
-        label
-            input#checkboxWarning(type='checkbox', value='option1')
-            |       Checkbox with warning
-.has-error
-    .checkbox
-        label
-            input#checkboxError(type='checkbox', value='option1')
-            |       Checkbox with error
+
+.ui-box
+    .ui-box-head
+        h3.ui-box-head-title 表单状态
+
+    .ui-box-container
+        .ui-box-content
+            .form-group.has-success
+                label.control-label(for='inputSuccess1') Input with success
+                input#inputSuccess1.form-control(type='text')
+            .form-group.has-warning
+                label.control-label(for='inputWarning1') Input with warning
+                input#inputWarning1.form-control(type='text')
+            .form-group.has-error
+                label.control-label(for='inputError1') Input with error
+                input#inputError1.form-control(type='text')
+            .has-success
+                .checkbox
+                    label
+                        input#checkboxSuccess(type='checkbox', value='option1')
+                        |       Checkbox with success
+            .has-warning
+                .checkbox
+                    label
+                        input#checkboxWarning(type='checkbox', value='option1')
+                        |       Checkbox with warning
+            .has-error
+                .checkbox
+                    label
+                        input#checkboxError(type='checkbox', value='option1')
+                        |       Checkbox with error
