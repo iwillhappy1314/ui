@@ -15,7 +15,8 @@
     "bootstrap": "^3.3.6",
     "respond": "^1.4.2",
     "superfish": "^1.7.9",
-    "cache": "^0.0.5"
+    "cache": "^0.0.5",
+    "equalize": "^1.0.2"
   },
   "overrides": {
     "modernizr": {
