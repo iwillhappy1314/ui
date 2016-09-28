@@ -26,3 +26,26 @@
         #dropdown2.tab-pane.fade(role='tabpanel', aria-labelledby='dropdown2-tab')
             p
                 | 步骤4说明文字，说明步骤1的具体操作。
+
+
+h2.typo-h2 下划线 tab
+
+.bs-example.bs-example-tabs(data-example-id='togglable-tabs')
+    ul#myTabs.nav.nav-tabs.nav-tabs-bordered(role='tablist')
+        li.active(role='presentation')
+            a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true') 产品介绍
+        li(role='presentation')
+            a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile') 使用方法
+        li(role='presentation')
+            a#profile-tab(href='#dropdown1', role='tab', data-toggle='tab', aria-controls='dropdown1') 用户评价
+
+    #myTabContent.tab-content
+        #home.tab-pane.fade.in.active(role='tabpanel', aria-labelledby='home-tab')
+            p
+                | 步骤1说明文字，说明步骤1的具体操作。
+        #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
+            p
+                | 步骤2说明文字，说明步骤1的具体操作。
+        #dropdown1.tab-pane.fade(role='tabpanel', aria-labelledby='dropdown1-tab')
+            p
+                | 步骤3说明文字，说明步骤1的具体操作。
