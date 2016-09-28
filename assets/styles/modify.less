@@ -1,0 +1,34 @@
+ .media{
+    & + .ui-list{
+      margin-top: 10px;
+    }
+ }
+
+.media-body{
+  line-height: 1.5;
+}
+
+.nav-tabs-bordered{
+    &>li{
+        &>a{
+            &:focus,
+            &:hover{
+                outline: none;
+                border-color: transparent;
+                background: transparent;
+            }
+        }
+        &.active{
+            &>a{
+                border: 0;
+                border-bottom-color: @brand-primary;
+                &:focus,
+                &:hover{
+                    border: 0;
+                    border-bottom-color: @brand-primary;
+                }
+            }
+        }
+
+    }
+}
