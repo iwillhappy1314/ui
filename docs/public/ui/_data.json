@@ -4,7 +4,7 @@
     "date": "Feb 28, 2013"
   },
   "panel": {
-    "title": "面板",
+    "title": "面板/卡片",
     "date": "Feb 28, 2013"
   },
   "menu": {
@@ -24,11 +24,11 @@
     "date": "March 4, 2013"
   },
   "tab": {
-    "title": "标签页",
+    "title": "标签页/选项卡",
     "date": "March 4, 2013"
   },
   "pager": {
-    "title": "分页",
+    "title": "数字分页",
     "date": "March 4, 2013"
   },
   "alert": {
