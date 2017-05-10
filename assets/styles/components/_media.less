@@ -2,37 +2,47 @@
  * = 扩展 BootStrap Panel
  * ----------------------------------------------------------- */
 
-.media{
-  & + .ui-list{
+.media {
+  & + .ui-list {
     margin-top: 10px;
   }
 }
 
-.media-body{
+.media-body {
   line-height: 1.5;
 }
 
-.media{
-  .media-left{
-    .wp-post-image{
+.media {
+  .media-left {
+    .wp-post-image {
       display: block;
       max-width: initial;
     }
   }
 }
 
-
 // 响应式的 media
-.media-responsive{
+.media-responsive {
   @media screen and (max-width: @screen-md-max) {
     text-align: center;
-    .media-left{
+    .media-left {
       display: block;
       padding-right: 0;
       margin-bottom: @padding-large-vertical;
     }
-    .media-object{
+
+    .media-right {
+      display: block;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+    .media-object {
       display: inline-block;
+    }
+
+    .media-body {
+      width: auto;
     }
   }
 }
