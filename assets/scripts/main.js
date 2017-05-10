@@ -25,37 +25,6 @@ jQuery(document).ready(function ($) {
 
 
     // ---------------------------------------------------------
-    // 全选和反选
-    // ---------------------------------------------------------
-    $('#check-all').click(function (event) {
-        if (this.checked) {
-            $(".ck-item").prop("checked", true);
-        } else {
-            $(".ck-item").prop("checked", false);
-        }
-    });
-
-
-    // ---------------------------------------------------------
-    // 获取选中项的值
-    // ---------------------------------------------------------
-    function getSelectedValue() {
-
-        var data_to_string,
-            data_array = [];
-
-        $('input[name="links"]:checked').map(function () {
-            data_array.push($(this).val());
-        });
-
-        data_to_string = links_array.join('\n');
-
-        return data_to_string;
-
-    }
-
-
-    // ---------------------------------------------------------
     // accordion
     // ---------------------------------------------------------
     var all = $('.accordion > dd');
