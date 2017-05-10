@@ -20,3 +20,19 @@
     }
   }
 }
+
+
+// 响应式的 media
+.media-responsive{
+  @media screen and (max-width: @screen-md-max) {
+    text-align: center;
+    .media-left{
+      display: block;
+      padding-right: 0;
+      margin-bottom: @padding-large-vertical;
+    }
+    .media-object{
+      display: inline-block;
+    }
+  }
+}
