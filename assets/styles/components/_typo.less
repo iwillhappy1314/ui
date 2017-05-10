@@ -34,7 +34,7 @@ audio, canvas, video {
 }
 
 /* 要注意表单元素并不继承父级 font 的问题 */
-body, .pure-g [class*="pure-u"] {
+.pure-g [class*="pure-u"] {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.8;
@@ -171,28 +171,6 @@ mark {
   margin: 0 5px;
 }
 
-/* 代码片断 */
-pre, code, pre tt {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-pre {
-  background: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: 1em 1.5em;
-  display: block;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 1px;
-}
-
 /* 一致化 horizontal rule */
 hr {
   border: none;
@@ -253,12 +231,6 @@ object {
 .typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr, .typo table,
 .typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table, blockquote {
   margin-bottom: 1.2em
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-  color: @gray-dark;
-  line-height: 1.35;
 }
 
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
