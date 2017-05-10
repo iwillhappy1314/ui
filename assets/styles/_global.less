@@ -2,41 +2,355 @@
  * = 网站特殊样式
  * ----------------------------------------------------------- */
 
-body{
-    font-size: 14px;
+body {
+  font-size: 14px;
 }
 
-.demo-header{
-    background: #2d3e50;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    padding: 15px;
+.demo-header {
+  background: #2d3e50;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 9;
+  h1, h3 {
     color: #fff;
-    margin-bottom: 30px;
-    position: relative;
-    z-index: 9;
-    h1,h3{
-    	color: #fff;
-    }
+  }
 }
 
-.demo-footer{
-    border-top: 1px solid #eee;
-    padding: 15px;
-    margin-top: 30px;
+.demo-footer {
+  border-top: 1px solid #eee;
+  padding: 15px;
+  margin-top: 30px;
 }
 
-.sep{
-    margin-bottom: 15px;
+.sep {
+  margin-bottom: 15px;
 }
 
-.offside{
-    ul{
-        padding: 30px;
+.offside {
+  ul {
+    padding: 30px;
+  }
+  .col {
+    padding: 0;
+    ul {
+      padding: 0;
     }
-    .col{
-        padding: 0;
-        ul{
-            padding: 0;
-        }
-    }
+  }
+}
+
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+.btn-default:active, .btn-primary:active, .btn-success:active, .btn-info:active, .btn-warning:active, .btn-danger:active, .btn-default.active, .btn-primary.active, .btn-success.active, .btn-info.active, .btn-warning.active, .btn-danger.active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+.btn:active, .btn.active {
+  background-image: none
+}
+
+.btn-default {
+  #gradient > .vertical(#fff, #e0e0e0);
+  background-repeat: repeat-x;
+  border-color: #ccc
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px
+}
+
+.btn-default:active, .btn-default.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb
+}
+
+.btn-default:disabled, .btn-default[disabled] {
+  background-color: #e0e0e0;
+  background-image: none
+}
+
+.btn-primary {
+  #gradient > .vertical(#428bca, #2d6ca2);
+  background-repeat: repeat-x;
+  border-color: #2b669a
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #2d6ca2;
+  background-position: 0 -15px
+}
+
+.btn-primary:active, .btn-primary.active {
+  background-color: #2d6ca2;
+  border-color: #2b669a
+}
+
+.btn-primary:disabled, .btn-primary[disabled] {
+  background-color: #2d6ca2;
+  background-image: none
+}
+
+.btn-success {
+  #gradient > .vertical(#5cb85c, #419641);
+  background-repeat: repeat-x;
+  border-color: #3e8f3e
+}
+
+.btn-success:hover, .btn-success:focus {
+  background-color: #419641;
+  background-position: 0 -15px
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #419641;
+  border-color: #3e8f3e
+}
+
+.btn-success:disabled, .btn-success[disabled] {
+  background-color: #419641;
+  background-image: none
+}
+
+.btn-info {
+  #gradient > .vertical(#5bc0de, #2aabd2);
+  background-repeat: repeat-x;
+  border-color: #28a4c9
+}
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #2aabd2;
+  background-position: 0 -15px
+}
+
+.btn-info:active, .btn-info.active {
+  background-color: #2aabd2;
+  border-color: #28a4c9
+}
+
+.btn-info:disabled, .btn-info[disabled] {
+  background-color: #2aabd2;
+  background-image: none
+}
+
+.btn-warning {
+  #gradient > .vertical(#f0ad4e, #eb9316);
+  background-repeat: repeat-x;
+  border-color: #e38d13
+}
+
+.btn-warning:hover, .btn-warning:focus {
+  background-color: #eb9316;
+  background-position: 0 -15px
+}
+
+.btn-warning:active, .btn-warning.active {
+  background-color: #eb9316;
+  border-color: #e38d13
+}
+
+.btn-warning:disabled, .btn-warning[disabled] {
+  background-color: #eb9316;
+  background-image: none
+}
+
+.btn-danger {
+  #gradient > .vertical(#d9534f, #c12e2a);
+  background-repeat: repeat-x;
+  border-color: #b92c28
+}
+
+.btn-danger:hover, .btn-danger:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px
+}
+
+.btn-danger:active, .btn-danger.active {
+  background-color: #c12e2a;
+  border-color: #b92c28
+}
+
+.btn-danger:disabled, .btn-danger[disabled] {
+  background-color: #c12e2a;
+  background-image: none
+}
+
+.thumbnail, .img-thumbnail {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .075)
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #e8e8e8;
+  #gradient > .vertical(#f5f5f5, #e8e8e8);
+  background-repeat: repeat-x
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  background-color: #357ebd;
+  #gradient > .vertical(#428bca, #357ebd);
+  background-repeat: repeat-x
+}
+
+.navbar-default {
+  #gradient > .vertical(#fff, #f8f8f8);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075)
+}
+
+.navbar-default .navbar-nav > .active > a {
+  #gradient > .vertical(#ebebeb, #f3f3f3);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075)
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .25)
+}
+
+.navbar-inverse {
+  #gradient > .vertical(#3c3c3c, #222);
+  background-repeat: repeat-x
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  #gradient > .vertical(#222, #282828);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25)
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+}
+
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom {
+  border-radius: 0
+}
+
+.alert {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+.alert-success {
+  #gradient > .vertical(#dff0d8, #c8e5bc);
+  background-repeat: repeat-x;
+  border-color: #b2dba1
+}
+
+.alert-info {
+  #gradient > .vertical(#d9edf7, #b9def0);
+  background-repeat: repeat-x;
+  border-color: #9acfea
+}
+
+.alert-warning {
+  #gradient > .vertical(#fcf8e3, #f8efc0);
+  background-repeat: repeat-x;
+  border-color: #f5e79e
+}
+
+.alert-danger {
+  #gradient > .vertical(#fff2dede, #ffe7c3c3);
+  background-repeat: repeat-x;
+  border-color: #dca7a7
+}
+
+.progress {
+  #gradient > .vertical(#ebebeb, #f5f5f5);
+  background-repeat: repeat-x
+}
+
+.progress-bar {
+  #gradient > .vertical(#428bca, #3071a9);
+  background-repeat: repeat-x
+}
+
+.progress-bar-success {
+  #gradient > .vertical(#5cb85c, #449d44);
+  background-repeat: repeat-x
+}
+
+.progress-bar-info {
+  #gradient > .vertical(#5bc0de, #31b0d5);
+  background-repeat: repeat-x
+}
+
+.progress-bar-warning {
+  #gradient > .vertical(#f0ad4e, #ec971f);
+  background-repeat: repeat-x
+}
+
+.progress-bar-danger {
+  #gradient > .vertical(#d9534f, #c9302c);
+  background-repeat: repeat-x
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+.list-group {
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .075)
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  text-shadow: 0 -1px 0 #3071a9;
+  #gradient > .vertical(#428bca, #3278b3);
+  background-repeat: repeat-x;
+  border-color: #3278b3
+}
+
+.panel {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+.panel-default > .panel-heading {
+  background-image: linear-gradient(to bottom, #f5f5f5 0, #e8e8e8 100%);
+  background-repeat: repeat-x
+}
+
+.panel-primary > .panel-heading {
+  background-image: linear-gradient(to bottom, #428bca 0, #357ebd 100%);
+  background-repeat: repeat-x
+}
+
+.panel-success > .panel-heading {
+  background-image: linear-gradient(to bottom, #dff0d8 0, #d0e9c6 100%);
+  background-repeat: repeat-x
+}
+
+.panel-info > .panel-heading {
+  background-image: linear-gradient(to bottom, #d9edf7 0, #c4e3f3 100%);
+  background-repeat: repeat-x
+}
+
+.panel-warning > .panel-heading {
+  background-image: linear-gradient(to bottom, #fcf8e3 0, #faf2cc 100%);
+  background-repeat: repeat-x
+}
+
+.panel-danger > .panel-heading {
+  background-image: linear-gradient(to bottom, #f2dede 0, #ebcccc 100%);
+  background-repeat: repeat-x
+}
+
+.well {
+  background-image: linear-gradient(to bottom, #e8e8e8 0, #f5f5f5 100%);
+  background-repeat: repeat-x;
+  border-color: #dcdcdc;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1)
 }
