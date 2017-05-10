@@ -3,20 +3,12 @@
     "title": "栅格",
     "date": "Feb 28, 2013"
   },
-  "box": {
-    "title": "盒子",
-    "date": "Feb 28, 2013"
-  },
   "panel": {
     "title": "面板",
     "date": "Feb 28, 2013"
   },
-  "card": {
-    "title": "卡片",
-    "date": "Feb 28, 2013"
-  },
   "menu": {
-    "title": "菜单",
+    "title": "导航菜单",
     "date": "Feb 28, 2013"
   },
   "button": {

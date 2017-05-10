@@ -1,7 +1,16 @@
-a(href='#ex1', rel='modal:open') 打开弹窗
-    #ex1.modal.hide(style='display: none')
-        h4.modal-title 村 庄
-        a.close(href='#', rel='modal:close') ×
-        .modal-content
-            | 村庄中住着母亲和儿女, 儿子静静地长大, 母亲静静地注视. 芦花丛中, 村庄是一只白色的船, 我妹妹叫芦花, 我妹妹很美丽
-
+// Button trigger modal
+button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#myModal')
+  | Launch demo modal
+// Modal
+#myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+        h4#myModalLabel.modal-title Modal title
+      .modal-body
+        | ...
+      .modal-footer
+        button.btn.btn-default(type='button', data-dismiss='modal') Close
+        button.btn.btn-primary(type='button') Save changes

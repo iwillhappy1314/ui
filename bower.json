@@ -14,9 +14,9 @@
     "font-awesome": "^4.6.3",
     "bootstrap": "^3.3.6",
     "respond": "^1.4.2",
-    "superfish": "^1.7.9",
     "cache": "^0.0.5",
-    "equalize": "^1.0.2"
+    "equalize": "^1.0.2",
+    "animate.less": "*"
   },
   "overrides": {
     "modernizr": {
@@ -37,6 +37,8 @@
         "./js/popover.js",
         "./js/buttons.js",
         "./js/alert.js",
+        "./js/modal.js",
+        "./js/scroolspy.js",
         "./js/tab.js"
       ]
     }

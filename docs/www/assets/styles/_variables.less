@@ -1,34 +1,4 @@
 /* --------------------------------------------------------------
- * = 全局颜色
- * ----------------------------------------------------------- */
-
-// 网站宽度
-@width: 1100px;
-@width-rem: 110rem;
-@body-background: #fff;
-
-// 网站配色
-@highlight: #333;
-
-// 文字颜色
-@text-dark: #000;
-@gray-dark: #333;
-@text-light: #666;
-@text-lighter: #aaa;
-
-// 背景和边框
-@background: #e7e7e7;
-
-@border-color: #eee;
-@border-color-darker: #ccc;
-
-// 媒体间距
-@padding: 15px;
-@padding-md: 8px;
-@padding-lg: 30px;
-@padding-xl: 50px;
-
-/* --------------------------------------------------------------
  * = 配色
  * ----------------------------------------------------------- */
 @gray-base: #000;
@@ -45,12 +15,19 @@
 @brand-danger: #d9534f;
 
 /* --------------------------------------------------------------
+ * = 外边距
+ * ----------------------------------------------------------- */
+@margin-sm: 30px;
+@margin-md: 50px;
+@margin-lg: 80px;
+
+/* --------------------------------------------------------------
  * = 全局样式
  * ----------------------------------------------------------- */
 // `<body>` 背景颜色.
 @body-bg: #fff;
 // `<body>` 上的字体颜色.
-@gray-dark: @gray-dark;
+@text-color: @gray-dark;
 
 // 全局链接颜色
 @link-color: @brand-primary;
@@ -63,8 +40,8 @@
  * = 排版
  * ----------------------------------------------------------- */
 //## 全局默认字体排版
-@font-family-sans-serif: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
-@font-family-serif: Palatino, Optima, Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+@font-family-serif: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 
 // `<code>`, `<kbd>`, 和 `<pre>` 等元素的默认字体.
 @font-family-monospace: Monaco, Consolas, "Courier New", monospace;
@@ -128,9 +105,9 @@
 @line-height-small: 1.5;
 
 // 圆角的半径
-@border-radius-base: 4px;
-@border-radius-large: 6px;
-@border-radius-small: 3px;
+@border-radius-base: 0;
+@border-radius-large: 0;
+@border-radius-small: 0;
 
 // 当前项目的全局字体颜色 (e.g., navs or dropdowns).
 @component-active-color: #fff;

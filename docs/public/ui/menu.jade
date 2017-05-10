@@ -61,210 +61,184 @@ nav.navbar.navbar-default
     // /.container-fluid
 
 
-h2.typo-h2 SuperFish 导航
+h2.typo-h2 Bootstrap 下拉动画导航
 
-nav.pure-nav.pure-g
-    div.pure-u-1.pure-u-md-1-6
-        div.pure-nav-left
-            h1.site-title.pure-nav-brand
-                a.pure-nav-brand Wizhi CMS
-
-                button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#main-menu', aria-expanded='false')
-                  span.sr-only Toggle navigation
-                  span.icon-bar
-                  span.icon-bar
-                  span.icon-bar
-
-    div.pure-u-1.pure-u-md-5-6.pure-nav-menu-wrap
-        div#main-menu.pure-nav-right.pure-nav-menu.navbar-collapse.collapse
-
-            ul#sample-menu-1.sf-menu.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
-                li.current
-                    a(href='#') 首页
-                li
-                    a.sf-with-ul(href='#a') 公司简介
-                    ul.sub-menu
-                        li
-                            a(href='#aa') 企业文化
-                        li.current
-                            a(href='#ab') 资质荣誉
-                            ul.sub-menu
-                                li
-                                    a(href='#') 建筑资质
-                                li
-                                    a(href='#aba') 建设资质
-                                li
-                                    a(href='#abb') 国家认证
-                                li
-                                    a(href='#abc') 民间认证
-                                li
-                                    a(href='#abd') 所获证书
-                        li
-                            a.sf-with-ul(href='#') 总经理致辞
-                            ul.sub-menu
-                                li
-                                    a(href='#') 关于公司
-                                li
-                                    a(href='#') 公司使命
-                                li
-                                    a(href='#') 社会责任
-                                li
-                                    a(href='#') 发展规划
-                                li
-                                    a(href='#') 企业文化
-                        li
-                            a.sf-with-ul(href='#') 公司团队
-                            ul.sub-menu
-                                li
-                                    a(href='#') 核心人物
-                                li
-                                    a(href='#') 团队文化
-                                li
-                                    a(href='#') 团队风采
-                                li
-                                    a(href='#') 成员寄语
-                                li
-                                    a(href='#') 拓展训练
-                li
-                    a(href='#') 新闻动态
-                    ul.sub-menu
-                        li
-                            a(href='#') 公司新闻
-                        li
-                            a(href='#') 行业新闻
-                li
-                    a(href='#') 产品展示
-                    ul.sub-menu
-                        li
-                            a.sf-with-ul(href='#') 钢铁产品
-                            ul.sub-menu
-                                li
-                                    a(href='#') 不锈钢产品
-                                li
-                                    a(href='#') 建筑用钢
-                                li
-                                    a(href='#') 桥梁用钢
-                                li
-                                    a(href='#') 生活用钢
-                                li
-                                    a(href='#') 医疗用钢
-                        li
-                            a.sf-with-ul(href='#') 化工产品
-                            ul.sub-menu
-                                li
-                                    a(href='#') 塑料化工
-                                li
-                                    a(href='#') 医药研发
-                                li
-                                    a(href='#') 高分子材料
-                                li
-                                    a(href='#') 太空探索计划
-                li
-                    a(href='#') 服务项目
-                li
-                    a(href='#') 关于我们
-                li
-                    a(href='#') 联系我们
-
-
-
-h2.typo-h2 垂直菜单
-ul.sf-menu.sf-vertical.sf-js-enabled.sf-arrows(style='touch-action: pan-y;')
-    li.current
-        a(href='#') 首页
-    li
-        a.sf-with-ul(href='#a') 公司简介
-        ul.sub-menu
+#bs-example-navbar-collapse-animations.collapse.navbar-collapse(data-hover='dropdown', data-animations='fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew')
+  ul.nav.navbar-nav
+    li.dropdown
+      a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+        | Dropdown
+        span.caret
+      ul.dropdown-menu(role='menu')
+        li
+          a(href='#') Action
+        li
+          a(href='#') Another action
+        li
+          a(href='#') Another action
+        li
+          a(href='#') Something else here
+        li.divider
+        li
+          a(href='#') Separated link
+        li.divider
+        li
+          a(href='#') One more separated link
+    li.dropdown
+      a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+        | Dropdown 1
+        span.caret
+      ul.dropdown-menu.dropdownhover-bottom(role='menu')
+        li
+          a(href='#') Action
+        li
+          a(href='#') Another action
+        li.dropdown
+          a(href='#')
+            | Another dropdown
+            span.caret
+          ul.dropdown-menu
             li
-                a(href='#aa') 企业文化
-            li.current
-                a(href='#ab') 资质荣誉
-                ul.sub-menu
-                    li
-                        a(href='#') 建筑资质
-                    li
-                        a(href='#aba') 建设资质
-                    li
-                        a(href='#abb') 国家认证
-                    li
-                        a(href='#abc') 民间认证
-                    li
-                        a(href='#abd') 所获证书
+              a(href='#') Action
             li
-                a.sf-with-ul(href='#') 总经理致辞
-                ul.sub-menu
-                    li
-                        a(href='#') 关于公司
-                    li
-                        a(href='#') 公司使命
-                    li
-                        a(href='#') 社会责任
-                    li
-                        a(href='#') 发展规划
-                    li
-                        a(href='#') 企业文化
+              a(href='#') Another action
             li
-                a.sf-with-ul(href='#') 公司团队
-                ul.sub-menu
-                    li
-                        a(href='#') 核心人物
-                    li
-                        a(href='#') 团队文化
-                    li
-                        a(href='#') 团队风采
-                    li
-                        a(href='#') 成员寄语
-                    li
-                        a(href='#') 拓展训练
-    li
-        a(href='#') 新闻动态
-    li
-        a(href='#') 产品展示
-        ul.sub-menu
+              a(href='#') Something else here
+            li.divider
             li
-                a.sf-with-ul(href='#') 钢铁产品
-                ul.sub-menu
-                    li
-                        a(href='#') 不锈钢产品
-                    li
-                        a(href='#') 建筑用钢
-                    li
-                        a(href='#') 桥梁用钢
-                    li
-                        a(href='#') 生活用钢
-                    li
-                        a(href='#') 医疗用钢
+              a(href='#') Separated link
+            li.divider
             li
-                a.sf-with-ul(href='#') 化工产品
-                ul.sub-menu
-                    li
-                        a(href='#') 塑料化工
-                    li
-                        a(href='#') 医药研发
-                    li
-                        a(href='#') 高分子材料
-                    li
-                        a(href='#') 太空探索计划
-    li
-        a(href='#') 服务项目
-    li
-        a(href='#') 资质荣誉
-    li
-        a(href='#') 关于我们
-    li
-        a(href='#') 联系我们
-
-script.
-    jQuery(document).ready(function () {
-        jQuery('ul.sf-menu').superfish({
-            popUpSelector: 'ul,.sf-mega',
-            hoverClass: 'sfHover',
-            pathClass: 'overideThisToUse',
-            pathLevels: 1,
-            delay: 0,
-            animation: {opacity: 'show'},
-            animationOut: {opacity: 'hide'},
-            speed: 'normal',
-            speedOut: 'fast'
-        });
-    });
+              a(href='#') One more separated link
+        li.dropdown
+          a(href='#')
+            | Another dropdown 2
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Action
+            li
+              a(href='#') Another action
+            li
+              a(href='#') Another action
+            li.dropdown
+              a(href='#')
+                | Another dropdown
+                span.caret
+              ul.dropdown-menu
+                li
+                  a(href='#') Action
+                li
+                  a(href='#') Another action
+                li
+                  a(href='#') Something else here
+                li.divider
+                li
+                  a(href='#') Separated link
+                li.divider
+                li
+                  a(href='#') One more separated link
+            li
+              a(href='#') Something else here
+            li.divider
+            li
+              a(href='#') Separated link
+            li.divider
+            li
+              a(href='#') One more separated link
+        li
+          a(href='#') Something else here
+        li.divider
+        li
+          a(href='#') Separated link
+        li.divider
+        li
+          a(href='#') One more separated link
+    li.dropdown
+      a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+        | Dropdown 2
+        span.caret
+      ul.dropdown-menu(role='menu')
+        li
+          a(href='#') Action
+        li
+          a(href='#') Another action
+        li
+          a(href='#') Something else here
+        li.divider
+        li
+          a(href='#') Separated link
+        li.divider
+        li
+          a(href='#') One more separated link
+  ul.nav.navbar-nav.navbar-right
+    li.dropdown
+      a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+        | Dropdown
+        span.caret
+      ul.dropdown-menu(role='menu')
+        li
+          a(href='#') Action
+        li
+          a(href='#') Another action
+        li.dropdown
+          a(href='#')
+            | Another dropdown
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Action
+            li
+              a(href='#') Another action
+            li
+              a(href='#') Something else here
+            li.divider
+            li
+              a(href='#') Separated link
+            li.divider
+            li
+              a(href='#') One more separated link
+        li.dropdown
+          a(href='#')
+            | Another dropdown 2
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Action
+            li
+              a(href='#') Another action
+            li
+              a(href='#') Another action
+            li.dropdown
+              a(href='#')
+                | Another dropdown
+                span.caret
+              ul.dropdown-menu
+                li
+                  a(href='#') Action
+                li
+                  a(href='#') Another action
+                li
+                  a(href='#') Something else here
+                li.divider
+                li
+                  a(href='#') Separated link
+                li.divider
+                li
+                  a(href='#') One more separated link
+            li
+              a(href='#') Something else here
+            li.divider
+            li
+              a(href='#') Separated link
+            li.divider
+            li
+              a(href='#') One more separated link
+        li
+          a(href='#') Something else here
+        li.divider
+        li
+          a(href='#') Separated link
+        li.divider
+        li
+          a(href='#') One more separated link

@@ -1,12 +1,38 @@
 @charset "utf-8";
 
 @import "_variables";
+@import "components/_mixins";
 
-// UI 组件
-@import "ui";
+
+// 重置和中文样式优化
+@import "components/_typo";
+@import "components/_helper";
 @import "bootstrap";
-@import "modify";
+
+
+// Pure 样式
+@import "pure/grid";
+@import "pure/addon";
+
+
+// BootStrap 附加样式
+@import "components/_panel";
+@import "components/_media";
+@import "components/_tab";
+@import "components/_btn";
+@import "components/_dropdown";
+@import "components/_navbar";
+
+
+// 通用组件样式
+@import "components/_animate";
+@import "components/_grid";
+@import "components/_overlay";
+@import "components/_list";
+@import "components/_toggle";
+@import "components/_slider";
 @import "components/_wordpress";
+
 
 // 网站专用样式
 @import "_global";
