@@ -2,19 +2,30 @@
  * = 扩展 BootStrap Panel
  * ----------------------------------------------------------- */
 
-.panel-heading{
-  .panel-title {
-    display: inline-block;
+.nav-tabs-bordered{
+  &>li{
+    &>a{
+      padding: 10px 0;
+      margin-right: 15px;
+      &:focus,
+      &:hover{
+        outline: none;
+        border-color: transparent;
+        border-bottom: 1px solid @brand-primary;
+        background: transparent;
+      }
+    }
+    &.active{
+      &>a{
+        border-color: transparent;
+        border-bottom: 1px solid @brand-primary;
+        &:focus,
+        &:hover{
+          border-color: transparent;
+          border-bottom: 1px solid @brand-primary;
+        }
+      }
+    }
+
   }
-}
-
-.panel-text,
-.panel-more {
-  font-size: @font-size-small;
-  color: @text-muted;
-  margin-top: 2px;
-}
-
-.panel-more {
-  float: right;
 }
