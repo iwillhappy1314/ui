@@ -14,7 +14,7 @@
         var that = this;
 
         // Defining if navigation tree or single dropdown
-        this.dropdowns = this.$element.hasClass('dropdown-toggle') ? this.$element.parent().find('.dropdown-menu').parent('.dropdown') : this.$element.find('.dropdown')
+        this.dropdowns = this.$element.hasClass('dropdown-toggle') ? this.$element.parent().find('.dropdown-menu').parent('.dropdown') : this.$element.find('.dropdown');
 
         this.dropdowns.each(function () {
             $(this).on('mouseenter.bs.dropdownhover', function (e) {
@@ -31,7 +31,7 @@
 
     Dropdownhover.TRANSITION_DURATION = 300;
     Dropdownhover.DELAY = 150;
-    Dropdownhover.TIMEOUT;
+    Dropdownhover.TIMEOUT = 0;
 
     Dropdownhover.DEFAULTS = {
         animations: ['fadeInDown', 'fadeInRight', 'fadeInUp', 'fadeInLeft']
@@ -63,8 +63,7 @@
             var $dropdown = $this.next('.dropdown-menu');
             var relatedTarget = {relatedTarget: this};
 
-            $parent
-                .addClass('open');
+            $parent.addClass('open');
 
             var side = this.position($dropdown);
             side === 'top' ? effect = this.options.animations[2] :
@@ -90,7 +89,6 @@
 
     // Closes dropdown menu when moise is out of it
     Dropdownhover.prototype.hide = function (_dropdownLink) {
-
         var that = this;
         var $this = $(_dropdownLink);
         var $parent = $this.parent();
@@ -129,10 +127,10 @@
 
             if (position.left < 0) {
                 side = 'left';
-                dropdown.removeClass('dropdownhover-right').addClass('dropdownhover-left')
+                dropdown.removeClass('dropdownhover-right').addClass('dropdownhover-left');
             } else {
                 side = 'right';
-                dropdown.addClass('dropdownhover-right').removeClass('dropdownhover-left')
+                dropdown.addClass('dropdownhover-right').removeClass('dropdownhover-left');
             }
 
             if (bounds.left < viewport.left) {
@@ -180,7 +178,7 @@
 
         return side;
 
-    }
+    };
 
 
     // DROPDOWNHOVER PLUGIN DEFINITION
@@ -191,7 +189,7 @@
             var $this = $(this);
             var data = $this.data('bs.dropdownhover');
             var settings = $this.data();
-            if ($this.data('animations') !== undefined && $this.data('animations') !== null){
+            if ($this.data('animations') !== undefined && $this.data('animations') !== null) {
                 settings.animations = $.isArray(settings.animations) ? settings.animations : settings.animations.split(' ');
             }
 
