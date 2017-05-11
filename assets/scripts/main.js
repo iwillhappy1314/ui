@@ -23,58 +23,6 @@ jQuery(document).ready(function ($) {
         });
     });
 
-
-    // ---------------------------------------------------------
-    // accordion
-    // ---------------------------------------------------------
-    var all = $('.accordion > dd');
-    all.hide(); //所有内容
-
-    $('.accordion > dt > a').click(function () { //点击标题
-
-        if ($(this).attr('href') === "#") {
-            $(this).click(function () {
-                return false;
-            });
-        }
-
-        var next = $(this).parent().next(); //相邻的内容元素
-        if (next.is(":visible")) { //如果相邻的元素是展开的，隐藏
-            all.slideUp('fast');
-        } else {
-            all.slideUp(); //所有内容折叠
-            next.slideDown('fast'); //和标题紧邻的内容展开
-        }
-
-        return false;
-    });
-
-
-    // ---------------------------------------------------------
-    // Toggle
-    // ---------------------------------------------------------
-    var allt = $('.toggle > dd');
-    allt.hide(); //所有内容
-
-    $('.toggle > dt > a').click(function () { //点击标题
-
-        if ($(this).attr('href') === "#") {
-            $(this).click(function () {
-                return false;
-            });
-        }
-
-        var next = $(this).parent().next(); //相邻的内容元素
-        if (next.is(":visible")) { //如果相邻的元素是展开的，隐藏
-            next.slideUp('fast');
-        } else {
-            next.slideDown('fast'); //和标题紧邻的内容展开
-        }
-
-        return false;
-    });
-
-
     // ---------------------------------------------------------
     // 回到顶部功能
     // ---------------------------------------------------------
