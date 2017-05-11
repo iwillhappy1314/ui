@@ -49,8 +49,8 @@
 @menu-dropdown-link-color: #333;
 
 // 鼠标经过和当前链接
-@menu-dropdown-link-hover-color: #fff;
-@menu-dropdown-link-hover-bg: @menu-bg;
+@menu-dropdown-link-hover-color: @menu-bg;
+@menu-dropdown-link-hover-bg: transparent;
 
 // 当前下拉项
 @menu-dropdown-link-active-color: @menu-dropdown-link-hover-color;
@@ -218,7 +218,7 @@
   }
 
   .dropdown-menu > li.open > a {
-    background-color: @menu-dropdown-link-active-bg;
+    background-color: @menu-dropdown-link-active-color;
   }
 
   // 激活状态
