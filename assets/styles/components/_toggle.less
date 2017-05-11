@@ -2,9 +2,17 @@
  * = 简码样式
  * ----------------------------------------------------------- */
 
-.toggle-group,
-.accordion-group{
+.panel-group {
   .panel {
+    + .panel {
+      margin-top: -1px;
+    }
+  }
+}
+
+.toggle-group {
+  .panel {
+    margin-bottom: 0;
     + .panel {
       margin-top: -1px;
     }
