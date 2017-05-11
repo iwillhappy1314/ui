@@ -24,7 +24,7 @@
 
 // 响应式的 media
 .media-responsive {
-  @media screen and (max-width: @screen-md-max) {
+  @media screen and (max-width: @screen-xs-max) {
     text-align: center;
     .media-left {
       display: block;
@@ -46,5 +46,17 @@
       display: block;
       width: auto;
     }
+  }
+}
+
+.media-top {
+  display: block;
+  margin-bottom: @padding-large-vertical;;
+  & + .media-body {
+    display: block;
+    width: auto;
+  }
+  .media-object {
+    display: inline-block;
   }
 }

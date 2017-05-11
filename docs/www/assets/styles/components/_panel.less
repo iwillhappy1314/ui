@@ -33,3 +33,15 @@
     .img-responsive()
   }
 }
+
+.panel-noborder {
+  border: 0;
+  box-shadow: none;
+  & > .panel-heading {
+    background-color: transparent;
+    padding: @padding-small-vertical 0;
+  }
+  & > .panel-body {
+    padding: @panel-body-padding 0;
+  }
+}
