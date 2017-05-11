@@ -39,6 +39,31 @@
 @menu-default-toggle-hover-bg: #000;
 @menu-default-toggle-icon-bar-bg: #fff;
 
+
+// 下拉的背景
+@menu-dropdown-bg: #f00;
+
+// 下拉的边框颜色 `border-color`.
+@menu-dropdown-border: transparent;
+
+// 下拉边框颜色降级
+@menu-dropdown-fallback-border: transparent;
+
+// 下拉的分隔线颜色
+@menu-dropdown-divider-bg: transparent;
+
+// 下拉的链接颜色
+@menu-dropdown-link-color: #fff;
+
+// 下拉的鼠标经过链接
+@menu-dropdown-link-hover-color: #ff0;
+@menu-dropdown-link-hover-bg: transparent;
+
+// 当前下拉项
+@menu-dropdown-link-active-color: #fff;
+@menu-dropdown-link-active-bg: #f90;
+
+
 // Default navbar
 .navbar-theme {
   background-color: @menu-default-bg;
@@ -167,6 +192,74 @@
       &:focus {
         color: @menu-default-link-disabled-color;
       }
+    }
+  }
+
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: @zindex-dropdown;
+    display: none; // none by default, but block on "open" of the menu
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0; // override default ul
+    list-style: none;
+    font-size: @font-size-base;
+    text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+    background-color: @menu-dropdown-bg;
+    border: 1px solid @menu-dropdown-fallback-border; // IE8 fallback
+    border: 1px solid @menu-dropdown-border;
+    border-radius: @border-radius-base;
+    .box-shadow(0 6px 12px rgba(0,0,0,.175));
+    background-clip: padding-box;
+
+    // Aligns the dropdown menu to right
+    //
+    // Deprecated as of 3.1.0 in favor of `.dropdown-menu-[dir]`
+    &.pull-right {
+      right: 0;
+      left: auto;
+    }
+
+    // Dividers (basically an hr) within the dropdown
+    .divider {
+      .nav-divider(@menu-dropdown-divider-bg);
+    }
+
+    // Links within the dropdown menu
+    > li > a {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: @line-height-base;
+      color: @menu-dropdown-link-color;
+      white-space: nowrap; // prevent links from randomly breaking onto new lines
+    }
+  }
+
+  // Hover/Focus state
+  .dropdown-menu > li > a {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: @menu-dropdown-link-hover-color;
+      background-color: @menu-dropdown-link-hover-bg;
+    }
+  }
+
+  // Active state
+  .dropdown-menu > .active > a {
+    &,
+    &:hover,
+    &:focus {
+      color: @menu-dropdown-link-active-color;
+      text-decoration: none;
+      outline: 0;
+      background-color: @menu-dropdown-link-active-bg;
     }
   }
 }
