@@ -17,27 +17,27 @@
   transform-origin: 0 50%;
 }
 
-@menu-default-bg: #f30;
-@menu-default-border: #f00;
-@menu-default-brand-color: #ff0;
-@menu-default-brand-hover-color: #f90;
-@menu-default-brand-hover-bg: #f30;
 
-@menu-default-color: #fff;
-@menu-default-link-color: @menu-default-color;
+// 顶级菜单
+@menu-bg: #f30;
+@menu-border: #f00;
+@menu-brand-color: #ff0;
+@menu-brand-hover-color: #f90;
+@menu-brand-hover-bg: #f30;
 
-@menu-default-link-hover-color: #f90;
-@menu-default-link-hover-bg: #f30;
+@menu-color: #fff;
+@menu-link-color: @menu-color;
 
-@menu-default-link-active-color: @menu-default-link-hover-color;
-@menu-default-link-active-bg: @menu-default-link-hover-bg;
+@menu-link-hover-color: #f90;
+@menu-link-hover-bg: #f30;
 
-@menu-default-link-disabled-color: #ccc;
-@menu-default-link-disabled-bg: #aaa;
+@menu-toggle-border-color: #fff;
+@menu-toggle-hover-bg: #000;
+@menu-toggle-icon-bar-bg: #fff;
 
-@menu-default-toggle-border-color: #fff;
-@menu-default-toggle-hover-bg: #000;
-@menu-default-toggle-icon-bar-bg: #fff;
+@menu-link-active-color: @menu-link-hover-color;
+@menu-link-active-bg: @menu-link-hover-bg;
+
 
 
 // 下拉的背景
@@ -59,64 +59,56 @@
 
 // Default navbar
 .navbar-theme {
-  background-color: @menu-default-bg;
-  border-color: @menu-default-border;
+  background-color: @menu-bg;
+  border-color: @menu-border;
 
   .navbar-brand {
-    color: @menu-default-brand-color;
+    color: @menu-brand-color;
     &:hover,
     &:focus {
-      color: @menu-default-brand-hover-color;
-      background-color: @menu-default-brand-hover-bg;
+      color: @menu-brand-hover-color;
+      background-color: @menu-brand-hover-bg;
     }
   }
 
   .navbar-text {
-    color: @menu-default-color;
+    color: @menu-color;
   }
 
   .navbar-nav {
     > li > a {
-      color: @menu-default-link-color;
+      color: @menu-link-color;
 
       &:hover,
       &:focus {
-        color: @menu-default-link-hover-color;
-        background-color: @menu-default-link-hover-bg;
+        color: @menu-link-hover-color;
+        background-color: @menu-link-hover-bg;
       }
     }
     > .active > a {
       &,
       &:hover,
       &:focus {
-        color: @menu-default-link-active-color;
-        background-color: @menu-default-link-active-bg;
-      }
-    }
-    > .disabled > a {
-      &,
-      &:hover,
-      &:focus {
-        color: @menu-default-link-disabled-color;
-        background-color: @menu-default-link-disabled-bg;
+        color: @menu-link-active-color;
+        background-color: @menu-link-active-bg;
       }
     }
   }
 
   .navbar-toggle {
-    border-color: @menu-default-toggle-border-color;
+    border-color: @menu-toggle-border-color;
     &:hover,
     &:focus {
-      background-color: @menu-default-toggle-hover-bg;
+      background-color: @menu-toggle-hover-bg;
     }
     .icon-bar {
-      background-color: @menu-default-toggle-icon-bar-bg;
+      background-color: @menu-toggle-icon-bar-bg;
     }
   }
 
   .navbar-collapse,
   .navbar-form {
-    border-color: @menu-default-border;
+    border-color: @menu-border;
   }
 
   // Dropdown menu items
@@ -126,8 +118,8 @@
       &,
       &:hover,
       &:focus {
-        background-color: @menu-default-link-active-bg;
-        color: @menu-default-link-active-color;
+        background-color: @menu-link-active-bg;
+        color: @menu-link-active-color;
       }
     }
 
@@ -135,19 +127,19 @@
       // Dropdowns get custom display when collapsed
       .open .dropdown-menu {
         > li > a {
-          color: @menu-default-link-color;
+          color: @menu-link-color;
           &:hover,
           &:focus {
-            color: @menu-default-link-hover-color;
-            background-color: @menu-default-link-hover-bg;
+            color: @menu-link-hover-color;
+            background-color: @menu-link-hover-bg;
           }
         }
         > .active > a {
           &,
           &:hover,
           &:focus {
-            color: @menu-default-link-active-color;
-            background-color: @menu-default-link-active-bg;
+            color: @menu-link-active-color;
+            background-color: @menu-link-active-bg;
           }
         }
       }
@@ -159,17 +151,17 @@
   // Add a class to ensure links outside the navbar nav are colored correctly.
 
   .navbar-link {
-    color: @menu-default-link-color;
+    color: @menu-link-color;
     &:hover {
-      color: @menu-default-link-hover-color;
+      color: @menu-link-hover-color;
     }
   }
 
   .btn-link {
-    color: @menu-default-link-color;
+    color: @menu-link-color;
     &:hover,
     &:focus {
-      color: @menu-default-link-hover-color;
+      color: @menu-link-hover-color;
     }
   }
 
