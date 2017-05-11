@@ -17,10 +17,9 @@
   transform-origin: 0 50%;
 }
 
-
 // 背景和边框
 @menu-bg: #2d3e50;
-@menu-border: #2d3e50;
+@menu-border: @menu-bg;
 
 // 字体和链接
 @menu-color: #fff;
@@ -43,8 +42,6 @@
 @menu-link-active-color: @menu-link-hover-color;
 @menu-link-active-bg: @menu-link-hover-bg;
 
-
-
 // 下拉的背景
 @menu-dropdown-bg: #fff;
 
@@ -52,8 +49,8 @@
 @menu-dropdown-link-color: #333;
 
 // 鼠标经过和当前链接
-@menu-dropdown-link-hover-color: #f30;
-@menu-dropdown-link-hover-bg: transparent;
+@menu-dropdown-link-hover-color: #fff;
+@menu-dropdown-link-hover-bg: @menu-bg;
 
 // 当前下拉项
 @menu-dropdown-link-active-color: @menu-dropdown-link-hover-color;
@@ -61,7 +58,6 @@
 
 // 下拉边框和分割线
 @menu-dropdown-border: transparent;
-@menu-dropdown-fallback-border: transparent;
 @menu-dropdown-divider-bg: transparent;
 
 // Default navbar
@@ -185,13 +181,12 @@
     font-size: @font-size-base;
     text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
     background-color: @menu-dropdown-bg;
-    border: 1px solid @menu-dropdown-fallback-border; // IE8 fallback
     border: 1px solid @menu-dropdown-border;
     border-radius: @border-radius-base;
     .box-shadow(0 6px 12px rgba(0, 0, 0, .175));
     background-clip: padding-box;
 
-    .caret{
+    .caret {
       border-left-color: @menu-dropdown-link-color;
     }
 
@@ -222,7 +217,7 @@
     }
   }
 
-  .dropdown-menu>li.open>a{
+  .dropdown-menu > li.open > a {
     background-color: @menu-dropdown-link-active-bg;
   }
 
