@@ -217,7 +217,6 @@
       right: auto;
       bottom: auto;
       left: 100%;
-
     }
 
     // Aligns the dropdown menu to right
@@ -235,13 +234,9 @@
 
     // Links within the dropdown menu
     > li > a {
-      display: block;
       padding: 7px 15px;
-      clear: both;
-      font-weight: normal;
       line-height: @line-height-base;
       color: @menu-dropdown-link-color;
-      white-space: nowrap; // prevent links from randomly breaking onto new lines
     }
   }
 
@@ -257,13 +252,12 @@
   }
 
   // Active state
+  .dropdown-menu> .open >a,
   .dropdown-menu > .active > a {
     &,
     &:hover,
     &:focus {
       color: @menu-dropdown-link-active-color;
-      text-decoration: none;
-      outline: 0;
       background-color: @menu-dropdown-link-active-bg;
     }
   }
