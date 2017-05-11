@@ -39,24 +39,23 @@
 @menu-default-toggle-hover-bg: #000;
 @menu-default-toggle-icon-bar-bg: #fff;
 
+
 // 下拉的背景
 @menu-dropdown-bg: #fff;
+
+// 下拉的链接颜色
+@menu-dropdown-link-color: #333;
+@menu-dropdown-link-hover-color: #f30;
+@menu-dropdown-link-hover-bg: transparent;
+
+// 当前下拉项
+@menu-dropdown-link-active-color: @menu-dropdown-link-hover-color;
+@menu-dropdown-link-active-bg: @menu-dropdown-link-hover-bg;
 
 // 下拉边框和分割线
 @menu-dropdown-border: transparent;
 @menu-dropdown-fallback-border: transparent;
 @menu-dropdown-divider-bg: transparent;
-
-// 下拉的链接颜色
-@menu-dropdown-link-color: #333;
-
-// 下拉的鼠标经过链接
-@menu-dropdown-link-hover-color: #f30;
-@menu-dropdown-link-hover-bg: transparent;
-
-// 当前下拉项
-@menu-dropdown-link-active-color: #fff;
-@menu-dropdown-link-active-bg: #f90;
 
 // Default navbar
 .navbar-theme {
@@ -151,14 +150,6 @@
             background-color: @menu-default-link-active-bg;
           }
         }
-        > .disabled > a {
-          &,
-          &:hover,
-          &:focus {
-            color: @menu-default-link-disabled-color;
-            background-color: @menu-default-link-disabled-bg;
-          }
-        }
       }
     }
   }
@@ -179,13 +170,6 @@
     &:hover,
     &:focus {
       color: @menu-default-link-hover-color;
-    }
-    &[disabled],
-    fieldset[disabled] & {
-      &:hover,
-      &:focus {
-        color: @menu-default-link-disabled-color;
-      }
     }
   }
 
