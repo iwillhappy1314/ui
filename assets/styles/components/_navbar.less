@@ -210,6 +210,14 @@
     .box-shadow(0 6px 12px rgba(0, 0, 0, .175));
     background-clip: padding-box;
 
+    // 多级导航
+    .dropdown-menu {
+      left: 100%;
+      margin: 0;
+      right: auto;
+      top: -1px;
+    }
+
     // Aligns the dropdown menu to right
     //
     // Deprecated as of 3.1.0 in favor of `.dropdown-menu-[dir]`
@@ -258,12 +266,4 @@
     }
   }
 
-
-  // 多级导航
-  .dropdown-menu .dropdown-menu {
-    left: 100%;
-    margin: 0;
-    right: auto;
-    top: -1px;
-  }
 }
