@@ -186,6 +186,14 @@
     .box-shadow(0 6px 12px rgba(0, 0, 0, .175));
     background-clip: padding-box;
 
+    @media screen and (max-width: @screen-sm-max) {
+      position: static;
+      display: block;
+      width: 100%;
+      background: transparent;
+      box-shadow: none;
+    }
+
     .caret {
       border-left-color: @menu-dropdown-link-color;
     }
@@ -204,6 +212,9 @@
       padding: 7px 15px;
       line-height: @line-height-base;
       color: @menu-dropdown-link-color;
+      @media screen and (max-width: @screen-sm-max) {
+        color: #fff;
+      }
     }
   }
 
