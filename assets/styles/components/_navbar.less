@@ -40,20 +40,18 @@
 @menu-default-toggle-icon-bar-bg: #fff;
 
 // 下拉的背景
-@menu-dropdown-bg: #f00;
+@menu-dropdown-bg: #fff;
 
-// 下拉的边框颜色 `border-color`.
+// 下拉边框和分割线
 @menu-dropdown-border: transparent;
 @menu-dropdown-fallback-border: transparent;
-
-// 下拉的分隔线颜色
 @menu-dropdown-divider-bg: transparent;
 
 // 下拉的链接颜色
-@menu-dropdown-link-color: #fff;
+@menu-dropdown-link-color: #333;
 
 // 下拉的鼠标经过链接
-@menu-dropdown-link-hover-color: #ff0;
+@menu-dropdown-link-hover-color: #f30;
 @menu-dropdown-link-hover-bg: transparent;
 
 // 当前下拉项
@@ -211,7 +209,7 @@
     background-clip: padding-box;
 
     .caret{
-      border-left-color: #fff;
+      border-left-color: @menu-dropdown-link-color;
     }
 
     // 多级导航
@@ -223,20 +221,7 @@
       left: 100%;
     }
 
-    // Aligns the dropdown menu to right
-    //
-    // Deprecated as of 3.1.0 in favor of `.dropdown-menu-[dir]`
-    &.pull-right {
-      right: 0;
-      left: auto;
-    }
-
-    // Dividers (basically an hr) within the dropdown
-    .divider {
-      .nav-divider(@menu-dropdown-divider-bg);
-    }
-
-    // Links within the dropdown menu
+    // 下拉导航中的链接
     > li > a {
       padding: 7px 15px;
       line-height: @line-height-base;
@@ -244,7 +229,7 @@
     }
   }
 
-  // Hover/Focus state
+  // 鼠标滑过状态
   .dropdown-menu > li > a {
     &:hover,
     &:focus {
@@ -258,7 +243,7 @@
     background-color: @menu-dropdown-link-active-bg;
   }
 
-  // Active state
+  // 激活状态
   .dropdown-menu > .active > a {
     &,
     &:hover,
