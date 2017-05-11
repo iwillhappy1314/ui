@@ -196,6 +196,9 @@
 
     .caret {
       border-left-color: @menu-dropdown-link-color;
+      @media screen and (max-width: @screen-sm-max) {
+        display: none;
+      }
     }
 
     // 多级导航
