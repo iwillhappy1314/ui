@@ -19,23 +19,25 @@
 
 
 // 背景和边框
-@menu-bg: #f30;
-@menu-border: #f00;
+@menu-bg: #2d3e50;
+@menu-border: #2d3e50;
 
 // 字体和链接
 @menu-color: #fff;
 @menu-link-color: @menu-color;
 
 // 鼠标经过和当前链接
-@menu-link-hover-color: #f90;
-@menu-link-hover-bg: #f30;
+@menu-link-hover-color: darken(@menu-color, 5%);
+@menu-link-hover-bg: darken(@menu-bg, 5%);
 
-@menu-brand-color: #ff0;
-@menu-brand-hover-color: #f90;
-@menu-brand-hover-bg: #f30;
+// 品牌文字
+@menu-brand-color: #fff;
+@menu-brand-hover-color: #fff;
+@menu-brand-hover-bg: #fff;
 
+// 移动菜单切换
 @menu-toggle-border-color: #fff;
-@menu-toggle-hover-bg: #000;
+@menu-toggle-hover-bg: transparent;
 @menu-toggle-icon-bar-bg: #fff;
 
 @menu-link-active-color: @menu-link-hover-color;
