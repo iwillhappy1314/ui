@@ -244,15 +244,17 @@
   .dropdown-menu > li > a {
     &:hover,
     &:focus {
-      text-decoration: none;
       color: @menu-dropdown-link-hover-color;
       background-color: @menu-dropdown-link-hover-bg;
       background-image: none;
     }
   }
 
+  .dropdown-menu>li.open>a{
+    background-color: @menu-dropdown-link-active-bg;
+  }
+
   // Active state
-  .dropdown-menu> .open >a,
   .dropdown-menu > .active > a {
     &,
     &:hover,
