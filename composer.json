@@ -1,5 +1,5 @@
 {
-  "name": "weprise/ui",
+  "name": "wenprise/ui",
   "description": "UI framework for wizhi cms",
   "type": "wordpress-plugin",
   "require": {
