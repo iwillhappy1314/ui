@@ -1,0 +1,14 @@
+{
+  "name": "cache",
+  "homepage": "https://github.com/orgsync/cache",
+  "version": "0.0.5",
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5",
+    "commit": "ec78a63fc04f1b4f12d9004d7b159eb6889e38ca"
+  },
+  "_source": "https://github.com/orgsync/cache.git",
+  "_target": "^0.0.5",
+  "_originalSource": "cache"
+}

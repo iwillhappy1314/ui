@@ -6,4 +6,3 @@ npm-debug.log
 .cache
 .publish/
 .idea/
-bower_components/
