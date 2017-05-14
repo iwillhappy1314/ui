@@ -40,9 +40,13 @@
   & > .panel-heading {
     background-color: transparent;
     background-image: none;
-    padding: @padding-small-vertical 0;
+    @media screen and (min-width: @screen-xs-min) {
+      padding: @padding-small-vertical 0;
+    }
   }
   & > .panel-body {
-    padding: @panel-body-padding 0;
+    @media screen and (min-width: @screen-xs-min) {
+      padding: @panel-body-padding 0;
+    }
   }
 }
