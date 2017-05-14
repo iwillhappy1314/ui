@@ -28,12 +28,12 @@ jQuery(document).ready(function ($) {
     // ---------------------------------------------------------
     var scrollDiv = $(".scroll-to-top");
 
-    if ($(window).scrollTop() !== "0") {
+    if ($(window).scrollTop() > "200") {
         scrollDiv.fadeIn(1200);
     }
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() === "0") {
+        if ($(window).scrollTop() < "100") {
             scrollDiv.fadeOut(350);
         } else {
             scrollDiv.fadeIn(1200);
