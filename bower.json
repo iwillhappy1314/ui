@@ -1,11 +1,11 @@
 {
-  "name": "wizhi-ui",
-  "homepage": "http://iwillhappy1314.github.io/wizhi-ui/",
+  "name": "wenprise-ui",
+  "homepage": "https://github.com/iwillhappy1314/ui",
   "authors": [
     "Amos lee <4626395@gmail.com>"
   ],
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "jquery": "1.11.2",
     "modernizr": "2.8.2",
