@@ -5,6 +5,9 @@
     "Amos lee <4626395@gmail.com>"
   ],
   "license": "MIT",
+  "main": [
+    "dist/scripts/main.js"
+  ],
   "private": false,
   "dependencies": {
     "jquery": "1.11.2",

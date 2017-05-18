@@ -19,10 +19,6 @@ var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
-var harp = require("harp");
-var copy2 = require('gulp-copy2');
-var shell = require('gulp-shell');
-var deploy = require('gulp-gh-pages');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -284,43 +280,6 @@ gulp.task('wiredep', function () {
             hasChanged: changed.compareSha1Digest
         }))
         .pipe(gulp.dest(path.source + 'styles'));
-});
-
-
-/**
- * 复制生成的前端文件到 halp 目录
- */
-gulp.task('copy', function () {
-    var paths = [
-        {
-            src: 'dist/**/*',
-            dest: 'docs/www/dist/'
-        },
-        {
-            src: 'assets/**/*',
-            dest: 'docs/www/assets/'
-        },
-        {
-            src: 'bower_components/**/*',
-            dest: 'docs/www/bower_components/'
-        }
-    ];
-    return copy2(paths);
-});
-
-
-/**
- * 编译 docs 文件夹里面的说明文档
- */
-gulp.task('harp', shell.task(['harp compile docs',
-    'gulp build',
-    'gulp copy']));
-
-/**
- * 发布到 gh-pages
- */
-gulp.task('deploy', ['harp'], function () {
-    return gulp.src("docs/www/**/*").pipe(deploy());
 });
 
 // ### Gulp

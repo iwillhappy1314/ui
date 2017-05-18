@@ -1,1 +1,0 @@
-{"version":3,"sources":["demo.css"],"names":[],"mappings":"AACA,KACE,iBAAkB,AAClB,kBAAoB,CACrB","file":"demo.css","sourcesContent":["@charset \"utf-8\";\n.col {\n  padding-top: 15px;\n  margin-bottom: 15px;\n}\n"],"sourceRoot":"assets/styles/"}
