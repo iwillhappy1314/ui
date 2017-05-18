@@ -10,42 +10,8 @@
   ],
   "private": false,
   "dependencies": {
-    "jquery": "1.11.2",
-    "modernizr": "2.8.2",
-    "html5shiv": "~3.7.2",
-    "bxslider-4": "4.2.3",
-    "font-awesome": "^4.6.3",
-    "bootstrap": "^3.3.6",
-    "respond": "^1.4.2",
-    "cache": "^0.0.5",
-    "equalize": "^1.0.2",
-    "animate.less": "*"
   },
-  "overrides": {
-    "modernizr": {
-      "main": "./modernizr.js"
-    },
-    "bxslider-4": {
-      "main": "./src/js/jquery.bxslider.js"
-    },
-    "superfish": {
-      "main": "./dist/js/superfish.js"
-    },
-    "bootstrap": {
-      "main": [
-        "./js/transition.js",
-        "./js/collapse.js",
-        "./js/dropdown.js",
-        "./js/tooltip.js",
-        "./js/popover.js",
-        "./js/buttons.js",
-        "./js/alert.js",
-        "./js/modal.js",
-        "./js/scroolspy.js",
-        "./js/tab.js"
-      ]
-    }
-  },
+  "overrides": {},
   "resolutions": {
     "jquery": ">=1.6"
   }
