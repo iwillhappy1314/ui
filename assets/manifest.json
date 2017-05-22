@@ -23,16 +23,6 @@
         "styles/demo.less"
       ]
     },
-    "old.css": {
-      "files": [
-        "styles/pure/grid-old.less"
-      ]
-    },
-    "font.css": {
-      "files": [
-        "../bower_components/font-awesome/less/font-awesome.less"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     },
