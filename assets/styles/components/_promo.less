@@ -1,0 +1,151 @@
+/* -----------------------------------------------------------
+ * = 推荐操作盒子
+ * ----------------------------------------------------------- */
+
+.promo {
+  position: relative;
+  padding: 30px 200px 30px 0;
+  h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  > span {
+    display: block;
+    color: #444;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 6px;
+  }
+  a.btn {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    margin-top: -18px;
+    left: auto;
+    right: 0;
+  }
+
+  // 小号
+  &-mini {
+    text-align: left;
+    padding: 20px 25px;
+    &.promo-right {
+      text-align: right;
+    }
+    &.promo-center {
+      text-align: center;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    &.promo-dark h3 {
+      line-height: 1.7;
+    }
+    a.btn {
+      position: relative;
+      top: 0;
+      margin: 20px 0 0;
+      left: 0 !important;
+      right: 0;
+    }
+  }
+
+  // 带边框
+  &-border {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding-left: 30px;
+    a.btn {
+      right: 30px;
+    }
+  }
+
+  // 浅色
+  &-light {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    padding-left: 30px;
+    a.btn {
+      right: 30px;
+    }
+  }
+
+  // 深色
+  &-dark {
+    border: 0 !important;
+    background-color: #333;
+    padding: 30px 200px 30px 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    h3 {
+      color: #fff;
+      span {
+        padding: 2px 8px;
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+    span {
+      color: #ccc;
+      margin-top: 8px;
+    }
+    a.btn {
+      right: 30px;
+    }
+    &.promo-right {
+      &:not(.promo-mini) {
+        padding-right: 30px;
+      }
+      a.btn {
+        left: 30px;
+      }
+    }
+  }
+
+  // 视差效果
+  &.parallax {
+    padding: 80px 0 !important;
+  }
+
+  // 右对齐
+  &-right {
+    text-align: right;
+    padding: 30px 0 30px 200px;
+    a.btn {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  // 居中对齐
+  &-center {
+    text-align: center;
+    padding: 30px 20px;
+    a.btn {
+      position: relative;
+      top: 0;
+      margin: 20px 0 0;
+      left: 0 !important;
+      right: 0;
+    }
+  }
+
+  // 全宽
+  &-full {
+    border-radius: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    padding: 40px 0 !important;
+    &.promo-right a.button {
+      right: auto !important;
+      left: 15px !important;
+    }
+    a.button {
+      right: 15px !important;
+    }
+  }
+
+}
