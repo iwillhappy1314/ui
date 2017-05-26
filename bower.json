@@ -5,9 +5,7 @@
     "Amos lee <4626395@gmail.com>"
   ],
   "license": "MIT",
-  "main": [
-    "dist/scripts/main.js"
-  ],
+  "main": [],
   "private": false,
   "dependencies": {
     "bootstrap": "^3.3.7"

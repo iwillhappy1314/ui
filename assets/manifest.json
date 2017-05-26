@@ -25,18 +25,6 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
-    },
-    "bxslider.js": {
-      "bower": ["bxslider-4"]
-    },
-    "modernizr.js": {
-      "bower": ["modernizr"]
-    },
-    "html5shiv.js": {
-      "bower": ["html5shiv"]
-    },
-    "respond.js": {
-      "bower": ["respond"]
     }
   },
   "paths": {
