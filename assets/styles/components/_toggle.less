@@ -1,34 +1,28 @@
 /* --------------------------------------------------------------
- * = 简码样式
+ * = Toggles
  * ----------------------------------------------------------- */
 
 .panel-group {
-  .panel {
-    + .panel {
-      margin-top: -1px;
+    .panel {
+        + .panel {
+            margin-top: -1px;
+            border-radius: 0;
+        }
+        &:last-child{
+            border-radius: 4px;
+        }
     }
-  }
 }
 
-.toggle-group {
-  .panel {
-    margin-bottom: 0;
-    + .panel {
-      margin-top: -1px;
-    }
-  }
-}
-
-.toggle-group,
 .panel-group {
-  .panel-heading {
-    padding: 0;
-  }
-  .panel-title {
-    display: block;
-    a {
-      display: block;
-      padding: 10px 15px;
+    .panel-heading {
+        padding: 0;
     }
-  }
+    .panel-title {
+        display: block;
+        a {
+            display: block;
+            padding: 10px 15px;
+        }
+    }
 }
