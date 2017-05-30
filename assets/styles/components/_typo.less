@@ -2,18 +2,15 @@
  * = reset 文字排版基础样式, 大部分 normalize 已经有了
  * ----------------------------------------------------------- */
 
-/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
-    color: @gray-dark;
-    background: @body-bg;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-rendering: optimizelegibility;
 }
 
 /* 内外边距通常让各个浏览器样式的表现位置不同 */
-body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p,
-blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, th, td, hr, button, article, aside, details,
+figcaption, figure, footer, header, menu, nav, section {
     margin: 0;
     padding: 0;
 }
@@ -107,15 +104,6 @@ object {
     cursor: move;
 }
 
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 /* 强制文本换行 */
 .textwrap, .textwrap td, .textwrap th {
     word-wrap: break-word;
@@ -143,8 +131,13 @@ object {
     }
 
     /* 保证块/段落之间的空白隔行 */
-    p, pre, ul, ol, dl, form, hr, table, blockquote {
+    p, pre, ul, ol, dl, form, hr, table {
         margin-bottom: 1.2em
+    }
+
+    blockquote {
+        padding:0 15px;
+        font-size: 16px;
     }
 
     /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
@@ -217,7 +210,6 @@ object {
 
     /* 去除 webkit 中 input 和 textarea 的默认样式  */
     input, textarea {
-        // -webkit-appearance: none;
         border-radius: 0;
     }
 
