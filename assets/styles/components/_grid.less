@@ -13,11 +13,11 @@
 }
 
 .row-sm {
-  margin-left: -8px;
-  margin-right: -8px;
+  margin-left: -ceil(@grid-gutter-width/4);
+  margin-right: -ceil(@grid-gutter-width/4);
   .col {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: -ceil(@grid-gutter-width/4);
+    padding-right: -ceil(@grid-gutter-width/4);
   }
 }
 
