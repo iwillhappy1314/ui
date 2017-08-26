@@ -13,6 +13,75 @@
 @brand-info: #5bc0de;
 @brand-warning: #f0ad4e;
 @brand-danger: #d9534f;
+@brand-secondary: #ed7902;
+
+/* --------------------------------------------------------------
+ * = 顶部条
+ * ----------------------------------------------------------- */
+@topbar-bg-color: #f3f3f3;
+@topbar-border-color: #ddd;
+@topbar-text-color: #666;
+@topbar-height: 44px;
+@topbar-font-size: 14px;
+
+/* --------------------------------------------------------------
+ * = Logo
+ * ----------------------------------------------------------- */
+@logo-image-height: 38px;
+@logo-area-height: 100px;
+@logo-border-bottom-color: #eee;
+
+/* --------------------------------------------------------------
+ * = 导航菜单
+ * ----------------------------------------------------------- */
+@menu-item-padding: 20px;
+@menu-height: 50px;
+@navbar-height: 50px;
+
+// 导航默认
+@menu-text-color: #fff;
+@menu-bg: #2d5be3;
+@menu-border-bottom-color: #aaa;
+
+// 一级导航当前状态
+@menu-link-hover-color: #2d5be3;
+@menu-link-hover-bg: #fff;
+
+// 导航下拉
+@menu-dropdown-text-color: #f3f3f3;
+@menu-dropdown-link-color: #fff;
+@menu-dropdown-bg: #1c4cdd;
+@menu-dropdown-border: #1c4cdd;
+
+// 导航下拉当前状态
+@menu-dropdown-hover-text-color: #eee;
+@menu-dropdown-hover-bg-color: #1844c7;
+@menu-dropdown-hover-border-color: #1c4cdd;
+
+/* --------------------------------------------------------------
+ * = 页面标题
+ * ----------------------------------------------------------- */
+@page-title-bg-color: #f5f5f5;
+@page-title-text-color: #ddd;
+@page-title-height: 350px;
+
+/* --------------------------------------------------------------
+ * = 页脚
+ * ----------------------------------------------------------- */
+@footer-widget-border-color: #ddd;
+@footer-text-color: #fff;
+@footer-bg-color: #efefef;
+@footer-border-color: #eee;
+@footer-border-width: 10px;
+@footer-padding: 30px;
+
+/* --------------------------------------------------------------
+ * = 版权
+ * ----------------------------------------------------------- */
+@copyright-text-color: #eee;
+@copyright-bg-color: #222;
+@copyright-border-color: #232323;
+@copyright-border-width: 1px;
 
 /* --------------------------------------------------------------
  * = 外边距
@@ -20,6 +89,12 @@
 @margin-sm: 30px;
 @margin-md: 50px;
 @margin-lg: 80px;
+
+@main-bg: #fff;
+@main-width: 100%;
+
+@line-height-content: 1.5;
+
 
 /* --------------------------------------------------------------
  * = 全局样式
@@ -41,7 +116,7 @@
  * ----------------------------------------------------------- */
 //## 全局默认字体排版
 @font-family-sans-serif: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-@font-family-serif: Noto\ serif,Palatino,Optima,Georgia,Times\ New\ Roman,Times,serif;
+@font-family-serif: Noto\ serif, Palatino, Optima, Georgia, Times\ New\ Roman, Times, serif;
 
 // `<code>`, `<kbd>`, 和 `<pre>` 等元素的默认字体.
 @font-family-monospace: Monaco, Consolas, "Courier New", monospace;
@@ -62,6 +137,7 @@
 
 // 按钮等元素上的倍数行高 `line-height`
 @line-height-base: 1.428571429; // 20/14
+
 // 计算出实际的像素行高值 "line-height" (`font-size` * `line-height`) 以方便 `margin`, `padding` 使用
 @line-height-computed: floor((@font-size-base * @line-height-base)); // ~20px
 
