@@ -8,3 +8,4 @@ npm-debug.log
 .cache
 .publish/
 .idea/
+node_modules
