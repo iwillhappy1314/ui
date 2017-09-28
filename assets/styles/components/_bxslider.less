@@ -31,6 +31,7 @@
 ===================================*/
 
 .bx-wrapper {
+
   box-shadow: 0 0 5px @gray-lighter;
   border:  5px solid #fff;
   background: #fff;
@@ -40,22 +41,20 @@
     bottom: --@grid-gutter-width/2;
     width: 100%;
   }
-}
 
-// 加载中
-.bx-wrapper .bx-loading {
-  min-height: 50px;
-  background: url(../images/loader.gif) center center no-repeat #fff;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-}
+  // 加载中
+  .bx-loading {
+    min-height: 50px;
+    background: url(../images/loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+  }
 
-// 分页
-.bx-wrapper {
+  // 分页
   .bx-pager {
     text-align: center;
     font-size: .85em;
