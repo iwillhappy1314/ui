@@ -1,4 +1,4 @@
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 配色
  * ----------------------------------------------------------- */
 @gray-base: #000;
@@ -15,7 +15,7 @@
 @brand-danger: #d9534f;
 @brand-secondary: #ed7902;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 顶部条
  * ----------------------------------------------------------- */
 @topbar-bg-color: #f3f3f3;
@@ -24,52 +24,21 @@
 @topbar-height: 44px;
 @topbar-font-size: 14px;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = Logo
  * ----------------------------------------------------------- */
 @logo-image-height: 38px;
 @logo-area-height: 100px;
 @logo-border-bottom-color: #eee;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 导航菜单
  * ----------------------------------------------------------- */
 @menu-item-padding: 20px;
 @menu-height: 50px;
 @navbar-height: 50px;
-
-// 导航默认
-@menu-text-color: #fff;
-@menu-bg: #2d5be3;
-@menu-border-bottom-color: #aaa;
-
-// 一级导航当前状态
-@menu-link-hover-color: #2d5be3;
-@menu-link-hover-bg: #fff;
-
-// 导航下拉
-@menu-dropdown-text-color: #f3f3f3;
-@menu-dropdown-link-color: #fff;
-@menu-dropdown-bg: #1c4cdd;
-@menu-dropdown-border: #1c4cdd;
-
-// 导航下拉当前状态
-@menu-dropdown-hover-text-color: #eee;
-@menu-dropdown-hover-bg-color: #1844c7;
-@menu-dropdown-hover-border-color: #1c4cdd;
-
-
-// 背景和边框
-@menu-bg: #2d3e50;
-@menu-border: @menu-bg;
-
-// 字体和链接
-@menu-color: #fff;
-@menu-link-color: @menu-color;
-
-// 鼠标经过和当前链接
-@menu-link-hover-color: #fff;
-@menu-link-hover-bg: transparent;
+@navbar-bg: #2d3e50;
+@navbar-border: @menu-bg;
 
 // 品牌文字
 @menu-brand-color: #fff;
@@ -81,36 +50,50 @@
 @menu-toggle-hover-bg: transparent;
 @menu-toggle-icon-bar-bg: #fff;
 
-@menu-link-active-color: @menu-link-hover-color;
-@menu-link-active-bg: @menu-link-hover-bg;
+// 默认状态
+@menu-link-color: #fff;
+@menu-bg: #2d5be3;
+@menu-border: #2d5be3;
 
-// 下拉的链接颜色
+// 鼠标经过
+@menu-hover-link-color: #fff;
+@menu-hover-bg: transparent;
+@menu-hover-border: transparent;
+
+// 当前状态
+@menu-active-link-color: @menu-link-color;
+@menu-active-bg: @menu-hover-bg;
+@menu-active-border: @menu-hover-border;
+
+/* -----------------------------------------------------------
+ * = 导航下拉
+ * ----------------------------------------------------------- */
+// 默认状态
 @menu-dropdown-link-color: #333;
-
-// 下拉的背景
-@menu-dropdown-bg: #fff;
-
-// 下拉边框和分割线
+@menu-dropdown-bg: #1c4cdd;
 @menu-dropdown-border: #fff;
-@menu-dropdown-divider-bg: #fff;
+@menu-dropdown-divider-color: #fff;
 
 // 鼠标经过和当前链接
-@menu-dropdown-link-hover-color: @menu-bg;
-@menu-dropdown-link-hover-bg: transparent;
+@menu-dropdown-hover-link-color: @menu-bg;
+@menu-dropdown-hover-bg: transparent;
+@menu-dropdown-hover-border-color: #1c4cdd;
+@menu-dropdown-hover-divider-color: #fff;
 
 // 当前下拉项
-@menu-dropdown-link-active-color: @menu-dropdown-link-hover-color;
-@menu-dropdown-link-active-bg: @menu-dropdown-link-hover-bg;
+@menu-dropdown-active-link-color: @menu-dropdown-hover-link-color;
+@menu-dropdown-active-bg: @menu-dropdown-hover-bg;
+@menu-dropdown-active-border-color: @menu-dropdown-hover-border-color;
+@menu-dropdown-active-divider-color: @menu-dropdown-hover-divider-color;
 
-
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 页面标题
  * ----------------------------------------------------------- */
 @page-title-bg-color: #f5f5f5;
 @page-title-text-color: #ddd;
 @page-title-height: 350px;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 页脚
  * ----------------------------------------------------------- */
 @footer-widget-border-color: #ddd;
@@ -120,7 +103,7 @@
 @footer-border-width: 10px;
 @footer-padding: 30px;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 版权
  * ----------------------------------------------------------- */
 @copyright-text-color: #eee;
@@ -140,8 +123,7 @@
 
 @line-height-content: 1.5;
 
-
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 全局样式
  * ----------------------------------------------------------- */
 // `<body>` 背景颜色.
@@ -156,12 +138,12 @@
 // 鼠标经过装饰
 @link-hover-decoration: none;
 
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 排版
  * ----------------------------------------------------------- */
 //## 全局默认字体排版
-@font-family-sans-serif: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-@font-family-serif: Noto\ serif, Palatino, Optima, Georgia, Times\ New\ Roman, Times, serif;
+@font-family-sans-serif: Noto Sans, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+@font-family-serif: Noto Serif, Palatino, Optima, Georgia, Times New Roman, Times, serif;
 
 // `<code>`, `<kbd>`, 和 `<pre>` 等元素的默认字体.
 @font-family-monospace: Monaco, Consolas, "Courier New", monospace;

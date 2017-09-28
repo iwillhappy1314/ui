@@ -1,32 +1,35 @@
 @charset "utf-8";
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 配色
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 顶部条
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = Logo
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 导航菜单
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
+ * = 导航下拉
+ * ----------------------------------------------------------- */
+/* -----------------------------------------------------------
  * = 页面标题
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 页脚
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 版权
  * ----------------------------------------------------------- */
 /* --------------------------------------------------------------
  * = 外边距
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 全局样式
  * ----------------------------------------------------------- */
-/* --------------------------------------------------------------
+/* -----------------------------------------------------------
  * = 排版
  * ----------------------------------------------------------- */
 /* --------------------------------------------------------------
@@ -1192,7 +1195,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Noto Sans, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -6047,7 +6050,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Noto Sans, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6165,7 +6168,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Noto Sans, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6638,7 +6641,7 @@ section {
 }
 /* 要注意表单元素并不继承父级 font 的问题 */
 .pure-g [class*="pure-u"] {
-  font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Noto Sans, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 /* Firefox 以外，元素没有下划线，需添加 */
 acronym,
@@ -6775,7 +6778,7 @@ object {
   margin-bottom: 0.6em;
   font-weight: 600;
   line-height: 1.42857143;
-  font-family: Noto\ serif, Palatino, Optima, Georgia, Times\ New\ Roman, Times, serif;
+  font-family: Noto Serif, Palatino, Optima, Georgia, Times New Roman, Times, serif;
 }
 .entry-content h1 {
   font-size: 2em;
@@ -8758,7 +8761,7 @@ button.close {
   display: block;
   margin: 0 0 5px;
   font-size: 16px;
-  font-family: Noto\ serif, Palatino, Optima, Georgia, Times\ New\ Roman, Times, serif;
+  font-family: Noto Serif, Palatino, Optima, Georgia, Times New Roman, Times, serif;
   font-style: italic;
   font-weight: 400;
   color: #999;
@@ -8837,11 +8840,9 @@ button.close {
   bottom: -1px;
   top: auto;
 }
-/* --------------------------------------------------------------
- * = 扩展 BootStrap Navbar Bootsnav
+/* -----------------------------------------------------------
+ * = 超级菜单
  * ----------------------------------------------------------- */
-/* MEGAMENU STYLE
-=================================*/
 nav.bootsnav .dropdown.megamenu-fw {
   position: static;
 }
@@ -8862,12 +8863,13 @@ nav.bootsnav .megamenu-content {
 nav.bootsnav .megamenu-content .title {
   margin-top: 0;
 }
-/* Navbar
-=================================*/
+/* -----------------------------------------------------------
+ * = 导航条
+ * ----------------------------------------------------------- */
 nav.navbar.bootsnav {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #2d3e50;
+  background-color: #2d5be3;
   border: none;
   z-index: 9;
 }
@@ -8909,8 +8911,9 @@ ul.menu-col li a {
 ul.menu-col li a:focus {
   text-decoration: none;
 }
-/* Navbar Full
-=================================*/
+/* -----------------------------------------------------------
+ * = 全宽
+ * ----------------------------------------------------------- */
 nav.bootsnav.navbar-full {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -8951,7 +8954,7 @@ nav.bootsnav.navbar-full .navbar-collapse .nav-full::-webkit-scrollbar {
 nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu {
   display: table-cell;
   vertical-align: middle;
-  background-color: #fff;
+  background-color: #1c4cdd;
   overflow: auto;
 }
 nav.bootsnav.navbar-full .navbar-collapse ul.nav {
@@ -8984,8 +8987,9 @@ li.close-full-menu > a {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* Atribute Navigation
-=================================*/
+/* -----------------------------------------------------------
+ * = 属性导航
+ * ----------------------------------------------------------- */
 .attr-nav {
   float: right;
   display: inline-block;
@@ -9072,8 +9076,9 @@ ul.cart-list > li > p {
 ul.cart-list > li .price {
   font-weight: bold;
 }
-/* Top Search
-=================================*/
+/* -----------------------------------------------------------
+ * = 搜索
+ * ----------------------------------------------------------- */
 .top-search {
   background-color: #333;
   padding: 10px 0;
@@ -9097,8 +9102,9 @@ ul.cart-list > li .price {
 .top-search .input-group-addon.close-search {
   cursor: pointer;
 }
-/* Side Menu
-=================================*/
+/* -----------------------------------------------------------
+ * = 侧边导航
+ * ----------------------------------------------------------- */
 body {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -9116,7 +9122,7 @@ body.on-side {
   padding: 25px 30px;
   height: 100%;
   display: block;
-  background-color: #3333;
+  background-color: #333;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -9154,8 +9160,9 @@ body.on-side {
   color: #fff;
   text-decoration: none;
 }
-/* Share
-=================================*/
+/* -----------------------------------------------------------
+ * = 分享
+ * ----------------------------------------------------------- */
 nav.navbar.bootsnav .share {
   padding: 0 30px;
   margin-bottom: 30px;
@@ -9179,10 +9186,11 @@ nav.navbar.bootsnav .share ul > li > a {
   height: 35px;
   border-radius: 50%;
   background-color: #cfcfcf;
-  color: #ffffff;
+  color: #fff;
 }
-/* Transparent
-=================================*/
+/* -----------------------------------------------------------
+ * = 透明
+ * ----------------------------------------------------------- */
 nav.navbar.bootsnav.navbar-fixed {
   position: fixed;
   display: block;
@@ -9193,8 +9201,9 @@ nav.navbar.bootsnav.no-background {
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* Navbar Sticky
-=================================*/
+/* -----------------------------------------------------------
+ * = 固定
+ * ----------------------------------------------------------- */
 .wrap-sticky {
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -9216,8 +9225,9 @@ nav.navbar.bootsnav.no-background {
 body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   left: -280px;
 }
-/* Navbar Responsive
-=================================*/
+/* -----------------------------------------------------------
+ * = 自适应导航条
+ * ----------------------------------------------------------- */
 @media (min-width: 1024px) and (max-width: 1400px) {
   body.wrap-nav-sidebar .wrapper .container {
     width: 100%;
@@ -9257,8 +9267,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   }
   nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
   nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover {
-    color: #2d3e50;
-    background-color: #fff;
+    color: #2d5be3;
+    background-color: #1c4cdd;
   }
   nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
     padding: 10px 15px;
