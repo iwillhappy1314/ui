@@ -6778,7 +6778,7 @@ object {
   margin-bottom: 0.6em;
   font-weight: 600;
   line-height: 1.42857143;
-  font-family: Noto Serif, Palatino, Optima, Georgia, Times New Roman, Times, serif;
+  font-family: Noto Serif, Optima, Georgia, Times New Roman, Times, serif;
 }
 .entry-content h1 {
   font-size: 2em;
@@ -6856,6 +6856,12 @@ object {
 .mt-sm {
   margin-top: 30px !important;
 }
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
 .mt-0 {
   margin-top: 0 !important;
 }
@@ -6867,6 +6873,12 @@ object {
 }
 .mb-sm {
   margin-bottom: 30px !important;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-10 {
+  margin-bottom: 10px;
 }
 .mb-0 {
   margin-bottom: 0 !important;
@@ -6916,6 +6928,12 @@ object {
 .pt-sm {
   padding-top: 30px !important;
 }
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -6927,6 +6945,12 @@ object {
 }
 .pb-sm {
   padding-bottom: 30px !important;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-10 {
+  padding-bottom: 10px;
 }
 .pb-0 {
   padding-bottom: 0 !important;
@@ -8761,7 +8785,7 @@ button.close {
   display: block;
   margin: 0 0 5px;
   font-size: 16px;
-  font-family: Noto Serif, Palatino, Optima, Georgia, Times New Roman, Times, serif;
+  font-family: Noto Serif, Optima, Georgia, Times New Roman, Times, serif;
   font-style: italic;
   font-weight: 400;
   color: #999;
@@ -9236,8 +9260,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   }
 }
 @media (min-width: 1024px) {
-  /* General Navbar
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 默认
+   * ----------------------------------------------------------- */
   nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu {
     margin-top: -2px;
   }
@@ -9336,8 +9361,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     display: block !important;
     height: auto !important;
   }
-  /* Navbar Transparent
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 透明
+   * ----------------------------------------------------------- */
   nav.navbar.bootsnav.no-background {
     background-color: transparent;
     border: none;
@@ -9386,16 +9412,18 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   nav.navbar.bootsnav.navbar-fixed .logo-scrolled {
     display: block;
   }
-  /* Atribute Navigation
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 属性导航
+   * ----------------------------------------------------------- */
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
     margin-top: 0;
     margin-left: 55px;
     width: 250px;
     left: -250px;
   }
-  /* Menu Center
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 居中
+   * ----------------------------------------------------------- */
   nav.navbar.bootsnav.menu-center .container {
     position: relative;
   }
@@ -9412,8 +9440,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
   nav.navbar.bootsnav.menu-center .attr-nav {
     right: 15px;
   }
-  /* Navbar Brand top
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 品牌在顶部
+   * ----------------------------------------------------------- */
   nav.bootsnav.navbar-brand-top .navbar-header {
     display: block;
     width: 100%;
@@ -9438,8 +9467,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     float: none;
     margin: 0 0 -5px 0;
   }
-  /* Navbar Center
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 居中
+   * ----------------------------------------------------------- */
   nav.bootsnav.brand-center .navbar-header {
     display: block;
     width: 100%;
@@ -9493,8 +9523,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     text-align: right;
     padding-left: 100px;
   }
-  /* Navbar Sidebar
-  =================================*/
+  /* -----------------------------------------------------------
+   * = 侧边导航
+   * ----------------------------------------------------------- */
   body.wrap-nav-sidebar .wrapper {
     padding-left: 260px;
     overflow-x: hidden;
