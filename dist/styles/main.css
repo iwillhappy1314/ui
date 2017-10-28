@@ -10131,6 +10131,139 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     opacity: 1;
   }
 }
+/*
+
+  HOVER EFFECTS
+  Docs: http://tachyons.io/docs/themes/hovers/
+
+    - Dim
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
+
+*/
+.dim {
+  opacity: 1;
+  -webkit-transition: opacity 0.15s ease-in;
+  -o-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+}
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  -webkit-transition: opacity 0.15s ease-in;
+  -o-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+}
+.dim:active {
+  opacity: .8;
+  -webkit-transition: opacity 0.15s ease-out;
+  -o-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+}
+/*
+
+  鼠标滑过时隐藏子元素
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+.hide-child .child {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease-in;
+  -o-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+}
+.hide-child:hover .child,
+.hide-child:focus .child,
+.hide-child:active .child {
+  opacity: 1;
+  -webkit-transition: opacity 0.15s ease-in;
+  -o-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+}
+.underline-hover:hover,
+.underline-hover:focus {
+  text-decoration: underline;
+}
+.grow {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  -o-transition: -o-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out, -o-transform 0.25s ease-out;
+}
+.grow:hover,
+.grow:focus {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+       -o-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.grow:active {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.grow-large {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  -o-transition: -o-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out, -o-transform 0.25s ease-in-out;
+}
+.grow-large:hover,
+.grow-large:focus {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.grow-large:active {
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+       -o-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.shadow-hover::after {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+.shadow-hover:hover::after,
+.shadow-hover:focus::after {
+  opacity: 1;
+}
+.bg-animate,
+.bg-animate:hover,
+.bg-animate:focus {
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
 /* --------------------------------------------------------------
  * = 布局-全局样式
  * ----------------------------------------------------------- */

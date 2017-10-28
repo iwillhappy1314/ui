@@ -21,3 +21,112 @@
     opacity: 1;
   }
 }
+
+/*
+
+  HOVER EFFECTS
+  Docs: http://tachyons.io/docs/themes/hovers/
+
+    - Dim
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
+
+*/
+
+// 鼠标滑过时减少透明度
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+/*
+
+  鼠标滑过时隐藏子元素
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+.hide-child .child {
+  opacity: 0;
+  -webkit-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in;
+}
+
+.hide-child:hover .child, .hide-child:focus .child, .hide-child:active .child {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.underline-hover:hover, .underline-hover:focus {
+  text-decoration: underline;
+}
+
+
+// 鼠标滑过时放大
+.grow {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+  transform: scale(1.05);
+}
+
+.grow:active {
+  transform: scale(.90);
+}
+
+.grow-large {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform .25s ease-in-out;
+}
+
+.grow-large:hover, .grow-large:focus {
+  transform: scale(1.2);
+}
+
+.grow-large:active {
+  transform: scale(.95);
+}
+
+// 显示鼠标指针
+.pointer:hover {
+  cursor: pointer;
+}
+
+// 鼠标滑过时添加投影
+.shadow-hover::after {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, .2);
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+}
+
+.shadow-hover:hover::after, .shadow-hover:focus::after {
+  opacity: 1;
+}
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+  transition: background-color .15s ease-in-out;
+}
